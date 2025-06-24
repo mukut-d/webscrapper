@@ -1,0 +1,45 @@
+version: '3.3'
+
+services:
+  dev:
+    container_name: sellerpundit_auth_dev
+    image: sellerpundit_auth_dev
+    build:
+      context: .
+      target: development
+      dockerfile: ./Dockerfile
+    command: npm run start:dev
+    ports:
+      - 5000:5000
+      - 7000:7000
+    networks:
+      - sellerpundit_network
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    restart: unless-stopped
+    env_file:
+      - .env
+      
+  prod:
+    container_name: sellerpundit_auth_prod
+    image: sellerpundit_auth_prod
+    build:
+      context: .
+      target: production
+      dockerfile: ./Dockerfile
+    command: npm run start:prod
+    ports:
+      - 6000:6000
+    networks:
+      - sellerpundit_network
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    restart: unless-stopped
+    env_file:
+      - .env
+
+networks:
+  sellerpundit_network:
+    driver: bridge

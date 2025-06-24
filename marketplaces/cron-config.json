@@ -1,0 +1,170 @@
+[
+  {
+    "8e0af7f9-2abe-4932-a503-119a1d2572c4": {
+      "accounts": {
+        "sourceAccounts": {
+          "dreamnify-motors": {
+            "currency":"USD",
+            "location":"New Delhi, IN",
+            "ebaySite":"EBAY_US",
+            "SiteId":100,
+            "migrate_to": {
+              "autobucksparts": true,
+              "motoscape":true
+            }
+          }
+        },
+        "destinationAccounts": {
+          "motoscape": {
+            "dreamnify-motors": {
+              "config_data": {
+                "priceFormula": "price *1.5",
+                "Country": "IN",
+                "Currency": "AUD",
+                "Location": "New Delhi, India",
+                "Site": "Australia",
+                "SiteId":15,
+                "ConditionId": "1000",
+                "ebaySite": "EBAY_AU",
+                "ebaySiteId": "EBAY_AU",
+                "watermark":"MOTOSCAPE",
+                "templateId":"4ffbe0d2-06ff-4c37-bfef-c46048d37dad",
+                "template_name":"motoscape",
+                "itemCompatibility": {
+                  "compatibilityProperties": [
+                    { "localizedName": "make", "name": "AUM_Make" },
+                    { "localizedName": "model", "name": "AUM_Model" },
+                    { "localizedName": "year", "name": "Year" },
+                    { "localizedName": "submodel", "name": "AUM_Submodel" },
+                    { "localizedName": "power", "name": "AUM_Power" }
+                  ]
+                }
+              }
+            },
+            "autobucksparts": {
+              "config_data": {
+                "priceFormula": "price/ 1.5",
+                "Country": "US",
+                "Currency": "USD",
+                "Location": "New Delhi, IN",
+                "Site": "eBayMotors",
+                "SiteId":15,
+                "ConditionId": "1000",
+                "watermark":"MOTOSCAPE",
+                "ebaySite": "EBAY_AU",
+                "ebaySiteId":"EBAY_AU",
+                "templateId":"4ffbe0d2-06ff-4c37-bfef-c46048d37dad",
+                "template_name":"motoscape",
+                "itemCompatibility": {
+                  "compatibilityProperties": [
+                    { "localizedName": "make", "name": "AUM_Make" },
+                    { "localizedName": "model", "name": "AUM_Model" },
+                    { "localizedName": "year", "name": "Year" },
+                    { "localizedName": "submodel", "name": "AUM_Submodel" },
+                    { "localizedName": "power", "name": "AUM_Power" }
+                  ]
+                }
+              }
+            }
+          },
+          "autobucksparts": {
+            "dreamnify-motors": {
+              "config_data": {
+                "priceFormula": "price - 0.5",
+                "Country": "IN",
+                "Currency": "USD",
+                "Location": "New Delhi, India",
+                "Site": "US",
+                "ConditionId": "1000",
+                "SiteId":100,
+                "watermark":"AUTOBUCKSPARTS",
+                "ebaySite": "EBAY_US",
+                "ebaySiteId":"EBAY_MOTORS_US",
+                "templateId":"4ffbe0d2-06ff-4c37-bfef-c46048d37bca",
+                "template_name":"autobucksparts",
+                "itemCompatibility": {
+                  "compatibilityProperties": [
+                    { "localizedName": "make", "name": "Make" },
+                    { "localizedName": "model", "name": "Model" },
+                    { "localizedName": "year", "name": "Year" },
+                    { "localizedName": "submodel", "name": "Submodel" },
+                    { "localizedName": "power", "name": "Power" }
+                  ]
+                }
+              }
+            },
+            "motoscape": {
+              "config_data": {
+                "priceFormula": "(price / 1.5) - 0.5",
+                "Country": "IN",
+                "Currency": "USD",
+                "Location": "New Delhi, India",
+                "Site": "US",
+                "ConditionId": "1000",
+                "ebaySite": "EBAY_US",
+                "ebaySiteId": "EBAY_MOTORS_US",
+                "SiteId":100,
+                "watermark":"AUTOBUCKSPARTS",
+                "templateId":"4ffbe0d2-06ff-4c37-bfef-c46048d37bca",
+                "template_name":"autobucksparts",
+                "itemCompatibility": {
+                  "compatibilityProperties": [
+                    { "localizedName": "make", "name": "Make" },
+                    { "localizedName": "model", "name": "Model" },
+                    { "localizedName": "year", "name": "Year" },
+                    { "localizedName": "submodel", "name": "Submodel" },
+                    { "localizedName": "power", "name": "Power" }
+                  ]
+                }
+              }
+            }
+          },
+          "dreamnify-motors": {
+            "motoscape": {
+              "config_data": {
+                "priceFormula": "price / 1.5",
+                "Country": "US",
+                "Currency": "USD",
+                "Location": "New Delhi, IN",
+                "Site": "US",
+                "ConditionId": "1000",
+                "SiteId":100,
+                "ebaySite": "EBAY_US",
+                "itemCompatibility": {
+                  "compatibilityProperties": [
+                    { "localizedName": "make", "name": "Make" },
+                    { "localizedName": "model", "name": "Model" },
+                    { "localizedName": "year", "name": "Year" },
+                    { "localizedName": "submodel", "name": "Submodel" },
+                    { "localizedName": "power", "name": "Power" }
+                  ]
+                }
+              }
+            },
+            "autobucksparts": {
+              "config_data": {
+                "priceFormula": "price + 0.5",
+                "Country": "US",
+                "Currency": "USD",
+                "Location": "New Delhi, IN",
+                "Site": "US",
+                "SiteId":100,
+                "ConditionId": "1000",
+                "ebaySite": "EBAY_US",
+                "itemCompatibility": {
+                  "compatibilityProperties": [
+                    { "localizedName": "make", "name": "Make" },
+                    { "localizedName": "model", "name": "Model" },
+                    { "localizedName": "year", "name": "Year" },
+                    { "localizedName": "submodel", "name": "Submodel" },
+                    { "localizedName": "power", "name": "Power" }
+                  ]
+                }
+              }
+            }
+          } 
+        }
+      }
+    }
+  }
+]

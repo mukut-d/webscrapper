@@ -1,0 +1,588 @@
+{
+    "amazon.com": {
+        "xpaths": {
+            "title": [
+                "//span[@id='productTitle']"
+            ],
+            "attributes": [
+                "//div[@id='detailBullets_feature_div']//li",
+                "//div[@id='prodDetails']//table[@id='productDetails_techSpec_section_1']",
+                "/html/body/div[2]/div/div[5]/div[24]/div/div/div/div[1]/div[1]/div/div[2]/div/div/table",
+                "/html/body/div[2]/div/div[5]/div[24]/div/div/div/div[1]/div[1]/div/div[2]/div/div/table/tbody",
+                "/html/body/div[2]/div/div[5]/div[3]/div[4]/div[49]/div/table"
+            ],
+            "SpecsInnerXpaths": {
+                "key": ".//th",
+                "value": ".//td"
+            },
+            "price": [
+                "//span[@class='a-price aok-align-center reinventPricePriceToPayMargin priceToPay']/span[@aria-hidden='true']",
+                "//span[@class='a-price aok-align-center']/span",
+                "//span[@class='a-price a-text-normal aok-align-center reinventPriceAccordionT2']/span",
+                "//span[@class='a-price a-text-price header-price a-size-base a-text-normal']/span",
+                "//span[@class='slot-price']/span",
+                "//span[@id='kindle-price']"
+            ],
+            "mrp": [
+                "//span[@class='a-size-small a-color-secondary aok-align-center basisPrice']/span/span",
+                "//span[@class='a-size-small a-color-secondary aok-align-center basisPrice']/span/span",
+                "//div[@id='corePrice_desktop']/div/table/tbody/tr/td[@class='a-span12 a-color-secondary a-size-base']/span/span",
+                "//span[@class='aok-relative']/span[@class='a-size-small aok-offscreen']"
+            ],
+            "brand": [
+                "//div[@class='a-section a-spacing-none']/a[@id='bylineInfo']"
+            ],
+            "seller": [
+                "//a[@id='sellerProfileTriggerId']"
+            ],
+            "rating": [
+                "//div[@class='XQDdHH uuhqql']"
+            ],
+            "description": [
+                "//ul[@class='a-unordered-list a-vertical a-spacing-mini']//span[@class='a-list-item']"
+            ],
+            "category": [
+                "//ul[@class='a-unordered-list a-horizontal a-size-small']//a"
+            ],
+            "otherAttributes": [
+                "//*[@id='productDetails_detailBullets_sections1']/tbody",
+                "//table[@id='productDetails_detailBullets_sections1']"
+            ],
+            "image": [
+                "//div[@id='imgTagWrapperId']/img/@src"
+            ],
+            "asin": [
+                "//link[@rel='canonical']/@href"
+            ],
+            "asinCheck": [
+                "//th[@class='a-color-secondary a-size-base prodDetSectionEntry' and text()=' ASIN ']/following-sibling::td",
+                "//div[@id='detailBullets_feature_div']/ul/li/span/span[@class='a-text-bold' and contains(text(), 'ASIN')]/following-sibling::span"
+            ]
+        },
+        "waitForSelectors": {
+            "buttonClick": [
+                "#buybox-see-all-buying-choices > span > a"
+            ]
+        }
+    },
+    "flipkart.com": {
+        "xpaths": {
+            "title": [
+                "//span[@class='VU-ZEz']/text()"
+            ],
+            "price": [
+                "//div[@class='Nx9bqj CxhGGd']",
+                "//div[@class='Z8JjpR']"
+            ],
+            "mrp": [
+                "//div[@class='yRaY8j A6+E6v']",
+                "//span[@class='a-size-small a-color-secondary aok-align-center basisPrice']/span/span",
+                "//div[@id='corePrice_desktop']/div/table/tbody/tr/td[@class='a-span12 a-color-secondary a-size-base']/span/span"
+            ],
+            "seller": [
+                "//div[@id='sellerName']/span/span"
+            ],
+            "brand": [
+                "//td[text()='Brand']/following-sibling::td/ul/li[@class='HPETK2']"
+            ],
+            "oosCond": [
+                "//div[@class='Z8JjpR']",
+                "//div[@class= 'Z8JjpR' and contains(text(), 'Sold Out')]"
+            ],
+            "limited_time_deal": [
+                "//div[@class='_2lX4N0']/span"
+            ],
+            "variant": [
+                "//ul[@class='hSEbzK']/li"
+            ],
+            "category": [
+                "//div[@class='_7dPnhA']/div"
+            ],
+            "image_count": [
+                "//ul[@class='ZqtVYK']/li[not(div/div[@class='nsDdmp'])]",
+                "//img[@class='DByuf4 IZexXJ jLEJ7H']"
+            ],
+            "rating": [
+                "//div[@class='XQDdHH']",
+                "//span[@id='productRating_undefined_undefined_']/div"
+            ],
+            "totalRatings": [
+                "//span[@class='Wphh3N']/span/span[1]"
+            ],
+            "totalReviews": [
+                "//span[@class='Wphh3N']/span/span[3]"
+            ],
+            "video_tag": [
+                "//div[@class='_0SrIM5']"
+            ],
+            "highlights": [
+                "//div[@class='_0B07y7 sR34dU Zhp430']/img"
+            ],
+            "flipkart_assured": [
+                "//span[@class='+N9xME hxqV2A']"
+            ],
+            "aplus_content": [
+                "//div[@class='Zg-WCR' and contains(text(), 'Product Description')]"
+            ]
+        },
+        "waitForSelectors": {
+            "buttonClick": [
+                "#buybox-see-all-buying-choices > span > a"
+            ]
+        }
+    },
+    "getsupp.com": {
+        "xpaths": {
+            "title": [
+                "//h1[@class='w-full text-[#003233] font-semibold text-sm leading-[18px] m-0 lg:mb-2 lg:mt-1 lg:leading-8 lg:text-black lg:text-2xl']"
+            ],
+            "price": [
+                "//span[@class='text-xl font-bold lg:text-2xl text-black']"
+            ],
+            "mrp": [
+                "//span[@class='text-sm lg:text-base space-x-1 text-gray-300 font-semibold']/span[@class='line-through']"
+            ],
+            "brand": [
+                "//span[@class='block font-bold text-base']"
+            ]
+        },
+        "waitForSelectors": {
+            "buttonClick": [
+                "#buybox-see-all-buying-choices > span > a"
+            ]
+        }
+    },
+    "healthkart.com": {
+        "xpaths": {
+            "title": [
+                "//h1[@class='variantInfo_var-info__nm__ZlOER']"
+            ],
+            "price": [
+                "//span[@class='price-value-value variantInfo_price-value-value__2ZQIC']"
+            ],
+            "mrp": [
+                "//span[@class='variantInfo_mrp-value__17u8u']"
+            ],
+            "brand": [
+                "//div[@class='brand-interlink variantInfo_brand-interlink___v0ia']/a"
+            ]
+        }
+    },
+    "healthxp.in": {
+        "xpaths": {
+            "title": [
+                "//h1[@class='text-14_20 text-lg-16_24 font-semibold']"
+            ],
+            "price": [
+                "//h3[@class='font-bold product-selling-price']"
+            ],
+            "mrp": [
+                "//h6[@class='font-regular product-original-price']"
+            ],
+            "brand": [
+                "//span[@class='text-primary-blue']"
+            ],
+            "oosCond": [
+                "//div[@class='text-danger text-14 text-lg-16 font-regular font-lg-medium dkn-product-stock-text text-c-red']"
+            ]
+        },
+        "querySelectors": {
+            "title": [
+                "body > main > div > div:nth-child(1) > div.w-100.product-details-section.dkn-product-page-information > div.d-flex.flex-sm-column.justify-content-start.align-items-start.mb-lg-56 > div.w-50.product-description-wrapper.n-pdp-info-sticky > div.mb-sm-3.mb-lg-3 > h1"
+            ],
+            "price": [
+                "body > main > div > div:nth-child(1) > div.w-100.product-details-section.dkn-product-page-information > div.d-flex.flex-sm-column.justify-content-start.align-items-start.mb-lg-56 > div.w-50.product-description-wrapper.n-pdp-info-sticky > div.d-flex.gap-8.align-items-center.mt-16.mb-3.mb-lg-4 > h3"
+            ],
+            "mrp": [
+                "body > main > div > div:nth-child(1) > div.w-100.product-details-section.dkn-product-page-information > div.d-flex.flex-sm-column.justify-content-start.align-items-start.mb-lg-56 > div.w-50.product-description-wrapper.n-pdp-info-sticky > div.d-flex.gap-8.align-items-center.mt-16.mb-3.mb-lg-4 > del > h6"
+            ],
+            "brand": [
+                "body > main > div > div:nth-child(1) > div.w-100.product-details-section.dkn-product-page-information > div.d-flex.flex-sm-column.justify-content-start.align-items-start.mb-lg-56 > div.w-50.product-description-wrapper.n-pdp-info-sticky > div.d-flex.flex-sm-column.justify-content-between.mb-3.mb-lg-3 > div.text-14.font-medium.mb-sm-2 > a > span"
+            ]
+        },
+        "waitForSelectors": {
+            "priceSelector": [
+                "body > main > div > div:nth-child(1) > div.w-100.product-details-section.dkn-product-page-information > div.d-flex.flex-sm-column.justify-content-start.align-items-start.mb-lg-56 > div.w-50.product-description-wrapper.n-pdp-info-sticky > div.d-flex.gap-8.align-items-center.mt-16.mb-3.mb-lg-4 > h3"
+            ]
+        }
+    },
+    "themusclekart.com": {
+        "xpaths": {
+            "title": [
+                "//div[@class='product__title']/h1"
+            ],
+            "price": [
+                "//span[@class='price-item price-item--sale price-item--last']"
+            ],
+            "mrp": [
+                "//s[@class='price-item price-item--regular']"
+            ],
+            "brand": [
+                "//p[@class='product__text inline-richtext caption-with-letter-spacing']"
+            ]
+        }
+    },
+    "nutrabay.com": {
+        "xpaths": {
+            "title": [
+                "//div[@class='pdp_titleWrap___HzJg']/h2"
+            ],
+            "price": [
+                "//div[@class='pdp_price__Ry2tf']/strong"
+            ],
+            "mrp": [
+                "//span[@class='strike px-5']"
+            ],
+            "brand": [
+                "//a[@class='pdp_capitalizeText__CUITq']",
+                "//div[@class='pdp_pdp_headWrap__k2CSh']/a"
+            ],
+            "oosCond": [
+                "//strong[@class='pdp_instock_outOfStock__Vmjh3 pdp_instock_text__iOtHB']"
+            ]
+        }
+    },
+    "nutristar.in": {
+        "xpaths": {
+            "title": [
+                "//h1[@class='product-title h5']"
+            ],
+            "price": [
+                "//div[@class='product-info__block product-info__block--sm product-price']/div/div/div[@class='price__default']/strong"
+            ],
+            "brand": [
+                "//div[@class='more-exploresss']/a"
+            ],
+            "mrp": [
+                "//div[@class='product-info__block product-info__block--sm product-price']/div/div/div[@class='price__default']/s[@class='price__was price__was--supercents']"
+            ],
+            "oosCond": [
+                "//button[@class='btn sold-out-img btn--secondary w-full']"
+            ]
+        },
+        "waitForSelectors": {
+            "select": [
+                "#shopify-section-template--22742776938790__main > div > div > div.product-info.product-info--sticky > sticky-scroll-direction > div > div.product-info__block.product-options > variant-picker > fieldset > div > div > div"
+            ],
+            "flavorSelectors": [
+                "#root > div.main-content > section.product-detail-main.bg-white > div.container-fluid.w-80.mb-4 > div > div.row.px-md-3.px-xl-4.py-3.py-md-3.h-100.mt-5 > div.col-12.col-lg-5.mb-3.mb-lg-0.product-detail-right > div > div.col-12.col-xl-8.mb-4.mt-3 > div > button > div"
+            ],
+            "spanSelector": [
+                "#shopify-section-template--22742776938790__main > div > div > div.product-info.product-info--sticky > sticky-scroll-direction > div > div.product-info__block.product-options > variant-picker > fieldset > div > div > div > div > div > div > label > span:first-of-type"
+            ]
+        }
+    },
+    "swiggy.com/instamart": {
+        "xpaths": {
+            "title": [
+                "//div[@class='sc-aXZVg bzVIAg _AHZN']",
+                "//div[@class='sc-gEvEer gPdKwv _AHZN']"
+            ],
+            "price": [
+                "//div[@class='sc-aXZVg bzVIAg _2XPBo']",
+                "//div[@class='sc-gEvEer enpNjw _2XPBo']",
+                "//div[@data-testid='item-price']",
+                "//div[@class='sc-gEvEer iQcBUp _1bWTz _2XPBo']"
+            ],
+            "mrp": [
+                "//div[@class='sc-aXZVg fVWuLc _2XPBo _1QyO8']",
+                "//div[@class='sc-gEvEer gYPgVg _2XPBo _1QyO8']",
+                "//div[@data-testid='item-striked-price']",
+                "//div[@class='sc-gEvEer gKjjWC _2KTMQ']"
+            ],
+            "brand": [
+                "//div[@class='sc-aXZVg fVWuLc _1v3Kq']",
+                "//div[@class='sc-aXZVg kpfEqT _1gqyM']/span"
+            ],
+            "oosCond": [
+                "//div[@class='_AHZN']/div/div[@class='sc-aXZVg cewXhJ']",
+                "//div[@class='sc-gEvEer bCqPoH _1Hegg']"
+            ],
+            "seller": [
+                "//div[@class='_2VPtu']",
+                "//div[@class='_8jgsH']/p"
+            ]
+        }
+    },
+    "blinkit.com": {
+        "xpaths": {
+            "title": [
+                "//h1[@class='ProductInfoCard__ProductName-sc-113r60q-10 dsuWXl']",
+                "//div[@class='tw-text-600 tw-font-extrabold tw-line-clamp-50']"
+            ],
+            "price": [
+                "//div[@class='ProductVariants__PriceContainer-sc-1unev4j-7 gGENtH']/text()[2]",
+                "//div[@class='tw-text-400 tw-font-bold']"
+            ],
+            "mrp": [
+                "//span[@class='ProductVariants__MRPText-sc-1unev4j-8 gNKjjk']/span",
+                "//span[@class='tw-text-grey-700 tw-text-300 tw-font-medium tw-line-through']"
+            ],
+            "brand": [
+                "//a[@class='ProductInfoCard__BrandLink-sc-113r60q-0 eiuhu']",
+                "//div[@class='tw-text-200 tw-font-semibold']"
+            ],
+            "oosCond": [
+                "//span[@class='ProductVariants__OutOfStockText-sc-1unev4j-10 bNzmTN']",
+                "//div[@class='tw-text-200 tw-font-medium tw-text-grey-700']"
+            ]
+        }
+    },
+    "amazon.in": {
+        "xpaths": {
+            "title": [
+                "//span[@id='productTitle']"
+            ],
+            "price": [
+                "//span[@class='a-price aok-align-center reinventPricePriceToPayMargin priceToPay']/span[@aria-hidden='true']",
+                "//span[@class='a-price a-text-price a-size-medium apexPriceToPay']/span[@aria-hidden='true']",
+                "//span[@class='price-value-value variantInfo_price-value-value__2ZQIC']",
+                "//span[@class='a-price aok-align-center reinventPricePriceToPayMargin priceToPay']/span/span[@class='a-price-whole']",
+                "//span[@class='a-price a-text-normal aok-align-center reinventPriceAccordionT2']/span",
+                "//span[@class='a-price a-text-price header-price a-size-base a-text-normal']/span",
+                "//div[@class='a-section a-spacing-none aok-align-center']/span[@class='a-price aok-align-center centralizedApexPricePriceToPayMargin']/span[@class='a-offscreen']",
+                "//span[@class='slot-price']"
+            ],
+            "mrp": [
+                "//span[@class='variantInfo_mrp-value__17u8u']",
+                "//span[@class='a-size-small a-color-secondary aok-align-center basisPrice']/span/span",
+                "//div[@id='corePrice_desktop']/div/table/tbody/tr/td[@class='a-span12 a-color-secondary a-size-base']/span/span",
+                "//div[@class='a-section a-spacing-small aok-align-center centralizedApexBasisPriceCSS']/span/span/span/span/span[@class='a-offscreen']"
+            ],
+            "brand": [
+                "//div[@class='a-section a-spacing-none']/a[@id='bylineInfo']"
+            ],
+            "seller": [
+                "//a[@id='sellerProfileTriggerId']"
+            ],
+            "oosCond": [
+                "//span[@class='a-color-price a-text-bold']"
+            ],
+            "asin": [
+                "//link[@rel='canonical']/@href"
+            ],
+            "asinCheck": [
+                "//th[@class='a-color-secondary a-size-base prodDetSectionEntry' and text()=' ASIN ']/following-sibling::td",
+                "//div[@id='detailBullets_feature_div']/ul/li/span/span[@class='a-text-bold' and contains(text(), 'ASIN')]/following-sibling::span"
+            ],
+            "image_count": [
+                "//li[@class='a-spacing-small item' and not(.//span/span/span/img[contains(@src, 'play-button-overlay-thumb_')])]",
+                "//img[@class='DByuf4 IZexXJ jLEJ7H']"
+            ],
+            "dimensions": [
+                "//th[@class='a-color-secondary a-size-base prodDetSectionEntry' and contains(text(), 'Product Dimensions')]/following-sibling::td",
+                "//th[@class='a-color-secondary a-size-base prodDetSectionEntry' and contains(text(), 'Item Dimensions')]/following-sibling::td",
+                "//div[@id='detailBullets_feature_div']/ul/li/span/span[@class='a-text-bold' and contains(text(), 'Product Dimensions')]/following-sibling::span",
+                "//div[@id='detailBullets_feature_div']/ul/li/span/span[@class='a-text-bold' and contains(text(), 'Item Dimensions')]/following-sibling::span",
+                "//div[@id='detailBullets_feature_div']/ul/li/span/span[@class='a-text-bold' and contains(text(), 'Package Dimensions')]/following-sibling::span"
+            ],
+            "video_tag": [
+                "//li[@class='a-spacing-small item videoBlockIngress videoBlockDarkIngress']",
+                "//li[@class='a-spacing-small item' and .//span/span/span/img[contains(@src, 'play-button-overlay-thumb_')]]"
+            ],
+            "category": [
+                "//ul[@class='a-unordered-list a-horizontal a-size-small']/li"
+            ],
+            "rating": [
+                "//span[@id='acrPopover']/span/a/span"
+            ],
+            "totalRatings": [
+                "//span[@id='acrCustomerReviewText']"
+            ],
+            "totalReviews": [
+                "//span[@id='acrCustomerReviewText']"
+            ],
+            "variant": [
+                "//ul[@class='a-unordered-list a-nostyle a-button-list a-declarative a-button-toggle-group a-horizontal a-spacing-top-micro swatches swatchesSquare imageSwatches']/li",
+                "//form[@id='twister']//li"
+            ],
+            "limited_time_deal": [
+                "//span[@id='dealBadgeSupportingText']"
+            ],
+            "bestSellerRankCategoryOne": [
+                "//th[@class='a-color-secondary a-size-base prodDetSectionEntry' and contains(text(), 'Best Sellers Rank')]/following-sibling::td"
+            ],
+            "aplus_content": [
+                "//div[@id='aplus']/div/div/div/img"
+            ]
+        },
+        "waitForSelectors": {
+            "buttonClick": [
+                "#buybox-see-all-buying-choices > span > a"
+            ]
+        }
+    },
+    "meesho.com": {
+        "xpaths": {
+            "title": [
+                "//span[@class='sc-eDvSVe fhfLdV']"
+            ],
+            "price": [
+                "//h4[@class='sc-eDvSVe biMVPh']"
+            ],
+            "mrp": [
+                "//p[@class='sc-eDvSVe gQDOBc sc-jSUZER eSuFsQ ShippingInfo__ParagraphBody2StrikeThroughStyled-sc-frp12n-3 dMCitE sc-jSUZER eSuFsQ ShippingInfo__ParagraphBody2StrikeThroughStyled-sc-frp12n-3 dMCitE']"
+            ],
+            "totalReviews": [
+                "//div[@class='sc-ftTHYK lljzUO CountWrapper__RatingReviewCount-sc-fa0m6i-2 bSmHPX CountWrapper__RatingReviewCount-sc-fa0m6i-2 bSmHPX']/span[2]/text()[1]",
+                "//span[@class='sc-eDvSVe eOvght ShippingInfo__OverlineStyled-sc-frp12n-4 bfIZVF ShippingInfo__OverlineStyled-sc-frp12n-4 bfIZVF']/text()[2]"
+            ],
+            "totalRatings": [
+                "//div[@class='sc-ftTHYK lljzUO CountWrapper__RatingReviewCount-sc-fa0m6i-2 bSmHPX CountWrapper__RatingReviewCount-sc-fa0m6i-2 bSmHPX']/span[1]/text()[1]",
+                "//span[@class='sc-eDvSVe eOvght ShippingInfo__OverlineStyled-sc-frp12n-4 bfIZVF ShippingInfo__OverlineStyled-sc-frp12n-4 bfIZVF']/text()[1]"
+            ],
+            "rating": [
+                "//h1[contains(@class, 'sc-eDvSVe cdZTwf')]",
+                "//span[@class='sc-dIfARi fserKe']/span[@class='sc-eDvSVe laVOtN']",
+                "//span/span[@class='sc-hhOBVt dZbAut']/span[@class='sc-eDvSVe laVOtN']"
+            ],
+            "seller": [
+                "//span[@font-size='18px' and @font-weight='demi' and @color='greyBase' and contains(@class, 'sc-eDvSVe') and contains(@class, 'dpdDrR') and contains(@class, 'ShopCardstyled__ShopName-sc-du9pku-6') and contains(@class, 'bdcHGu')]"
+            ],
+            "attributes": [
+                "//div[@class='sc-ftTHYK jfdUoi ProductDescription__DetailsCardStyled-sc-1l1jg0i-0 eFKyvM ProductDescription__DetailsCardStyled-sc-1l1jg0i-0 eFKyvM']//p"
+            ],
+            "image_count": [
+                "//div[@class='sc-fEXmlR gbBBFC']",
+                "//div[@class='sc-jRwbcX fczYGS']/div",
+                "//div[@class='sc-dmctIk ZVSby']/div",
+                "//div[@class='sc-hiDMwi hplqxA']",
+                "//div[@class='sc-csuSiG inYmsG']",
+                "//div[@class='sc-ckEbSK geMNtB']",
+                "//div[@class='sc-kMjNwy bMpdXy']/div",
+                "//img[@data-testid='product-images']"
+            ],
+            "oosCond": [
+                "//span[@class='sc-eDvSVe fpkPeP']"
+            ]
+        }
+    },
+    "hathitrust.org": {
+        "xpaths": {
+            "pages": [
+                "//script/text()"
+            ]
+        }
+    },
+    "firstcry.com": {
+        "xpaths": {
+            "title": [
+                "//span[@class='J14SB_42 cl_21']/span"
+            ],
+            "brand": [
+                "//span[@class='J14SB_42 cl_21']/text()[1]"
+            ],
+            "price": [
+                "//span[@class='prod-price J15B_42  cl_21']/text()[1]"
+            ],
+            "decimal": [
+                "//span[@class='prod-price J15B_42  cl_21']/sup[@class='supertag']"
+            ],
+            "mrp": [
+                "//span[@class='J14R_42 cl_75']/del"
+            ],
+            "image_count": [
+                "//div[@class='swiper-container productverticalSlider swiper-container-vertical']/div/div"
+            ],
+            "totalReviews": [
+                "//div[@class='all_ratings J12M_42']",
+                "//span[@class='ratingcount J12R_42']"
+            ],
+            "totalRatings": [
+                "//div[@class='all_ratings J12M_42']",
+                "//span[@class='ratingcount J12R_42']"
+            ],
+            "rating": [
+                "//span[@class='rate']",
+                "//div[@class='J26B_42']",
+                "//span[@class='rating activeOrgBordr J11M_42 cl_fff']",
+                "//span[@class='rating bg_27 J11M_42 cl_fff']/span[@class='rate']"
+            ],
+            "seller": [
+                "//span[@class = 'J13R_42 cl_21 subtext bname']"
+            ],
+            "oosCond": [
+                "//span[@class='J16SB_42 cl_fff acttext']"
+            ]
+        }
+    },
+    "smytten.com": {
+        "xpaths": {
+            "title": [
+                "//h1[@class='css-pbjvln']"
+            ],
+            "brand": [
+                "//h6[@class='css-136415g']"
+            ],
+            "price": [
+                "//h3[@class='css-14td2b1']"
+            ],
+            "mrp": [
+                "//div[@class='css-1k7gedv']"
+            ],
+            "image_count": [
+                "//div[@class='css-y53t9s']//img"
+            ],
+            "totalReviews": [
+                "//div[contains(@class, 'css-152opwo')]"
+            ],
+            "totalRatings": [
+                "//div[@class='css-ogh7de']"
+            ],
+            "rating": [
+                "//div[@class='css-1gerk7k'][1]"
+            ],
+            "seller": [
+                "//h6[@class='css-136415g']/a[@class='css-1kszgpx']/text()"
+            ],
+            "variant": [
+                "//div[@class='css-1cpk2vx']"
+            ],
+            "oosCond": [
+                "//div[@class='css-1avzvir']"
+            ]
+        }
+    },
+    "shopsy.in": {
+        "xpaths": {
+            "title": [
+                "//div[@class='css-146c3p1 r-cqee49 r-1et8rh5 r-ubezar r-iphfwy']/span[@class='css-1jxf684']"
+            ],
+            "brand": [
+                "//div[@class='css-146c3p1 r-1h7g6bg r-1et8rh5 r-1pyaxff r-1xce0ei' and text()='Brand']/following-sibling::div"
+            ],
+            "price": [
+                "//div[@class='css-146c3p1 r-cqee49 r-1vgyyaa r-1rsjblm r-13hce6t']"
+            ],
+            "mrp": [
+                "//div[@class='css-146c3p1 r-1awozwy r-1h7g6bg r-1vgyyaa r-1rsjblm r-142tt33 r-11wrixw']"
+            ],
+            "image_count": [
+                "//div[@class='sc-b1fddad4-3 cJKzjw']"
+            ],
+            "totalReviews": [
+                "//div[@class='css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1h7g6bg r-1b43r93 r-1rngwi6 r-1kihuf0 r-9iso6']"
+            ],
+            "totalRatings": [
+                "//div[@class='css-146c3p1 r-1h7g6bg r-1b43r93']"
+            ],
+            "rating": [
+                "//div[@class='css-1gerk7k'][1]"
+            ],
+            "seller": [
+                "//div[@class='css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a r-1kihuf0 r-op4f77 r-1et8rh5 r-1b43r93 r-1rsjblm r-1kb76zh r-1ozqkpa r-9iso6']"
+            ],
+            "variant": [
+                "//div[@class='css-1cpk2vx']"
+            ],
+            "category": [
+                "//div[@class='css-146c3p1 r-1udbk01 r-3s2u2q r-1iln25a r-10x49cs r-1cwl3u0 r-1udh08x r-tsynxw r-18kxxzh r-1q142lx r-dy31uh r-7xmw5f']/a"
+            ]
+        }
+    },
+    "ebay.com": {
+        "searchXpath": {
+            "functionString": "const xpathExpression = \"//a[@class='s-item__link']\"; const nodes = xpath.select(xpathExpression, xmlDoc); console.log('Nodes length', nodes.length); let extractedData = nodes.map(node => { const url = node.getAttribute(\"href\"); const itemId = node.getAttribute(\"href\").split(\"/itm/\")[1].split(\"?\")[0]; const title = xpath.select(\".//span[@role='heading']\", node)[0]?.textContent; console.log(itemId, title, url); if (itemId && itemId != undefined && itemId != \"\" && itemId != \"undefined\" && itemId != null) { return { productId: itemId, title: title, url: url }; } }).filter(item => item != undefined); extractedData = extractedData.slice(2); console.log(extractedData); return extractedData;"
+        }
+    }
+}

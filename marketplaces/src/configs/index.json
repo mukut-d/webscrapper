@@ -1,0 +1,67 @@
+{
+  "cartlow": {
+    "sellerClient": {
+      "name": "cartlow",
+      "userId": "53d5568c-d0c7-4d78-b569-17ed02ce5f42"
+    },
+    "baseCurrency": "AED",
+    "targetCurrency": "USD",
+    "currencyConversions": [
+      {
+        "category":"default",
+        "base": "AED",
+        "target": "USD",
+        "formula": "(price/ 0.879) * 1.05 + 0.4"
+      },
+      {
+        "category":"ebay",
+        "base": "AED",
+        "target": "USD",
+        "formula": "(price/ 0.879) * 1.05 + 0.4"
+      },
+      {
+        "category":"amazon",
+        "base": "AED",
+        "target": "AED",
+        "formula": "price * 1.07 + 14"
+      },
+      {
+        "category":"mobiles",
+        "base": "AED",
+        "target": "USD",
+        "formula": "price/0.879 + 0.4"
+      },
+      {
+        "category":"tablets",
+        "base": "AED",
+        "target": "USD",
+        "formula": "price/0.879 + 0.4"
+      }
+    ],
+    "marketPlace": ["amazon", "ebay"],
+    "domainDetails": [
+      {
+        "name": "default",
+        "value": ["amazon.ae", "amazon.com", "amazon.in"]
+      },
+      {
+        "name": "amazon",
+        "value": "amazon.ae"
+      }
+    ],
+    "listingInfo": {
+      "asinColumn": "ASIN",
+      "siteReference": "ASIN Status",
+      "iskuColumn": "variationSKU",
+      "title": "name_en",
+      "price": "variantPrice",
+      "category": "Category"
+    }
+  },
+  "abc": {
+    "name": "abc",
+    "baseCurrency": "EUR",
+    "targetCurrency": "GBP",
+    "formula": null
+  }
+}

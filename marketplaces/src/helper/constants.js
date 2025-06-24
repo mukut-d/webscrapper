@@ -1,0 +1,11 @@
+exports.CREATE_DATA = 'Data has been created successfully.';
+exports.UPDATE_DATA = 'Data has been updated successfully.';
+exports.DELETE_DATA = 'Data has been deleted successfully.';
+exports.FOUND_DATA = 'Data retrieved successfully.';
+exports.RECORD_NOT_FOUND = 'Record not found.';
+exports.UNAUTHORIZED = 'Unauthorized access.';
+exports.INVALID_ID = 'Please provide a valid ID.';
+exports.USER_LOGIN_SUCCESS = "User LoggedIn Successfully.";
+exports.INVALID_LOGIN_CREDENTIAL = "Invalid login credential!!!";
+exports.FILE_REQUIRED = 'Please upload the required file to proceed.';
+exports.LISTING_ON_PROCESS = "We're working on your listing. It will be completed shortly.";

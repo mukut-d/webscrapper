@@ -1,0 +1,4587 @@
+{
+  "jewelry_other": {
+    "properties": {
+      "shortDescription": {
+        "type": "string",
+        "title": "Site Description",
+        "minLength": 1,
+        "maxLength": 4000
+      },
+      "mainImageUrl": {
+        "type": "string",
+        "title": "Main Image URL",
+        "maxLength": 2000,
+        "format": "uri"
+      },
+      "productSecondaryImageURL": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Additional Image URL",
+        "items": {
+          "type": "string",
+          "maxLength": 2000,
+          "format": "uri"
+        },
+        "minItems": 1
+      },
+      "prop65WarningText": {
+        "type": "string",
+        "title": "California Prop 65 Warning Text",
+        "minLength": 1,
+        "maxLength": 5000
+      },
+      "smallPartsWarnings": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Small Parts Warning Code",
+        "items": {
+          "type": "string",
+          "enum": [
+            "0 - No warning applicable",
+            "5 - Choking hazard is a marble",
+            "4 - Choking hazard balloon",
+            "6 - Choking hazard contains a marble",
+            "2 - Choking hazard contains small ball",
+            "3 - Choking hazard contains small parts",
+            "1 - Choking hazard is a small ball"
+          ]
+        },
+        "minItems": 1
+      },
+      "gender": {
+        "type": "string",
+        "title": "Gender",
+        "enum": [
+          "Unisex",
+          "Male",
+          "Female"
+        ]
+      },
+      "size": {
+        "type": "string",
+        "title": "Size",
+        "minLength": 1,
+        "maxLength": 500
+      },
+      "ageGroup": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Age Group",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Teen",
+            "Tween",
+            "Infant",
+            "Newborn",
+            "Preemie",
+            "Adult",
+            "Child",
+            "Senior",
+            "Toddler"
+          ]
+        },
+        "minItems": 1
+      },
+      "keyFeatures": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Key Features",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        },
+        "minItems": 1
+      },
+      "msrp": {
+        "type": "number",
+        "title": "MSRP",
+        "minimum": 0,
+        "maximum": 100000000,
+        "exclusiveMaximum": false,
+        "multipleOf": 0.01
+      },
+      "manufacturer": {
+        "type": "string",
+        "title": "Manufacturer Name",
+        "minLength": 1,
+        "maxLength": 60
+      },
+      "manufacturerPartNumber": {
+        "type": "string",
+        "title": "Manufacturer Part Number",
+        "minLength": 1,
+        "maxLength": 60
+      },
+      "modelNumber": {
+        "type": "string",
+        "title": "Model Number",
+        "minLength": 1,
+        "maxLength": 60
+      },
+      "countPerPack": {
+        "type": "integer",
+        "title": "Count Per Pack",
+        "minimum": 0,
+        "maximum": 1000000000,
+        "exclusiveMaximum": false
+      },
+      "count": {
+        "type": "string",
+        "title": "Total Count",
+        "minLength": 1,
+        "maxLength": 50
+      },
+      "color": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Color",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        },
+        "minItems": 1
+      },
+      "colorCategory": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Color Category",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Blue",
+            "Brown",
+            "Gold",
+            "Gray",
+            "Purple",
+            "Clear",
+            "Yellow",
+            "Multi-color",
+            "Black",
+            "Beige",
+            "Pink",
+            "Orange",
+            "Green",
+            "White",
+            "Red",
+            "Off-White",
+            "Silver",
+            "Bronze"
+          ]
+        },
+        "minItems": 1
+      },
+      "ringStyle": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Ring Style",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "minItems": 1
+      },
+      "ringSize": {
+        "type": "number",
+        "title": "Ring Size",
+        "minimum": 0,
+        "maximum": 1000000000,
+        "exclusiveMaximum": false,
+        "multipleOf": 0.001
+      },
+      "gemstone": {
+        "type": "string",
+        "title": "Primary Stone Type",
+        "enum": [
+          "Moissanite",
+          "Other Stone",
+          "Ruby",
+          "Malachite",
+          "Sodalite",
+          "Beryl",
+          "Amethyst",
+          "Citrine",
+          "Aquamarine",
+          "Alexandrite",
+          "Kunzite",
+          "Peridot",
+          "Turquoise",
+          "Diamond",
+          "Tanzanite",
+          "Onyx",
+          "Carnelian",
+          "Ametrine",
+          "Emerald",
+          "Tiger's Eye",
+          "Chalcedony",
+          "Opal",
+          "Iolite",
+          "Topaz",
+          "Sunstone",
+          "Coral",
+          "Spinel",
+          "Zircon",
+          "Crystal",
+          "Moonstone",
+          "Sapphire",
+          "Amber",
+          "Rose Quartz",
+          "Morganite",
+          "Garnet",
+          "Jade",
+          "Mother of Pearl",
+          "Pearl",
+          "Rhodonite",
+          "Cubic Zirconia",
+          "Cat's Eye",
+          "Lapis Lazuli",
+          "Rhodolite",
+          "White Sapphire",
+          "Tourmaline",
+          "Quartz",
+          "Tsavorite",
+          "Chrome Diopside"
+        ]
+      },
+      "secondaryStoneType": {
+        "type": "string",
+        "title": "Secondary Stone Type",
+        "enum": [
+          "Moissanite",
+          "Other Stone",
+          "Ruby",
+          "Malachite",
+          "Sodalite",
+          "Beryl",
+          "Amethyst",
+          "Citrine",
+          "Aquamarine",
+          "Alexandrite",
+          "Kunzite",
+          "Peridot",
+          "Turquoise",
+          "Diamond",
+          "Tanzanite",
+          "Onyx",
+          "Carnelian",
+          "Ametrine",
+          "Emerald",
+          "Tiger's Eye",
+          "Chalcedony",
+          "Opal",
+          "Iolite",
+          "Topaz",
+          "Sunstone",
+          "Coral",
+          "Spinel",
+          "Zircon",
+          "Crystal",
+          "Moonstone",
+          "Sapphire",
+          "Amber",
+          "Rose Quartz",
+          "Morganite",
+          "Garnet",
+          "Jade",
+          "Mother of Pearl",
+          "Pearl",
+          "Rhodonite",
+          "Cubic Zirconia",
+          "Cat's Eye",
+          "Lapis Lazuli",
+          "Rhodolite",
+          "White Sapphire",
+          "Tourmaline",
+          "Quartz",
+          "Tsavorite",
+          "Chrome Diopside"
+        ]
+      },
+      "accentStone": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Accent Stone Type",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Moissanite",
+            "Other Stone",
+            "Ruby",
+            "Malachite",
+            "Sodalite",
+            "Beryl",
+            "Amethyst",
+            "Citrine",
+            "Aquamarine",
+            "Alexandrite",
+            "Kunzite",
+            "Peridot",
+            "Turquoise",
+            "Diamond",
+            "Tanzanite",
+            "Onyx",
+            "Carnelian",
+            "Ametrine",
+            "Emerald",
+            "Tiger's Eye",
+            "Chalcedony",
+            "Opal",
+            "Iolite",
+            "Topaz",
+            "Sunstone",
+            "Coral",
+            "Spinel",
+            "Zircon",
+            "Crystal",
+            "Moonstone",
+            "Sapphire",
+            "Amber",
+            "Rose Quartz",
+            "Morganite",
+            "Garnet",
+            "Jade",
+            "Mother of Pearl",
+            "Pearl",
+            "Rhodonite",
+            "Cubic Zirconia",
+            "Cat's Eye",
+            "Lapis Lazuli",
+            "Rhodolite",
+            "White Sapphire",
+            "Tourmaline",
+            "Quartz",
+            "Tsavorite",
+            "Chrome Diopside"
+          ]
+        },
+        "minItems": 1
+      },
+      "numberOfGemstones": {
+        "type": "integer",
+        "title": "Number of Stones",
+        "minimum": 0,
+        "maximum": 1000000000,
+        "exclusiveMaximum": false
+      },
+      "chainPattern": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Chain Pattern",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Diamond Cut Figaro",
+            "Double Cable",
+            "Boston Link",
+            "Twister Serpentine",
+            "Franco",
+            "Basketweave",
+            "San Marco",
+            "Elongated Cable",
+            "Singapore",
+            "Triple Rope",
+            "Other",
+            "Belcher",
+            "French Rope",
+            "Stocking Mesh",
+            "Round Omega",
+            "Rolo",
+            "C-Chain",
+            "Ball",
+            "Wheat",
+            "Byzantine",
+            "Fancy Double Link",
+            "Crisscross",
+            "Herringbone",
+            "Anchor",
+            "Cable Wire",
+            "Mesh",
+            "Link",
+            "Snake",
+            "Bismark",
+            "Side-by-Side",
+            "Bead",
+            "Palma",
+            "Raspberry",
+            "Omega",
+            "Strand",
+            "Flat Gooseneck",
+            "Box",
+            "Cord",
+            "Double Curb",
+            "Bar",
+            "Cable",
+            "Rope",
+            "Cascade",
+            "Twister Rope",
+            "Oval Curb",
+            "Figaro",
+            "Popcorn",
+            "Mariner",
+            "Hexagon",
+            "Open Cable",
+            "Beveled Herringbone",
+            "Bow-Tie Figaro",
+            "Heart",
+            "Cobra",
+            "Lace",
+            "Draw Flat Cable",
+            "Coreana",
+            "Hollow Mariner",
+            "Half Round Gooseneck",
+            "Tornado",
+            "Parallel Curb",
+            "Track",
+            "Curb",
+            "Wire Cable",
+            "Flat Figaro",
+            "Mirror",
+            "Cuban Link",
+            "Puzzle",
+            "Serpentine"
+          ]
+        },
+        "minItems": 1
+      },
+      "chainLength": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 1000000000,
+            "exclusiveMaximum": false,
+            "multipleOf": 0.001
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "ft",
+              "in"
+            ]
+          }
+        },
+        "additionalProperties": false
+      },
+      "claspType": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Clasp Type",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Screw",
+            "Elastic",
+            "D Ring",
+            "Buckle",
+            "Barrel Clasp",
+            "Other",
+            "Side Lock",
+            "Snaps",
+            "Ball",
+            "Button Fly",
+            "Lobster Claw",
+            "Button-End",
+            "Concealed",
+            "S Hook",
+            "Box",
+            "No Clasp",
+            "Hidden Safety Clasp",
+            "Hook & Eye Clasp",
+            "Flat Solid Buckle",
+            "Invisible Double-Locking",
+            "Hook & Loop Clasp",
+            "Spring Ring",
+            "Magnetic Clasp",
+            "Toggle",
+            "Push Button",
+            "Fold Over",
+            "Button Toggle",
+            "Fishhook"
+          ]
+        },
+        "minItems": 1
+      },
+      "earringStyle": {
+        "type": "string",
+        "title": "Earring Style",
+        "enum": [
+          "Teardrop",
+          "Dangling",
+          "Hoop",
+          "Drop",
+          "Chandelier",
+          "Fake Gauge",
+          "Threader",
+          "Stud"
+        ]
+      },
+      "earGaugeSize": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 1000000000,
+            "exclusiveMaximum": false,
+            "multipleOf": 0.001
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "mm",
+              "in"
+            ]
+          }
+        },
+        "additionalProperties": false
+      },
+      "backFinding": {
+        "type": "string",
+        "title": "Earring Back",
+        "enum": [
+          "Latch Back",
+          "Post With Snap Down",
+          "Post With Friction Back",
+          "Clip-On",
+          "French Wire",
+          "La Pousette",
+          "Shepherds Hook",
+          "Hoop",
+          "Fishhook",
+          "Screw Back",
+          "Omega Back",
+          "Other",
+          "Push Back",
+          "Lever Back",
+          "Click Top",
+          "Clutchless",
+          "Euro Wire",
+          "Thread Through",
+          "Hinged",
+          "Continuous Hoop",
+          "Endless"
+        ]
+      },
+      "braceletStyle": {
+        "type": "string",
+        "title": "Bracelet Style",
+        "enum": [
+          "Cord",
+          "ID Bracelets",
+          "Link",
+          "Cable",
+          "Chain",
+          "Stretch",
+          "Bangle",
+          "Multi-Strand",
+          "Wrap",
+          "Other",
+          "Charm",
+          "Stackable",
+          "Bead",
+          "Cuff",
+          "Cape Cod",
+          "Tennis Bracelets"
+        ]
+      },
+      "necklaceStyle": {
+        "type": "string",
+        "title": "Necklace Style",
+        "enum": [
+          "Single Strand",
+          "Lariat",
+          "Chain",
+          "Choker",
+          "Initial",
+          "Bib",
+          "Sentiment & Symbols",
+          "Cascade",
+          "Other",
+          "Locket",
+          "Pendant",
+          "Multi Strand",
+          "Y-necklace",
+          "Collar",
+          "Solitaire"
+        ]
+      },
+      "bodyJewelryStyle": {
+        "type": "string",
+        "title": "Body Jewelry Style",
+        "minLength": 1,
+        "maxLength": 400
+      },
+      "braceletCharmStyle": {
+        "type": "string",
+        "title": "Bracelet Charm Style",
+        "minLength": 1,
+        "maxLength": 40
+      },
+      "jewelrySetting": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Jewelry Setting",
+        "items": {
+          "type": "string",
+          "enum": [
+            "stackable",
+            "tricolor rolling",
+            "two-tone freedom",
+            "hand-wired",
+            "strung",
+            "tension mount",
+            "classic solitaire",
+            "gypsy",
+            "guard",
+            "flush",
+            "wrap",
+            "cathedral",
+            "4-prong",
+            "bezel",
+            "half bezel",
+            "6-prong",
+            "other",
+            "bypass",
+            "bead-set",
+            "illusion",
+            "channel",
+            "designer",
+            "3-stone",
+            "cocktail",
+            "pave",
+            "eternity band",
+            "trellis",
+            "waterfall",
+            "invisible",
+            "semimount",
+            "prongs",
+            "halo",
+            "side stone",
+            "3-prong",
+            "bar",
+            "cluster",
+            "freedom",
+            "v-prong",
+            "shared prong",
+            "2-prong",
+            "flat top",
+            "solitaire",
+            "basket"
+          ]
+        },
+        "minItems": 1
+      },
+      "certifyingAgent": {
+        "type": "string",
+        "title": "Certifying Agent",
+        "minLength": 1,
+        "maxLength": 4000
+      },
+      "diamondClarity": {
+        "type": "string",
+        "title": "Diamond Clarity",
+        "enum": [
+          "SI2",
+          "SI1",
+          "VS1",
+          "I1",
+          "I3",
+          "I2",
+          "VS2",
+          "Other",
+          "VVS1",
+          "VVS2",
+          "FL",
+          "IF"
+        ]
+      },
+      "diamondColor": {
+        "type": "string",
+        "title": "Diamond Color",
+        "enum": [
+          "K-L",
+          "Other",
+          "N-R",
+          "E-F",
+          "D-E",
+          "D-F",
+          "E",
+          "D",
+          "G",
+          "F",
+          "I",
+          "H",
+          "K",
+          "J",
+          "M",
+          "L",
+          "J-K",
+          "L-M",
+          "G-H",
+          "S-Z",
+          "I-J",
+          "F-G",
+          "H-I"
+        ]
+      },
+      "diamondCut": {
+        "type": "string",
+        "title": "Diamond Cut",
+        "enum": [
+          "Pear cut",
+          "Fancy cut",
+          "Square cut",
+          "Oval cut",
+          "Round Brilliant cut",
+          "Cushion cut",
+          "Marquise cut",
+          "Baguette cut",
+          "Other cut",
+          "Princess cut",
+          "Radiant cut",
+          "Emerald cut",
+          "Asscher cut",
+          "Heart cut"
+        ]
+      },
+      "carats": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 1000000000,
+            "exclusiveMaximum": false,
+            "multipleOf": 0.001
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "ct"
+            ]
+          }
+        },
+        "additionalProperties": false
+      },
+      "totalDiamondWeight": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 1000000000,
+            "exclusiveMaximum": false,
+            "multipleOf": 0.001
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "ct"
+            ]
+          }
+        },
+        "additionalProperties": false
+      },
+      "stoneTreatment": {
+        "type": "string",
+        "title": "Stone Treatment",
+        "minLength": 1,
+        "maxLength": 400
+      },
+      "stoneCreationMethod": {
+        "type": "string",
+        "title": "Stone Creation Method",
+        "minLength": 1,
+        "maxLength": 400
+      },
+      "gemstoneShape": {
+        "type": "string",
+        "title": "Primary Stone Shape",
+        "enum": [
+          "Asscher",
+          "Baguette",
+          "Heart",
+          "Radiant",
+          "Marquise",
+          "Pear",
+          "Round",
+          "Cushion",
+          "Emerald",
+          "Oval",
+          "Princess"
+        ]
+      },
+      "pearlType": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Pearl Type",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        },
+        "minItems": 1
+      },
+      "sizePerPearl": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 1000000000,
+            "exclusiveMaximum": false,
+            "multipleOf": 0.001
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "mm"
+            ]
+          }
+        },
+        "additionalProperties": false
+      },
+      "isResizable": {
+        "type": "string",
+        "title": "Is Ring Resizable",
+        "enum": [
+          "Yes",
+          "No"
+        ]
+      },
+      "personalRelationship": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Personal Relationship",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400
+        },
+        "minItems": 1
+      },
+      "metal": {
+        "type": "string",
+        "title": "Metal Type",
+        "enum": [
+          "Platinum",
+          "Goldtone",
+          "Two-Tone Gold",
+          "Silver-plated",
+          "Rose Gold-plated",
+          "Black Gold",
+          "Rose Gold",
+          "Other Metal",
+          "Rhodium",
+          "Tri-Tone Gold",
+          "Nickel",
+          "Stainless Steel",
+          "White Gold-plated",
+          "Tungsten",
+          "Brass",
+          "Palladium",
+          "Yellow Gold-plated",
+          "Black Gold-plated",
+          "Silvertone",
+          "Yellow Gold",
+          "Iron",
+          "Pewter",
+          "Sterling Silver",
+          "White Gold",
+          "Copper",
+          "Titanium",
+          "No Metal",
+          "Platinaire"
+        ]
+      },
+      "metalPurity": {
+        "type": "string",
+        "title": "Karats",
+        "minLength": 1,
+        "maxLength": 16
+      },
+      "material": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Material",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "minItems": 1
+      },
+      "religion": {
+        "type": "string",
+        "title": "Religion",
+        "enum": [
+          "Judaism",
+          "Christianity",
+          "Buddhism",
+          "Other",
+          "Hinduism",
+          "Islam"
+        ]
+      },
+      "birthstone": {
+        "type": "string",
+        "title": "Birthstone Month",
+        "enum": [
+          "February",
+          "October",
+          "March",
+          "August",
+          "May",
+          "January",
+          "June",
+          "September",
+          "April",
+          "December",
+          "July",
+          "November"
+        ]
+      },
+      "shape": {
+        "type": "string",
+        "title": "Shape",
+        "minLength": 1,
+        "maxLength": 200
+      },
+      "style": {
+        "type": "string",
+        "title": "Style",
+        "minLength": 1,
+        "maxLength": 400
+      },
+      "occasion": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Occasion",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        },
+        "minItems": 1
+      },
+      "bodyParts": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Body Part",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 500
+        },
+        "minItems": 1
+      },
+      "isMadeFromRecycledMaterial": {
+        "type": "string",
+        "title": "Is Made From Recycled Material",
+        "enum": [
+          "Yes",
+          "No"
+        ]
+      },
+      "recycledMaterialContent": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Recycled Material Content",
+        "items": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "recycledMaterial": {
+              "type": "string",
+              "title": "Recycled Material",
+              "minLength": 1,
+              "maxLength": 4000
+            },
+            "percentageOfRecycledMaterial": {
+              "type": "number",
+              "title": "Percentage of Recycled Material",
+              "minimum": 0,
+              "maximum": 10000000000000000,
+              "exclusiveMaximum": false,
+              "multipleOf": 0.001
+            }
+          },
+          "additionalProperties": false
+        },
+        "minItems": 1
+      },
+      "theme": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Theme",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 800
+        },
+        "minItems": 1
+      },
+      "diameter": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 1000000000,
+            "exclusiveMaximum": false,
+            "multipleOf": 0.001
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "mm",
+              "ft",
+              "cm",
+              "in"
+            ]
+          }
+        },
+        "additionalProperties": false
+      },
+      "character": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Character",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400
+        },
+        "minItems": 1
+      },
+      "sportsTeam": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Sports Team",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "minItems": 1
+      },
+      "sportsLeague": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Sports League",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "minItems": 1
+      },
+      "warrantyText": {
+        "type": "string",
+        "title": "Warranty Text",
+        "minLength": 1,
+        "maxLength": 20000
+      },
+      "warrantyURL": {
+        "type": "string",
+        "title": "Warranty URL",
+        "minLength": 1,
+        "format": "uri"
+      },
+      "additionalProductAttributes": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Additional Product Attributes",
+        "items": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "productAttributeName": {
+              "type": "string",
+              "title": "Additional Product Attribute Name",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "productAttributeValue": {
+              "type": "string",
+              "title": "Additional Product Attribute Value",
+              "minLength": 1,
+              "maxLength": 4000
+            }
+          },
+          "required": [
+            "productAttributeValue",
+            "productAttributeName"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1
+      },
+      "variantGroupId": {
+        "type": "string",
+        "title": "Variant Group ID",
+        "minLength": 1,
+        "maxLength": 300
+      },
+      "variantAttributeNames": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Variant Attribute Names",
+        "items": {
+          "type": "string",
+          "enum": [
+            "count",
+            "diameter",
+            "style",
+            "metalPurity",
+            "color",
+            "ringSize",
+            "sportsTeam",
+            "metal",
+            "carats",
+            "chainLength",
+            "countPerPack",
+            "shape",
+            "birthstone",
+            "gemstone",
+            "size"
+          ]
+        },
+        "minItems": 1
+      },
+      "isPrimaryVariant": {
+        "type": "string",
+        "title": "Is Primary Variant",
+        "enum": [
+          "Yes",
+          "No"
+        ]
+      },
+      "swatchImages": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "array",
+        "title": "Swatch Images",
+        "items": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "swatchVariantAttribute": {
+              "type": "string",
+              "title": "Swatch Variant Attribute",
+              "enum": [
+                "count",
+                "diameter",
+                "style",
+                "metalPurity",
+                "color",
+                "ringSize",
+                "sportsTeam",
+                "metal",
+                "carats",
+                "chainLength",
+                "countPerPack",
+                "shape",
+                "birthstone",
+                "gemstone",
+                "size"
+              ]
+            },
+            "swatchImageUrl": {
+              "type": "string",
+              "title": "Swatch Image URL",
+              "minLength": 1,
+              "maxLength": 2000,
+              "format": "uri"
+            }
+          },
+          "additionalProperties": false
+        },
+        "minItems": 1
+      },
+      "seasonYear": {
+        "type": "integer",
+        "title": "Season Year",
+        "minimum": 0,
+        "maximum": 10000,
+        "exclusiveMaximum": false
+      },
+      "seasonCode": {
+        "type": "string",
+        "title": "Season Code",
+        "enum": [
+          "1- Spring",
+          "4- Winter",
+          "2- Summer",
+          "3- BTS/Fall",
+          "0- Basic"
+        ]
+      }
+    },
+    "required": [
+      "shortDescription",
+      "mainImageUrl"
+    ],
+    "additionalProperties": false
+  },
+  "Earrings": {
+    "properties": {
+      "productName": {
+        "type": "string",
+        "title": "Product Name",
+        "minLength": 10,
+        "maxLength": 199,
+        "description": "Alphanumeric, 199 characters - Title of the product to be displayed on the Item Page. Your title should ideally be under 90 Characters, Maximum 100 Characters.  Anything over 90 characters will negatively impact your Search Engine Optimization (SEO). Example: Pompeii3 1/4 Carat Genuine Diamond Stud Earrings in 14k White Gold (I2-I3 Clarity, IJ Color)",
+        "examples": [
+          "Pompeii3 1/4 Carat Genuine Diamond Stud Earrings in 14k White Gold (I2-I3 Clarity, IJ Color)"
+        ],
+        "comments": "@group=Required to sell on Walmart website"
+      },
+      "brand": {
+        "type": "string",
+        "title": "Brand Name",
+        "minLength": 1,
+        "maxLength": 60,
+        "description": "Alphanumeric, 60 characters - The name provided by the brand owner that is intended to be recognized by the consumer as represented on the product. If item does not have a brand, use \"Unbranded\".  This should be the brand ONLY, not brand + product line. Make sure brand name is spelled, punctuated & capitalized properly according to the brand itself. Example: Brilliance Fine Jewelry;Duet;Imperial;Jacmel Jewelry;Kate Spade;Miabella;PalmBeach Jewelry;Pandora;Swarovski;Tangelo;Terra & Sky",
+        "examples": [
+          "Brilliance Fine Jewelry",
+          "Duet",
+          "Imperial",
+          "Jacmel Jewelry",
+          "Kate Spade",
+          "Miabella",
+          "PalmBeach Jewelry",
+          "Pandora",
+          "Swarovski",
+          "Tangelo",
+          "Terra & Sky"
+        ],
+        "comments": "@group=Required to sell on Walmart website"
+      },
+      "shortDescription": {
+        "type": "string",
+        "title": "Site Description",
+        "minLength": 1,
+        "maxLength": 100000,
+        "description": "Alphanumeric, 100000 characters - Overview of the key selling points of the item, marketing content, and highlights in paragraph form. For SEO purposes, repeat the product name and relevant keywords here. Example: These Created Turquoise and Marcasite Sterling Silver Heart Drop Earrings are the perfect accent for your boho-chic ensembles. The heart-shaped drop design features created turquoise and marcasite inset with studded designs inside. Secure them in your ears with the fishhook back that makes them super-easy to wear. Crafted in sterling silver, these versatile earrings can be worn in both casual and dressy situations and add a pop of color to your basic ensembles. Wear them with a crop top and cutoff shorts for music festivals or a sundress and blazer when you're going to work.;Check out this breathtakingly beautiful diamond flower ring from Stackable Expressions. It is crafted from sleek sterling silver with quality rhodium plating and gorgeous ruthenium plating. This elegant, 2.25-millimeter ring features a stunning, .11 ct. t.w. diamond accent. This timeless flower ring will be your favorite accessory for years to come. Available in whole sizes five, six, seven, eight, nine and 10. Express yourself in a unique and fun way with the new Stackable Expressions Collection. Choose from hundreds of rings that you can mix, match and stack together, allowing you to switch up your style in an instant. Stackable Expressions offers jewelry that is crafted from sterling silver, colorfully enameled, 14kt gold-plated, adorned with stunning diamonds and/or gemstones and more. The possibilities are endless with this incredible assortment of stackable jewelry.",
+        "examples": [
+          "These Created Turquoise and Marcasite Sterling Silver Heart Drop Earrings are the perfect accent for your boho-chic ensembles. The heart-shaped drop design features created turquoise and marcasite inset with studded designs inside. Secure them in your ears with the fishhook back that makes them super-easy to wear. Crafted in sterling silver, these versatile earrings can be worn in both casual and dressy situations and add a pop of color to your basic ensembles. Wear them with a crop top and cutoff shorts for music festivals or a sundress and blazer when you're going to work.",
+          "Check out this breathtakingly beautiful diamond flower ring from Stackable Expressions. It is crafted from sleek sterling silver with quality rhodium plating and gorgeous ruthenium plating. This elegant, 2.25-millimeter ring features a stunning, .11 ct. t.w. diamond accent. This timeless flower ring will be your favorite accessory for years to come. Available in whole sizes five, six, seven, eight, nine and 10. Express yourself in a unique and fun way with the new Stackable Expressions Collection. Choose from hundreds of rings that you can mix, match and stack together, allowing you to switch up your style in an instant. Stackable Expressions offers jewelry that is crafted from sterling silver, colorfully enameled, 14kt gold-plated, adorned with stunning diamonds and/or gemstones and more. The possibilities are endless with this incredible assortment of stackable jewelry."
+        ],
+        "comments": "@minimumWordCount=70;@recommendedWordCount=100;@group=Required for the item to be visible on Walmart website"
+      },
+      "keyFeatures": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Key Features",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 10000
+        },
+        "minItems": 5,
+        "description": "Alphanumeric, 10000 characters - Key features will appear as bulleted text on the item page and in search results. Key features help the user understand the benefits of the product with a simple and clean format.  Example: •;1 ct. t.w. diamond necklace;•;Diamond Color Rating: G-H;•;Diamond Clarity: I3;•;Diamond shape: round;•;Set in sterling silver;•;Approx. length: 18\"\";•;Heart pendant approx. 25mm;•;High polish finish;•;Lobster clasp; Round cable chain;•;Come in a gift box with a jewelry polishing cloth\";\"•;Main Stone: 1 Round Faceted Cut Cubic Zirconia, 3.50 carats, 9.5 mm x 9.5 mm;•;6 Round Faceted Cut Cubic Zirconias, .90 carat total weight, 3.5 mm x 3.5 mm;•;20 Round Faceted Cut Cubic Zirconias, .26 carat total weight, 1.4 mm x 1.4 mm;•;Platinum-Plated Sterling Silver;•;Contains 6.00 grams of Sterling Silver;•;Shank Width: 9.0 mm wide;•;Ring Dimensions: 20 mm wide x 11 mm long x 8 mm high, Ring Dimensions: 20 mm wide x 14 mm long x 4 mm high;•;Includes gift box and drawstring pouch",
+        "examples": [
+          "•",
+          "1 ct. t.w. diamond necklace",
+          "•",
+          "Diamond Color Rating: G-H",
+          "•",
+          "Diamond Clarity: I3",
+          "•",
+          "Diamond shape: round",
+          "•",
+          "Set in sterling silver",
+          "•",
+          "Approx. length: 18\"\"",
+          "•",
+          "Heart pendant approx. 25mm",
+          "•",
+          "High polish finish",
+          "•",
+          "Lobster clasp",
+          "Round cable chain",
+          "•",
+          "Come in a gift box with a jewelry polishing cloth\"",
+          "\"•",
+          "Main Stone: 1 Round Faceted Cut Cubic Zirconia, 3.50 carats, 9.5 mm x 9.5 mm",
+          "•",
+          "6 Round Faceted Cut Cubic Zirconias, .90 carat total weight, 3.5 mm x 3.5 mm",
+          "•",
+          "20 Round Faceted Cut Cubic Zirconias, .26 carat total weight, 1.4 mm x 1.4 mm",
+          "•",
+          "Platinum-Plated Sterling Silver",
+          "•",
+          "Contains 6.00 grams of Sterling Silver",
+          "•",
+          "Shank Width: 9.0 mm wide",
+          "•",
+          "Ring Dimensions: 20 mm wide x 11 mm long x 8 mm high, Ring Dimensions: 20 mm wide x 14 mm long x 4 mm high",
+          "•",
+          "Includes gift box and drawstring pouch"
+        ],
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "mainImageUrl": {
+        "type": "string",
+        "title": "Main Image URL",
+        "minLength": 1,
+        "maxLength": 2500,
+        "format": "uri",
+        "description": "URL, 2500 characters - Main image of the item. File Format: JPEG (.jpg). Recommended Pixel Dimensions: 2200px x 2200px. Minimum Pixel Dimensions for Zoom 1500px x 1500px. Resolution: 300 ppi. Maximum file size: 5MB. Aspect Ratio: 1:1 (Square). Recommended File Naming: GTIN-14 digit\nImage URLs should end in an image file type (.jpg) to follow best practices. They must link to a public image file that loads as an image",
+        "examples": "",
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "countPerPack": {
+        "type": "integer",
+        "title": "Count Per Pack",
+        "minimum": 0,
+        "maximum": 10000000000,
+        "description": "Number, 10 characters - The number of identical items inside each individual package given by the \"Multipack Quantity\" attribute. Examples: (1) A single bottle of 50 pills has a \"Count Per Pack\" of 50. (2) A package containing two identical bottles of 50 pills has a \"Count Per Pack\" of 50. (3) A 6-pack of soda labeled for individual sale connected by plastic rings has a \"Count Per Pack\" of 1. (4) A 6-pack of soda in a box whose cans are not marked for individual sale has a \"Count Per Pack\" of 6. (5) A gift basket of 5 different items has a \"Count Per Pack\" of 1. Example: 1;2;10;50",
+        "examples": [
+          "1",
+          "2",
+          "10",
+          "50"
+        ],
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "count": {
+        "type": "integer",
+        "title": "Total Count",
+        "minimum": 0,
+        "maximum": 100000000000000000,
+        "description": "Number, 17 characters - The total number of identical items in the package or box; a result of the multiplication of Multipack Quantity by Count Per Pack. Examples: (1) A single bottle of 50 pills has a \"Total Count\" of 50. (2) A package containing two identical bottles of 50 pills has a \"Total Count\" of 100. (3) A gift basket of 5 different items has a \"Total Count\" of 1. Example: 1;50;100",
+        "examples": [
+          "1",
+          "50",
+          "100"
+        ],
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "multipackQuantity": {
+        "type": "integer",
+        "title": "Multipack Quantity",
+        "minimum": 0,
+        "maximum": 10000,
+        "description": "Number, 4 characters - The number of identical, individually packaged-for-sale items. If an item does not contain other items, does not contain identical items, or if the items contained within cannot be sold individually, the value for this attribute should be\"1.\" Examples: (1) A single bottle of 50 pills has a \"Multipack Quantity\" of\"1.\" (2) A package containing two identical bottles of 50 pills has a \"Multipack Quantity\" of 2. (3) A 6-pack of soda labelled for individual sale connected by plastic rings has a \"Multipack Quantity\" of\"6.\" (4) A 6-pack of soda in a box whose cans are not marked for individual sale has a \"Multipack Quantity\" of\"1.\" (5) A gift basket of 5 different items has a \"Multipack Quantity\" of\"1.\" Example: 1;2;4;6",
+        "examples": [
+          "1",
+          "2",
+          "4",
+          "6"
+        ],
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "isProp65WarningRequired": {
+        "type": "string",
+        "title": "Is Prop 65 Warning Required",
+        "enum": [
+          "Yes",
+          "No"
+        ],
+        "description": "Closed List - Selecting \"Yes\" indicates the product requires California's Proposition 65 special warning. Proposition 65 entitles California consumers to special warnings for products that contain chemicals known to the state of California to cause cancer and birth defects or other reproductive harm if certain criteria are met (such as quantity of chemical contained in the product). See the portions of the California Health and Safety Code related to Proposition 65 for more information.",
+        "examples": "",
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "ageGroup": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Age Group",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Teen",
+            "Infant",
+            "Adult",
+            "Child",
+            "Baby",
+            "Toddler"
+          ]
+        },
+        "minItems": 1,
+        "description": "Closed List - A general grouping of ages into commonly used demographic labels. • Infant, 0-1 • Toddler, 1-3 • Child, 4-10 • Tween, 11-13 • Teen, 14-17 • Adult, 18-64 • Senior, 65+",
+        "examples": "",
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "color": {
+        "type": "string",
+        "title": "Color",
+        "minLength": 1,
+        "maxLength": 600,
+        "description": "Alphanumeric, 600 characters - Color refers to the actual color defined by the manufacturer. For Example, an item may be gray and black (which are used in the Color Category attribute) but the manufacturer calls the color Space Gray. Example: Jet Black;Black;Blue;Aqua;Lime Green;Silver;Black/Red",
+        "examples": [
+          "Jet Black",
+          "Black",
+          "Blue",
+          "Aqua",
+          "Lime Green",
+          "Silver",
+          "Black/Red"
+        ],
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "colorCategory": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Color Category",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Blue",
+            "Brown",
+            "Gold",
+            "Gray",
+            "Purple",
+            "Clear",
+            "Yellow",
+            "Off-White",
+            "Multicolor",
+            "Black",
+            "Beige",
+            "Pink",
+            "Orange",
+            "Green",
+            "White",
+            "Red",
+            "Silver",
+            "Bronze"
+          ]
+        },
+        "minItems": 1,
+        "description": "Closed List - Select the color from a short list that best describes the general color(s) of the item. This improves searchability as it allows customers to view items by color from the left navigation when they perform a search.\n\nPlease list all colors for the item. If the item has more than one color, please select Multi-color in addition to primary colors. Don’t list more than the three main colors.",
+        "examples": "",
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "condition": {
+        "type": "string",
+        "title": "Condition",
+        "enum": [
+          "New"
+        ],
+        "description": "Closed List - This refers to the state of an item, indicating its level of wear, prior use (if any), appearance, and overall quality. Availability of condition types may vary by product/category as well as by Seller eligibility per program. For more details, review this Help article: https://sellerhelp.walmart.com/seller/s/guide?language=en_US&article=000011205.",
+        "examples": "",
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "backFinding": {
+        "type": "string",
+        "title": "Earring Back",
+        "enum": [
+          "Stick-On",
+          "Ball Back",
+          "Clip-On",
+          "La Pousette",
+          "Lever-Back",
+          "Magnetic",
+          "Friction",
+          "Hinge",
+          "Omega-Back",
+          "Kidney Wire",
+          "Screw-Back",
+          "La-Pousette-Posts-And-Clutches",
+          "Safety",
+          "Latch",
+          "Ear-Wire",
+          "Endless"
+        ],
+        "description": "Closed List - Kind of hardware used in the \"back\" of the jewelry, as in the earring back that helps to fasten the earring to the ear. This may be, for example, the earring finding or jewelry backing style.",
+        "examples": "",
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "earringStyle": {
+        "type": "string",
+        "title": "Earring Style",
+        "enum": [
+          "Teardrop",
+          "Tassel",
+          "Drop",
+          "C-Hoop",
+          "Hoop",
+          "Dangle",
+          "Mismatch",
+          "Bajoran",
+          "Jacket",
+          "Chandelier",
+          "Cuff",
+          "Stick-On",
+          "Stud",
+          "Huggie",
+          "Climber",
+          "Threader"
+        ],
+        "description": "Closed List - Style of earring, as represented by fashion or form. ",
+        "examples": "",
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "jewelryStyle": {
+        "type": "string",
+        "title": "Fine or Fashion",
+        "enum": [
+          "Fashion",
+          "Fine"
+        ],
+        "description": "Closed List - Fine jewelry indicates a high-quality of material, workmanship, and durability. Fashion (sometimes called \"costume\" or \"cosmetic\") jewelry is made from inexpensive materials, is usually mass-produced, and has a generally lower level of quality.",
+        "examples": "",
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "gemstone": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Gemstone Type",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Moissanite",
+            "Other Stone",
+            "Ruby",
+            "Malachite",
+            "Sodalite",
+            "Beryl",
+            "Amethyst",
+            "Citrine",
+            "Aquamarine",
+            "Alexandrite",
+            "Kunzite",
+            "Peridot",
+            "Turquoise",
+            "Diamond",
+            "White Topaz",
+            "Tanzanite",
+            "Onyx",
+            "Cultured Diamond",
+            "Carnelian",
+            "Ametrine",
+            "Emerald",
+            "Tiger's Eye",
+            "Chalcedony",
+            "Opal",
+            "Iolite",
+            "Topaz",
+            "Sunstone",
+            "Coral",
+            "Spinel",
+            "Zircon",
+            "Crystal",
+            "Moonstone",
+            "Sapphire",
+            "Mother-of-Pearl",
+            "Amber",
+            "Rose Quartz",
+            "Morganite",
+            "Garnet",
+            "Jade",
+            "Pearl",
+            "Rhodonite",
+            "No Stone",
+            "Cubic Zirconia",
+            "Cat's Eye",
+            "Lapis Lazuli",
+            "Rhodolite",
+            "White Sapphire",
+            "Tourmaline",
+            "Quartz",
+            "Tsavorite",
+            "Chrome Diopside"
+          ]
+        },
+        "minItems": 1,
+        "description": "Closed List - The stone trade name (i.e., amethyst, not purple quartz). Note that this includes pearls as well, even though not technically a \"stone.\" For accent stones, use \"Accent Stone Type.\" If the stone is not in the list, use \"Other.\" ",
+        "examples": "",
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "gender": {
+        "type": "string",
+        "title": "Gender",
+        "enum": [
+          "Unisex",
+          "Male",
+          "Female"
+        ],
+        "description": "Closed List - Indicates whether this item is meant for a particular gender or meant to be gender-agnostic (unisex).",
+        "examples": "",
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "has_written_warranty": {
+        "type": "string",
+        "title": "Has Written Warranty",
+        "enum": [
+          "Yes - Warranty Text",
+          "Yes - Warranty URL",
+          "No"
+        ],
+        "description": "Closed List - Indicates an item has written warranty documentation included on the product label, inside the product packaging, or a website URL or PDF available for customer review.",
+        "examples": "",
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "material": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Material",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        },
+        "minItems": 1,
+        "description": "Alphanumeric, 1000 characters - The main material(s) in the product. Example: Faux Leather;Leather;Metal;Plastic;Wood",
+        "examples": [
+          "Faux Leather",
+          "Leather",
+          "Metal",
+          "Plastic",
+          "Wood"
+        ],
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "metal": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Metal Type",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Platinum",
+            "Goldtone",
+            "Chrome",
+            "Tin",
+            "Two-Tone Gold",
+            "Black Gold",
+            "Rose Gold",
+            "Rhodium",
+            "Gold-Plated",
+            "Tri-Tone Gold",
+            "Nickel",
+            "Stainless Steel",
+            "Tungsten",
+            "Brass",
+            "Palladium",
+            "Silver",
+            "Bronze",
+            "Steel",
+            "Gunmetal",
+            "Silvertone",
+            "Aluminum",
+            "Yellow Gold-Plated",
+            "White Gold-Plated",
+            "Pewter",
+            "Sterling Silver",
+            "White Gold",
+            "Copper",
+            "Black Gold-Plated",
+            "Gold",
+            "Yellow Gold",
+            "Silver-Plated",
+            "Titanium",
+            "No Metal",
+            "Rose Gold-Plated",
+            "Platinaire"
+          ]
+        },
+        "minItems": 1,
+        "description": "Closed List - For items made primarily of metal, or where the metal component plays an important part in the makeup of the item and purchasing decision.",
+        "examples": "",
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "netContent": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "productNetContentMeasure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 10000000000000000,
+            "multipleOf": 0.001,
+            "description": "Decimal, 16 characters - The numeric net content portion that appears on an item. \n\nPlease Note: If your item includes multiple items with the same UOM, add them together to get the total measurement. If the item is a set with multiple items that do not share the same UOM, list as 1 Each. Example: 1;12;32",
+            "examples": [
+              "1",
+              "12",
+              "32"
+            ],
+            "comments": ""
+          },
+          "productNetContentUnit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "Count",
+              "Sheet",
+              "Inch",
+              "Pint",
+              "Liter",
+              "Pallet/Unit Load",
+              "Quart",
+              "Centiliter",
+              "Foot",
+              "Quart Dry",
+              "Case",
+              "Yard",
+              "Fluid Ounces",
+              "Kilogram",
+              "Square Foot",
+              "Ounce",
+              "Gram",
+              "Each",
+              "Pound",
+              "Centimeter",
+              "Milliliter",
+              "Meter",
+              "Gallon",
+              "Cubic Foot"
+            ],
+            "description": "Closed List - The unit of measure as defined on the product labeling. For example, a gallon of milk has 128 Fluid Ounces: Measure = 128 and Units = Fluid Ounces.\n\nPlease Note: If your item includes multiple items with the same UOM, add them together to get the total measurement. If the item is a set with multiple items that do not share the same UOM, list as 1 Each.",
+            "examples": "",
+            "comments": ""
+          }
+        },
+        "required": [
+          "productNetContentMeasure",
+          "productNetContentUnit"
+        ],
+        "additionalProperties": false,
+        "title": "Net Content",
+        "description": "The quantity (or quantities) of the product contained in the package along with its unit of measure typically printed on the label for the country or market where the product is sold.  For example, a gallon of milk has 128 Fluid Ounces: Measure = 128 and Units = Fluid Ounces. \n\nPlease Note: If your item includes multiple items with the same UOM, add them together to get the total measurement. If the item is a set with multiple items that do not share the same UOM, list as 1 Each.",
+        "examples": "",
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "smallPartsWarnings": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Small Parts Warning Code",
+        "items": {
+          "type": "string",
+          "enum": [
+            "0 - No warning applicable",
+            "5 - Choking hazard is a marble",
+            "4 - Choking hazard balloon",
+            "6 - Choking hazard contains a marble",
+            "2 - Choking hazard contains small ball",
+            "3 - Choking hazard contains small parts",
+            "1 - Choking hazard is a small ball"
+          ]
+        },
+        "minItems": 1,
+        "description": "Closed List - To determine if any choking warnings are applicable, check current product packaging for choking warning message(s). Please indicate the warning number (0-6). 0- No warning applicable; 1- Choking hazard is a small ball; 2- Choking hazard contains small ball; 3- Choking hazard contains small parts; 4- Choking hazard balloon; 5- Choking hazard is a marble; 6- Choking hazard contains a marble.",
+        "examples": "",
+        "comments": "@group=Required for the item to be visible on Walmart website"
+      },
+      "productSecondaryImageURL": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Additional Image URL",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2500,
+          "format": "uri"
+        },
+        "minItems": 1,
+        "description": "URL, 2500 characters - Secondary images of the item. File Format: JPEG (.jpg). Recommended Pixel Dimensions: 2200px x 2200px. Minimum Pixel Dimensions for Zoom 1500px x 1500px. Resolution: 300 ppi. Maximum file size: 5MB. Aspect Ratio: 1:1 (Square). Recommended File Naming: GTIN-14 digit\nImage URLs should end in an image file type (.jpg) to follow best practices. They must link to a public image file that loads as an image",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "assembledProductLength": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 10000000000000000,
+            "multipleOf": 0.01,
+            "description": "Decimal, 16 characters - The depth of the fully assembled product. NOTE: This information is shown on the item page as length of the product. Example: 5;10;16;22",
+            "examples": [
+              "5",
+              "10",
+              "16",
+              "22"
+            ],
+            "comments": ""
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "mm",
+              "in"
+            ],
+            "description": "Closed List - The depth of the fully assembled product. NOTE: This information is shown on the item page as length of the product.",
+            "examples": [
+              "5",
+              "10",
+              "16",
+              "22"
+            ],
+            "comments": ""
+          }
+        },
+        "required": [
+          "unit",
+          "measure"
+        ],
+        "additionalProperties": false,
+        "title": "Assembled Product Depth",
+        "description": "Decimal, 16 characters - The depth of the fully assembled product. NOTE: This information is shown on the item page as length of the product. Example: 5;10;16;22",
+        "examples": [
+          "5",
+          "10",
+          "16",
+          "22"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "assembledProductHeight": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 10000000000000000,
+            "multipleOf": 0.01,
+            "description": "Decimal, 16 characters - The height of the fully assembled product.  Example: 5;10;16;22",
+            "examples": [
+              "5",
+              "10",
+              "16",
+              "22"
+            ],
+            "comments": ""
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "mm",
+              "in"
+            ],
+            "description": "Closed List - The height of the fully assembled product. ",
+            "examples": [
+              "5",
+              "10",
+              "16",
+              "22"
+            ],
+            "comments": ""
+          }
+        },
+        "required": [
+          "unit",
+          "measure"
+        ],
+        "additionalProperties": false,
+        "title": "Assembled Product Height",
+        "description": "Decimal, 16 characters - The height of the fully assembled product.  Example: 5;10;16;22",
+        "examples": [
+          "5",
+          "10",
+          "16",
+          "22"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "assembledProductWeight": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 10000000000000000,
+            "multipleOf": 0.01,
+            "description": "Decimal, 16 characters - The weight of the fully assembled product.  Example: 1.75;5;12;32",
+            "examples": [
+              "1.75",
+              "5",
+              "12",
+              "32"
+            ],
+            "comments": ""
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "lb",
+              "oz",
+              "g"
+            ],
+            "description": "Closed List - The weight of the fully assembled product. ",
+            "examples": [
+              "1.75",
+              "5",
+              "12",
+              "32"
+            ],
+            "comments": ""
+          }
+        },
+        "required": [
+          "unit",
+          "measure"
+        ],
+        "additionalProperties": false,
+        "title": "Assembled Product Weight",
+        "description": "Decimal, 16 characters - The weight of the fully assembled product.  Example: 1.75;5;12;32",
+        "examples": [
+          "1.75",
+          "5",
+          "12",
+          "32"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "assembledProductWidth": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 10000000000000000,
+            "multipleOf": 0.01,
+            "description": "Decimal, 16 characters - The width of the fully assembled product.  Example: 5;10;16;22",
+            "examples": [
+              "5",
+              "10",
+              "16",
+              "22"
+            ],
+            "comments": ""
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "mm",
+              "in"
+            ],
+            "description": "Closed List - The width of the fully assembled product. ",
+            "examples": [
+              "5",
+              "10",
+              "16",
+              "22"
+            ],
+            "comments": ""
+          }
+        },
+        "required": [
+          "unit",
+          "measure"
+        ],
+        "additionalProperties": false,
+        "title": "Assembled Product Width",
+        "description": "Decimal, 16 characters - The width of the fully assembled product.  Example: 5;10;16;22",
+        "examples": [
+          "5",
+          "10",
+          "16",
+          "22"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "birthstone": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Birthstone Month",
+        "items": {
+          "type": "string",
+          "enum": [
+            "December - Tanzanite, Zircon, Turquoise",
+            "September - Sapphire",
+            "June - Pearl, Alexandrite",
+            "November - Topaz, Citrine",
+            "July - Ruby",
+            "January - Garnet",
+            "October - Tourmaline, Opal",
+            "February - Amethyst",
+            "April - Diamond",
+            "May - Emerald",
+            "August - Peridot",
+            "March - Aquamarine"
+          ]
+        },
+        "minItems": 1,
+        "description": "Closed List - Name of month associated with this gemstone as a birthstone. ",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "globalBrandLicense": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Brand License",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        },
+        "minItems": 1,
+        "description": "Alphanumeric, 4000 characters - A brand name that is not owned by the product brand, but is licensed for the particular product. (Often character and media tie-ins and promotions.) It can also be another brand or a celebrity. Example: Michael Jordan;Harley Davidson;Life is Good;Signature;EV1;Disney",
+        "examples": [
+          "Michael Jordan",
+          "Harley Davidson",
+          "Life is Good",
+          "Signature",
+          "EV1",
+          "Disney"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "prop65WarningText": {
+        "type": "string",
+        "title": "California Prop 65 Warning Text",
+        "minLength": 1,
+        "maxLength": 5000,
+        "description": "Alphanumeric, 5000 characters - This is a particular statement legally required by the State of California for certain products to warn consumers about potential health dangers. See the portions of the California Health and Safety Code related to Proposition 65 to see what products require labels and to verify the text of your warning label. If no warning please enter the value,\"None\". Example: For Example: This product can expose you to chemicals including [name of one or more chemicals], which is [are] known to the State of California to cause [list associated harm(s) e.g. cancer, birth defects or other reproductive harm, etc].",
+        "examples": [
+          "For Example: This product can expose you to chemicals including [name of one or more chemicals], which is [are] known to the State of California to cause [list associated harm(s) e.g. cancer, birth defects or other reproductive harm, etc]."
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "certifyingAgent": {
+        "type": "string",
+        "title": "Certifying Agent",
+        "minLength": 1,
+        "maxLength": 4000,
+        "description": "Alphanumeric, 4000 characters - Certifying agency for certification. Example: Oregon Tilth; GOTS",
+        "examples": [
+          "Oregon Tilth",
+          "GOTS"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "character": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Character",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 50
+        },
+        "minItems": 1,
+        "description": "Alphanumeric, 50 characters - A person or entity portrayed in print or visual media. A character might be a fictional personality or an actual living person. Example: Wonder Woman;Power Rangers;Minnie Mouse;Jojo Siwa;Hello Kitty;Dora the Explorer;Batman",
+        "examples": [
+          "Wonder Woman",
+          "Power Rangers",
+          "Minnie Mouse",
+          "Jojo Siwa",
+          "Hello Kitty",
+          "Dora the Explorer",
+          "Batman"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "character_group": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Character Group",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 50
+        },
+        "minItems": 1,
+        "description": "Alphanumeric, 50 characters - Character group name or fictional team name as they appear in a media product. Example: X-Men;Transformers;The Lion King;My Little Pony;Disney Inside Out;Avengers",
+        "examples": [
+          "X-Men",
+          "Transformers",
+          "The Lion King",
+          "My Little Pony",
+          "Disney Inside Out",
+          "Avengers"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "collection": {
+        "type": "string",
+        "title": "Collection",
+        "minLength": 1,
+        "maxLength": 100,
+        "description": "Alphanumeric, 100 characters - A collection is a particular group of items that have the same visual style, made by the same brand. In the fashion industry a collection is defined by the items that a designer puts together for each season Example: Bela Collection;Bold Collection;Heritage Collection;Luno Collection;Sapphire Collection;Series 800 Collection;Ultra Slim Collection",
+        "examples": [
+          "Bela Collection",
+          "Bold Collection",
+          "Heritage Collection",
+          "Luno Collection",
+          "Sapphire Collection",
+          "Series 800 Collection",
+          "Ultra Slim Collection"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "designer": {
+        "type": "string",
+        "title": "Designer",
+        "minLength": 1,
+        "maxLength": 400,
+        "description": "Alphanumeric, 400 characters - Name of the person who planned the form, look, or workings of the product to be made or built. Example: Christian Louboutin;Jimmy Choo;Kenneth Cole;Salvatore Ferragamo;Steve Madden",
+        "examples": [
+          "Christian Louboutin",
+          "Jimmy Choo",
+          "Kenneth Cole",
+          "Salvatore Ferragamo",
+          "Steve Madden"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "diamondClarity": {
+        "type": "string",
+        "title": "Diamond Clarity",
+        "enum": [
+          "SI2",
+          "SI1",
+          "VS1",
+          "I1",
+          "I3",
+          "I2",
+          "VS2",
+          "VVS1",
+          "VVS2",
+          "FL",
+          "IF"
+        ],
+        "description": "Closed List - Diamond clarity is a quality of diamonds relating to the existence and visual appearance of internal characteristics of a diamond called inclusions, and surface defects called blemishes.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "diamondColor": {
+        "type": "string",
+        "title": "Diamond Color",
+        "enum": [
+          "K-L",
+          "Other",
+          "N-R",
+          "E-F",
+          "D-E",
+          "D-F",
+          "E",
+          "D",
+          "G",
+          "F",
+          "I",
+          "H",
+          "K",
+          "J",
+          "M",
+          "L",
+          "J-K",
+          "L-M",
+          "G-H",
+          "S-Z",
+          "I-J",
+          "F-G",
+          "H-I"
+        ],
+        "description": "Closed List - Diamond color refers to the GIA grades and descriptions for a diamond's lack of color, grading the whiteness of a diamond.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "diamondCut": {
+        "type": "string",
+        "title": "Diamond Cut",
+        "enum": [
+          "Pear Cut",
+          "Oval Cut",
+          "Trillion Cut",
+          "Round Brilliant Cut",
+          "Cushion Cut",
+          "Marquise Cut",
+          "Baguette Cut",
+          "Princess Cut",
+          "Brilliant Cut",
+          "Rose Cut",
+          "Radiant Cut",
+          "Emerald Cut",
+          "Asscher Cut",
+          "Heart Cut"
+        ],
+        "description": "Closed List - The style or design followed when cutting a diamond. This does not refer to the shape of the diamond, but the pattern of the cut itself.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "diamond_cut_grade": {
+        "type": "string",
+        "title": "Diamond Cut Grade",
+        "enum": [
+          "Poor",
+          "Very Good",
+          "Good",
+          "Fair",
+          "Excellent"
+        ],
+        "description": "Closed List - GIA evaluation of how successfully a diamond interacts with light to create desirable visual effects such as: brightness, fire, and scintillation.  GIA's diamond cut grade also includes a diamond's weight relative to its diameter, its girdle thickness, the symmetry of its facet arrangement, and the quality of polish on those facets.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "earringFeature": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Earring Feature",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Self-Piercing",
+            "Sleeper",
+            "Sensitive Ear",
+            "Hollow"
+          ]
+        },
+        "minItems": 1,
+        "description": "Closed List - Features distinct to earring jewelry.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "frameColorConfiguration": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Frame Color Configuration",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "minItems": 1,
+        "description": "Alphanumeric, 40 characters - Describes the frame color configurations available through the third party partner. This is not a Walmart variant.  Example: Black; Brown; Silver",
+        "examples": [
+          "Black",
+          "Brown",
+          "Silver"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "frontEndPhotoPartner": {
+        "type": "string",
+        "title": "Front End Photo Partner",
+        "enum": [
+          "MobileApp Print to Retail",
+          "MobileWeb Print to Retail",
+          "Livelink"
+        ],
+        "description": "Closed List - Name of the partner that hosts the website or application where customers will find the Photo item",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "gemstoneClarity": {
+        "type": "string",
+        "title": "Gemstone Clarity",
+        "enum": [
+          "SI2",
+          "Dcl",
+          "I1",
+          "I3",
+          "I2",
+          "VVS",
+          "SI1",
+          "VS"
+        ],
+        "description": "Closed List - Note that while the clarity rating scale (VVS, VS, etc.) is the same for colored gems as it is for diamonds, the meaning is different: Rating definitions vary based on the type of colored gem. Please refer to the specific ratings definitions for Type 1, Type 2, or Type 3 gems.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "gemstoneColor": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Gemstone Color",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "minItems": 1,
+        "description": "Alphanumeric, 100 characters - The color of the gemstone including factors of hue, tone and saturation. Expressed as a color grade, or descriptors (light rose).  Example: Black;Blue;Blue-green;Blue-violet;Brown;Color-changing;Colorless;Faint-color;Fancy-color;Green;Green-blue;Green-yellow;Multiple-colors;Near-colorless;Orange;Orange-red;Orange-yellow;Pink;Red;Red-orange;Red-violet;Violet;Violet-blue;Violet-red;White;Yellow;Yellow-green;Yellow-orange\"Black;Blue;Blue-green;Blue-violet;Brown;Color-changing;Colorless;Faint-color;Fancy-color;Green;Green-blue;Green-yellow;Multiple-colors;Near-colorless;Orange;Orange-red;Orange-yellow;Pink;Red;Red-orange;Red-violet;Violet;Violet-blue;Violet-red;White;Yellow;Yellow-green;Yellow-orange",
+        "examples": [
+          "Black",
+          "Blue",
+          "Blue-green",
+          "Blue-violet",
+          "Brown",
+          "Color-changing",
+          "Colorless",
+          "Faint-color",
+          "Fancy-color",
+          "Green",
+          "Green-blue",
+          "Green-yellow",
+          "Multiple-colors",
+          "Near-colorless",
+          "Orange",
+          "Orange-red",
+          "Orange-yellow",
+          "Pink",
+          "Red",
+          "Red-orange",
+          "Red-violet",
+          "Violet",
+          "Violet-blue",
+          "Violet-red",
+          "White",
+          "Yellow",
+          "Yellow-green",
+          "Yellow-orange\"Black",
+          "Blue",
+          "Blue-green",
+          "Blue-violet",
+          "Brown",
+          "Color-changing",
+          "Colorless",
+          "Faint-color",
+          "Fancy-color",
+          "Green",
+          "Green-blue",
+          "Green-yellow",
+          "Multiple-colors",
+          "Near-colorless",
+          "Orange",
+          "Orange-red",
+          "Orange-yellow",
+          "Pink",
+          "Red",
+          "Red-orange",
+          "Red-violet",
+          "Violet",
+          "Violet-blue",
+          "Violet-red",
+          "White",
+          "Yellow",
+          "Yellow-green",
+          "Yellow-orange"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "gemstoneCut": {
+        "type": "string",
+        "title": "Gemstone Cut",
+        "enum": [
+          "Pear Cut",
+          "Oval Cut",
+          "Trillion Cut",
+          "Round Brilliant Cut",
+          "Cushion Cut",
+          "Marquise Cut",
+          "Baguette Cut",
+          "Princess Cut",
+          "Brilliant Cut",
+          "Rose Cut",
+          "Radiant Cut",
+          "Emerald Cut",
+          "Asscher Cut",
+          "Heart Cut"
+        ],
+        "description": "Closed List - Type of gemstone cut, as distinct from shape",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "inscription": {
+        "type": "string",
+        "title": "Inscription",
+        "minLength": 1,
+        "maxLength": 1000,
+        "description": "Alphanumeric, 1000 characters - If the item is engraved with an inscription, put the inscription text here. Example: Mom; World's Best Grandma; Best Friends Forever; I Love You",
+        "examples": [
+          "Mom",
+          "World's Best Grandma",
+          "Best Friends Forever",
+          "I Love You"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "items_included": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Items Included",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "minItems": 1,
+        "description": "Alphanumeric, 200 characters - Notes what items are sold with an item and part of a set. Example: Ring;Necklace;Bracelet",
+        "examples": [
+          "Ring",
+          "Necklace",
+          "Bracelet"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "jewelry_occasion": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Jewelry Occasion",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Mother's Day",
+            "Valentine's Day",
+            "Quinceanera",
+            "Father's Day",
+            "Engagement",
+            "Halloween",
+            "Anniversary",
+            "Graduation",
+            "Baby Birth",
+            "Cocktail Party",
+            "Prom",
+            "Birthday",
+            "Hannukah",
+            "Wedding",
+            "Bridal",
+            "Everyday",
+            "Easter",
+            "Christmas"
+          ]
+        },
+        "minItems": 1,
+        "description": "Closed List - An specific occasion which the jewelry piece may be represented for. The occasion typically represents as a token for a specific milestone or celebration.  ",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "jewelrySetting": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Jewelry Setting",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Semi-Mount",
+            "Side Stone",
+            "Illusion",
+            "Channel",
+            "Pavé",
+            "Half Bezel",
+            "V-Prong",
+            "Waterfall",
+            "Invisible",
+            "Prongs",
+            "Halo",
+            "Hand-Wired",
+            "Tension Mount",
+            "Solitaire",
+            "Trellis",
+            "Shared Prong",
+            "Twist",
+            "Strung",
+            "Flush",
+            "Wrap",
+            "Cathedral",
+            "Bead-Set",
+            "Bezel"
+          ]
+        },
+        "minItems": 1,
+        "description": "Closed List - Method or style in which stones are attached to a piece of jewelry. Can apply to all types of jewelry including pins, earrings, and rings. Important factor to jewelry selection, especially rings. Selection involves trade offs between appearance/exposure of the gem, and security",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "metalPurity": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 100000000000000000,
+            "multipleOf": 0.001,
+            "description": "Decimal, 17 characters - Measure of the purity or fineness of metal, expressed in Karats (parts per 24)  Example: 10; 14; 18; 22; 24",
+            "examples": [
+              "10",
+              "14",
+              "18",
+              "22",
+              "24"
+            ],
+            "comments": ""
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "kt"
+            ],
+            "description": "Closed List - Measure of the purity or fineness of metal, expressed in Karats (parts per 24) ",
+            "examples": [
+              "10",
+              "14",
+              "18",
+              "22",
+              "24"
+            ],
+            "comments": ""
+          }
+        },
+        "required": [
+          "unit",
+          "measure"
+        ],
+        "additionalProperties": false,
+        "title": "Karats",
+        "description": "Decimal, 17 characters - Measure of the purity or fineness of metal, expressed in Karats (parts per 24)  Example: 10; 14; 18; 22; 24",
+        "examples": [
+          "10",
+          "14",
+          "18",
+          "22",
+          "24"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "manufacturer": {
+        "type": "string",
+        "title": "Manufacturer Name",
+        "minLength": 1,
+        "maxLength": 60,
+        "description": "Alphanumeric, 60 characters - The name of the manufacturer.\n\n Example: Procter & Gamble; Apple; Sony; General Motors; Yamaha",
+        "examples": [
+          "Procter & Gamble",
+          "Apple",
+          "Sony",
+          "General Motors",
+          "Yamaha"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "manufacturerPartNumber": {
+        "type": "string",
+        "title": "Manufacturer Part Number",
+        "minLength": 1,
+        "maxLength": 60,
+        "description": "Alphanumeric, 60 characters - MPN uniquely identifies the product to its manufacturer. For many products this will be identical to the model number. Some manufacturers distinguish part number from model number. Having this information allows customers to search for items on the site and informs product matching. Example: 5061025; TSR-1002; 4-40-3/4-pan-phil",
+        "examples": [
+          "5061025",
+          "TSR-1002",
+          "4-40-3/4-pan-phil"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "maximumOrderQuantity": {
+        "type": "integer",
+        "title": "Maximum Order Quantity",
+        "minimum": 0,
+        "maximum": 100000000000000000,
+        "description": "Number, 17 characters - The maximum number of items a customer can order.  This maximum limit defines the quantity tiers for Walmart Photo products. Example: 20;100;1000",
+        "examples": [
+          "20",
+          "100",
+          "1000"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "metalStamp": {
+        "type": "string",
+        "title": "Metal Stamp",
+        "enum": [
+          "925 Sterling and 24k",
+          "10k",
+          "22k",
+          "925 Sterling and 22k",
+          "900 Platinum",
+          "18k",
+          "999 Silver",
+          "24k",
+          "950 Palladium",
+          "950 Platinum",
+          "20k",
+          "925 Sterling and 14k",
+          "No Stamp",
+          "14k",
+          "925 Sterling",
+          "925 Sterling and 18k"
+        ],
+        "description": "Closed List - Most jewelry items made of precious metal are stamped with information about the purity level of the metal content. Generally the stamp is placed in an inconspicuous place on the item so it does not detract from the design. Stamps will usually be located on the inside of the band on a ring, on the post or basket setting on a pair of earrings, on the bail (the part that the chain slides through) on a pendant, and on the connecting ring or the clasp on a necklace or bracelet. All jewelry stamps adhere to strict guidelines set by the Federal Trade Commission.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "minimumOrderQuantity": {
+        "type": "integer",
+        "title": "Minimum Order Quantity",
+        "minimum": 0,
+        "maximum": 100000000000000000,
+        "description": "Number, 17 characters - The minimum number of items a customer can order.  This minimum limit defines the quantity tiers for Walmart Photo products. Example: 1;5;20",
+        "examples": [
+          "1",
+          "5",
+          "20"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "modelNumber": {
+        "type": "string",
+        "title": "Model Number",
+        "minLength": 1,
+        "maxLength": 60,
+        "description": "Alphanumeric, 60 characters - Model numbers allow manufacturers to keep track of each hardware device and identify or replace the proper part when needed. Model numbers are often found on the bottom, back, or side of a product. Having this information allows customers to search for items on the site and informs product matching. Example: G62-465DX; MFP00112BBQN",
+        "examples": [
+          "G62-465DX",
+          "MFP00112BBQN"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "netContentStatement": {
+        "type": "string",
+        "title": "Net Content Statement",
+        "minLength": 1,
+        "maxLength": 500,
+        "description": "Alphanumeric, 500 characters - Complete product net content statement, as it appears on product packaging. Example: 6 - 5.3 OZ (150g) CUPS;1.98 Lb (900g)",
+        "examples": [
+          "6 - 5.3 OZ (150g) CUPS",
+          "1.98 Lb (900g)"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "number_of_diamonds": {
+        "type": "integer",
+        "title": "Number of Diamonds",
+        "minimum": 0,
+        "maximum": 100000,
+        "description": "Number, 5 characters - The total number of Diamonds on the item. Example: 1; 6",
+        "examples": [
+          "1",
+          "6"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "numberOfGemstones": {
+        "type": "integer",
+        "title": "Number of Gemstones",
+        "minimum": 0,
+        "maximum": 10000000000,
+        "description": "Number, 10 characters - Number of gemstones featured in a piece of jewelry. Example: 3; 1",
+        "examples": [
+          "3",
+          "1"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "numberOfPearls": {
+        "type": "integer",
+        "title": "Number of Pearls",
+        "minimum": 0,
+        "maximum": 10000000,
+        "description": "Number, 7 characters - A count of individual pearls on a single item.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "pieceCount": {
+        "type": "integer",
+        "title": "Number of Pieces",
+        "minimum": 0,
+        "maximum": 100000000000000000,
+        "description": "Number, 17 characters - The number of small pieces, slices, or different items within the product. Piece Count applies to things such as puzzles, building block sets, and products that contain multiple different items (such as tool sets, dinnerware sets, gift baskets, art sets, makeup kits, or shaving kits.) Examples: A gift basket of 5 different items has a “Piece Count” of 5.; A 105-Piece Socket Wrench set has a \"Piece Count\" of 105.; A 500-piece puzzle has a “Piece Count” of 500. Example: 5;105;500",
+        "examples": [
+          "5",
+          "105",
+          "500"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "number_of_prongs": {
+        "type": "integer",
+        "title": "Number of Prongs",
+        "minimum": 0,
+        "maximum": 100000000000000000,
+        "description": "Number, 17 characters - More accurately indicates the total number of prongs the jewelry items has. This is required if the jewelry setting is equal = to Prong; Shard Prongs.  Example: 1;2;3;4;5",
+        "examples": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "photoPaperFinishConfiguration": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Paper Finish Configuration",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Stationery",
+            "Matte",
+            "Glossy",
+            "Metallic"
+          ]
+        },
+        "minItems": 1,
+        "description": "Closed List - Names of paper configurations that are available for third party partners. These are not Walmart variants, this information is passed through to the third-party partner. ",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "pattern": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Pattern",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400
+        },
+        "minItems": 1,
+        "description": "Alphanumeric, 400 characters - Decorative design or visual ornamentation, often with a thematic, recurring motif. Example: Animal Print;Floral;Geometric;Plaid;Polka Dot;Rainbow;Striped",
+        "examples": [
+          "Animal Print",
+          "Floral",
+          "Geometric",
+          "Plaid",
+          "Polka Dot",
+          "Rainbow",
+          "Striped"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "pearlBodyColor": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Pearl Body Color",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        },
+        "minItems": 1,
+        "description": "Alphanumeric, 4000 characters - The color of the pearl's body, vs. the overtone. Example: Black;Cream;Dyed-Blue;Lavender",
+        "examples": [
+          "Black",
+          "Cream",
+          "Dyed-Blue",
+          "Lavender"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "pearlLustre": {
+        "type": "string",
+        "title": "Pearl Lustre",
+        "enum": [
+          "Low Luster",
+          "High Luster",
+          "Medium Luster"
+        ],
+        "description": "Closed List - Measure of the quality and quantity of light that reflects off a pearl.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "pearlNacreThickness": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 10000000000000000,
+            "multipleOf": 0.001,
+            "description": "Decimal, 16 characters - Thickness of the nacre, or iridescent layers which are produced by the mollusk to coat the nucleus of the pearl. Example: .25;.5",
+            "examples": [
+              ".25",
+              ".5"
+            ],
+            "comments": ""
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "mm"
+            ],
+            "description": "Closed List - Thickness of the nacre, or iridescent layers which are produced by the mollusk to coat the nucleus of the pearl.",
+            "examples": [
+              ".25",
+              ".5"
+            ],
+            "comments": ""
+          }
+        },
+        "required": [
+          "unit",
+          "measure"
+        ],
+        "additionalProperties": false,
+        "title": "Pearl Nacre Thickness",
+        "description": "Decimal, 16 characters - Thickness of the nacre, or iridescent layers which are produced by the mollusk to coat the nucleus of the pearl. Example: .25;.5",
+        "examples": [
+          ".25",
+          ".5"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "pearlShape": {
+        "type": "string",
+        "title": "Pearl Shape",
+        "enum": [
+          "Button",
+          "Drop",
+          "Semi-Baroque",
+          "Teardrop",
+          "Oval",
+          "Baroque",
+          "Near-Round",
+          "Round"
+        ],
+        "description": "Closed List - The shape of the pearl, defined in part by how regular and smooth the surface of the pearl is.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "pearlStringingMethod": {
+        "type": "string",
+        "title": "Pearl Stringing Method",
+        "enum": [
+          "Knotted On Silk"
+        ],
+        "description": "Closed List - Describes the knotting method and material used in constructing the string of pearls.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "pearlSurfaceBlemishes": {
+        "type": "string",
+        "title": "Pearl Surface Blemishes",
+        "enum": [
+          "Lightly-Blemished",
+          "Moderately-Blemished",
+          "Heavily-Blemished",
+          "Clean",
+          "Poor"
+        ],
+        "description": "Closed List - Evaluation of pearls based on the blemishes or irregularities in the pearl’s surface, based on size, number, nature, location, visibility and type of surface characteristics. Values range from Clean to Heavily Spotted.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "pearlType": {
+        "type": "string",
+        "title": "Pearl Type",
+        "enum": [
+          "Natural",
+          "Cultured",
+          "Simulated"
+        ],
+        "description": "Closed List - Describes the method for growing pearls and information about the origin of the pearl.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "pearlUniformity": {
+        "type": "string",
+        "title": "Pearl Uniformity",
+        "enum": [
+          "Poor",
+          "Very Good",
+          "Good",
+          "Fair",
+          "Excellent"
+        ],
+        "description": "Closed List - Describes how well the individual pearls have been matched within a piece of pearl jewelry. Selection factor for quality and appearance, typically applied to pearl-strand necklaces. Values range from Excellent to Poor, depending on the degree of noticeable variations.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "personalRelationship": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Personal Relationship",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Wedding Guest",
+            "Stepbrother",
+            "Pet",
+            "Baby Girl",
+            "Father",
+            "Baby Boy",
+            "Graduate",
+            "Grandmother",
+            "Little Brother",
+            "Parents",
+            "Niece",
+            "Best Man",
+            "Son",
+            "Friend",
+            "Son-in-law",
+            "Daughter-in-law",
+            "Godfather",
+            "Grandparents",
+            "Couple",
+            "Granddaughter",
+            "Co-worker",
+            "Twin",
+            "Stepmother",
+            "Ring Bearer",
+            "Uncle",
+            "Husband",
+            "Teacher",
+            "Brother-in-law",
+            "Cousin",
+            "Spouse",
+            "Godchild",
+            "Great-Grandfather",
+            "Boyfriend",
+            "Boy",
+            "Sister",
+            "Mother-of-the-Bride",
+            "Daughter",
+            "Maid of Honor",
+            "Grandson",
+            "Wife",
+            "Best Friend",
+            "Groom",
+            "Brother",
+            "Mother-in-law",
+            "Grandfather",
+            "Godson",
+            "Bride",
+            "Mother-to-Be",
+            "Aunt",
+            "Mother",
+            "Great-Grandson",
+            "Stepfather",
+            "Groomsman",
+            "Mother-Daughter",
+            "Sister-in-law",
+            "Flower Girl",
+            "Big Sister",
+            "Goddaughter",
+            "Family",
+            "Stepson",
+            "Stepsister",
+            "Godmother",
+            "His and Hers",
+            "Little Sister",
+            "Bridesmaid",
+            "Great-Grandmother",
+            "Father-in-law",
+            "Bride and Groom",
+            "Girlfriend",
+            "Nephew",
+            "Girl",
+            "Bridal Party",
+            "Great-Granddaughter",
+            "Stepdaughter",
+            "Big Brother"
+          ]
+        },
+        "minItems": 1,
+        "description": "Closed List - Descriptive terms for the roles people have in each other's lives, commonly centered on family or romance.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "photoAccessoryItemSku": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Photo Accessory Item SKU",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 50
+        },
+        "minItems": 1,
+        "description": "Alphanumeric, 50 characters - This is the identifier (SKU) that is collected from the Vendor to handle the accessory items (e.g. extra book pages, card envelopes). Example: WJ_CW4152615213-9",
+        "examples": [
+          "WJ_CW4152615213-9"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "photoConfigurationAttributeNames": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Photo Configuration Attribute Names",
+        "items": {
+          "type": "string",
+          "enum": [
+            "frameColorConfiguration",
+            "photoPaperFinishConfiguration",
+            "coverColor"
+          ]
+        },
+        "minItems": 1,
+        "description": "Closed List - Designate all attributes for which the item has configurations.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "photoItemStoreUpc": {
+        "type": "string",
+        "title": "Photo Item Store WUPC",
+        "minLength": 1,
+        "maxLength": 15,
+        "description": "Alphanumeric, 15 characters - The Walmart UPC for a Walmart Store item that is equivalent to the Walmart.com photo item Example: 648127739405",
+        "examples": [
+          "648127739405"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "photoOrderQuantityTier": {
+        "type": "integer",
+        "title": "Photo Order Quantity Tier",
+        "minimum": 0,
+        "maximum": 100000000000000000,
+        "description": "Number, 17 characters - Merchant-defined quantity tiers related to delivery method and most commonly used for photo prints. Example: 1; 2",
+        "examples": [
+          "1",
+          "2"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "carats": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 10000000000000000,
+            "multipleOf": 0.01,
+            "description": "Decimal, 16 characters - Measure of the weight (mass) of gemstones and pearls. One carat (ct) is equal to 200 mg. Example: 3.5 ct",
+            "examples": [
+              "3.5 ct"
+            ],
+            "comments": ""
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "ct"
+            ],
+            "description": "Closed List - Measure of the weight (mass) of gemstones and pearls. One carat (ct) is equal to 200 mg.",
+            "examples": [
+              "3.5 ct"
+            ],
+            "comments": ""
+          }
+        },
+        "required": [
+          "unit",
+          "measure"
+        ],
+        "additionalProperties": false,
+        "title": "Primary Stone Weight - Carats",
+        "description": "Decimal, 16 characters - Measure of the weight (mass) of gemstones and pearls. One carat (ct) is equal to 200 mg. Example: 3.5 ct",
+        "examples": [
+          "3.5 ct"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "productLine": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Product Line",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400
+        },
+        "minItems": 1,
+        "description": "Alphanumeric, 400 characters - Product lines exist as a sub-structure of brands and, frequently, as a super-structure of models.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "recycledMaterialContent": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Recycled Material Content",
+        "items": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "percentageOfRecycledMaterial": {
+              "type": "number",
+              "title": "Percentage of Recycled Material",
+              "minimum": 0,
+              "maximum": 10000000000000000,
+              "multipleOf": 0.001,
+              "description": "Decimal, 16 characters - Corresponding percentage of the recycled material used to create the item. Used in conjunction with Recycled Material attribute. Example: 30;40",
+              "examples": [
+                "30",
+                "40"
+              ],
+              "comments": ""
+            },
+            "recycledMaterial": {
+              "type": "string",
+              "title": "Recycled Material",
+              "minLength": 1,
+              "maxLength": 4000,
+              "description": "Alphanumeric, 4000 characters - Type of recycled material used to create the item. Example: Bamboo; Cotton; Glass; Plastic",
+              "examples": [
+                "Bamboo",
+                "Cotton",
+                "Glass",
+                "Plastic"
+              ],
+              "comments": ""
+            }
+          },
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "description": "If item contains reused/recycled material, the percentage of all recycled material used to produce the item. This can also include specific material composition; cushions made from 30% recycled cotton fabric. Used to highlight sustainability to the customer. Example: 100% Cotton; 30% Bamboo",
+        "examples": [
+          "100% Cotton",
+          "30% Bamboo"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "shape": {
+        "type": "string",
+        "title": "Shape",
+        "minLength": 1,
+        "maxLength": 200,
+        "description": "Alphanumeric, 200 characters - The physical shape of the item.  Example: Angel;Angled;Asymmetrical;Bolster;Bone;Bowl;Box;Butterfly;Circle;Cone;Cross;Cube;Cup;Curved;D-Shape;Diamond;Elliptical;Elongated;Fish;Flat;Flower;Free Form;Geometric;Heart;Hexagon;Kidney;L-Shape;Leaf;Moon;Mummy;Musical Note;Octagon;Oval;Palm;Pear;Pendant;Pentagon;Pie Chart;Pumpkin;Rectangle;Ring;Round;Rounded Triangle;Runner;Saucer;Semi-Rectangle;Semicircle;Slanted;Snowflake;Snowman;Spiral;Square;Star;Straight;Strawberry;Sunburst;Teardrop;Tree;Triangle;U-Shape;V-Shape",
+        "examples": [
+          "Angel",
+          "Angled",
+          "Asymmetrical",
+          "Bolster",
+          "Bone",
+          "Bowl",
+          "Box",
+          "Butterfly",
+          "Circle",
+          "Cone",
+          "Cross",
+          "Cube",
+          "Cup",
+          "Curved",
+          "D-Shape",
+          "Diamond",
+          "Elliptical",
+          "Elongated",
+          "Fish",
+          "Flat",
+          "Flower",
+          "Free Form",
+          "Geometric",
+          "Heart",
+          "Hexagon",
+          "Kidney",
+          "L-Shape",
+          "Leaf",
+          "Moon",
+          "Mummy",
+          "Musical Note",
+          "Octagon",
+          "Oval",
+          "Palm",
+          "Pear",
+          "Pendant",
+          "Pentagon",
+          "Pie Chart",
+          "Pumpkin",
+          "Rectangle",
+          "Ring",
+          "Round",
+          "Rounded Triangle",
+          "Runner",
+          "Saucer",
+          "Semi-Rectangle",
+          "Semicircle",
+          "Slanted",
+          "Snowflake",
+          "Snowman",
+          "Spiral",
+          "Square",
+          "Star",
+          "Straight",
+          "Strawberry",
+          "Sunburst",
+          "Teardrop",
+          "Tree",
+          "Triangle",
+          "U-Shape",
+          "V-Shape"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "sizePerPearl": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 10000000000000000,
+            "multipleOf": 0.01,
+            "description": "Decimal, 16 characters - Diameter of each pearl in millimeters. Example: 12;5",
+            "examples": [
+              "12",
+              "5"
+            ],
+            "comments": ""
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "mm"
+            ],
+            "description": "Closed List - Diameter of each pearl in millimeters.",
+            "examples": [
+              "12",
+              "5"
+            ],
+            "comments": ""
+          }
+        },
+        "required": [
+          "unit",
+          "measure"
+        ],
+        "additionalProperties": false,
+        "title": "Size Per Pearl",
+        "description": "Decimal, 16 characters - Diameter of each pearl in millimeters. Example: 12;5",
+        "examples": [
+          "12",
+          "5"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "sportsLeague": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Sports League",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "minItems": 1,
+        "description": "Alphanumeric, 100 characters - If your item has any association with a specific sports league, enter the league name. Abbreviations are fine. NOTE: This attribute flags an item for inclusion in the online fan shop. Example: NFL;WWE;MLB;NBA;NASCAR;USA Archery",
+        "examples": [
+          "NFL",
+          "WWE",
+          "MLB",
+          "NBA",
+          "NASCAR",
+          "USA Archery"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "sportsTeam": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Sports Team",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "minItems": 1,
+        "description": "Alphanumeric, 200 characters - If your item has any association with a specific sports team, enter the team name. NOTE: This attribute flags an item for inclusion in the online fan shop. Example: San Jose Earthquakes;San Jose Sharks;Golden State Warriors;Las Vegas Raiders;San Francisco 49ers;San Francisco Giants;Stanford Cardinal;Oakland Athletics",
+        "examples": [
+          "San Jose Earthquakes",
+          "San Jose Sharks",
+          "Golden State Warriors",
+          "Las Vegas Raiders",
+          "San Francisco 49ers",
+          "San Francisco Giants",
+          "Stanford Cardinal",
+          "Oakland Athletics"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "stoneCreationMethod": {
+        "type": "string",
+        "title": "Stone Creation Method",
+        "enum": [
+          "Synthetic",
+          "Natural",
+          "Simulated"
+        ],
+        "description": "Closed List - Whether the stone was created by nature or humans. If a stone is identified as natural, this means that it has not been treated, enhanced, or altered. If a stone is identified as stimulated, this means that it was created in a laboratory. Lab-created stones may also be referred to as: synthetic;” artificial;man-made;lab-grown.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "stoneCulet": {
+        "type": "string",
+        "title": "Stone Culet",
+        "enum": [
+          "None",
+          "Medium",
+          "Extremely Large",
+          "Large",
+          "Very Large",
+          "Small",
+          "Very Small",
+          "Slightly Large"
+        ],
+        "description": "Closed List - The culet (pronounced cue-let) is the small area at the bottom of a diamond's pavilion. The culet can be a point or a very small facet sitting parallel to the table.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "stoneDepthPercentage": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 10000000000000000,
+            "multipleOf": 0.01,
+            "description": "Decimal, 16 characters - Stone depth percentage is calculated by the following formula: depth (measured from the top of the table to the culet) / width (girdle diameter).  Example: 5.5;2.3",
+            "examples": [
+              "5.5",
+              "2.3"
+            ],
+            "comments": ""
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "%"
+            ],
+            "description": "Closed List - Stone depth percentage is calculated by the following formula: depth (measured from the top of the table to the culet) / width (girdle diameter). ",
+            "examples": [
+              "5.5",
+              "2.3"
+            ],
+            "comments": ""
+          }
+        },
+        "required": [
+          "unit",
+          "measure"
+        ],
+        "additionalProperties": false,
+        "title": "Stone Depth Percentage",
+        "description": "Decimal, 16 characters - Stone depth percentage is calculated by the following formula: depth (measured from the top of the table to the culet) / width (girdle diameter).  Example: 5.5;2.3",
+        "examples": [
+          "5.5",
+          "2.3"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "stoneFluoresence": {
+        "type": "string",
+        "title": "Stone Fluorescence",
+        "enum": [
+          "Very Strong",
+          "Strong",
+          "None",
+          "Faint",
+          "Medium"
+        ],
+        "description": "Closed List - Used to describe the color and strength of the UV light reflected off some diamonds.\t",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "stoneHeight": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 10000000000000000,
+            "multipleOf": 0.01,
+            "description": "Decimal, 16 characters - The measurement of the height of the stone (vs. the setting) as measured the from the table (top of the stone) to the culet (bottom of the stone). Example: 6; 5.5",
+            "examples": [
+              "6",
+              "5.5"
+            ],
+            "comments": ""
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "mm"
+            ],
+            "description": "Closed List - The measurement of the height of the stone (vs. the setting) as measured the from the table (top of the stone) to the culet (bottom of the stone).",
+            "examples": [
+              "6",
+              "5.5"
+            ],
+            "comments": ""
+          }
+        },
+        "required": [
+          "unit",
+          "measure"
+        ],
+        "additionalProperties": false,
+        "title": "Stone Height",
+        "description": "Decimal, 16 characters - The measurement of the height of the stone (vs. the setting) as measured the from the table (top of the stone) to the culet (bottom of the stone). Example: 6; 5.5",
+        "examples": [
+          "6",
+          "5.5"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "stoneLength": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 10000000000000000,
+            "multipleOf": 0.01,
+            "description": "Decimal, 16 characters - The measure of the largest dimensional side of a gemstone with the face pointing towards the observer. Example: 2.3; 5",
+            "examples": [
+              "2.3",
+              "5"
+            ],
+            "comments": ""
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "mm"
+            ],
+            "description": "Closed List - The measure of the largest dimensional side of a gemstone with the face pointing towards the observer.",
+            "examples": [
+              "2.3",
+              "5"
+            ],
+            "comments": ""
+          }
+        },
+        "required": [
+          "unit",
+          "measure"
+        ],
+        "additionalProperties": false,
+        "title": "Stone Length",
+        "description": "Decimal, 16 characters - The measure of the largest dimensional side of a gemstone with the face pointing towards the observer. Example: 2.3; 5",
+        "examples": [
+          "2.3",
+          "5"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "stonePolish": {
+        "type": "string",
+        "title": "Stone Polish",
+        "enum": [
+          "Poor",
+          "Very Good",
+          "Good",
+          "Fair",
+          "Excellent"
+        ],
+        "description": "Closed List - Polish refers to the degree of smoothness of each facet of a gem as measured by a gemologist. When a gem is cut and polished, microscopic surface defects may be created by the polishing wheel as it drags tiny dislodged crystals across the gem's surface.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "stoneTablePercentage": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 10000000000000000,
+            "multipleOf": 0.01,
+            "description": "Decimal, 16 characters - In a grading report, table percentage is calculated based on the size of the table divided by the average girdle diameter of the gem. So, a 60 percent table means that the table is 60 percent wide as the gem's outline. The Table Percentage refers to the width of the top part of the diamond (the Table) as a percentage of the total width of the diamond at its widest point (the girdle). The ideal proportions of a diamond is typically 53% to 58%.   Example: 53;58",
+            "examples": [
+              "53",
+              "58"
+            ],
+            "comments": ""
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "%"
+            ],
+            "description": "Closed List - In a grading report, table percentage is calculated based on the size of the table divided by the average girdle diameter of the gem. So, a 60 percent table means that the table is 60 percent wide as the gem's outline. The Table Percentage refers to the width of the top part of the diamond (the Table) as a percentage of the total width of the diamond at its widest point (the girdle). The ideal proportions of a diamond is typically 53% to 58%.  ",
+            "examples": [
+              "53",
+              "58"
+            ],
+            "comments": ""
+          }
+        },
+        "required": [
+          "unit",
+          "measure"
+        ],
+        "additionalProperties": false,
+        "title": "Stone Table Percentage",
+        "description": "Decimal, 16 characters - In a grading report, table percentage is calculated based on the size of the table divided by the average girdle diameter of the gem. So, a 60 percent table means that the table is 60 percent wide as the gem's outline. The Table Percentage refers to the width of the top part of the diamond (the Table) as a percentage of the total width of the diamond at its widest point (the girdle). The ideal proportions of a diamond is typically 53% to 58%.   Example: 53;58",
+        "examples": [
+          "53",
+          "58"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "stoneTreatment": {
+        "type": "string",
+        "title": "Stone Treatment",
+        "enum": [
+          "Lattice Diffusion",
+          "Coated",
+          "Heat-Treated",
+          "HPHT Treatment",
+          "Irradiated",
+          "Reconstituted",
+          "Dyed",
+          "Lasered",
+          "Other",
+          "Bleached",
+          "Oiled",
+          "Filled",
+          "Impregnated"
+        ],
+        "description": "Closed List - Describes the process a gemstone has undergone to produce changes in the durability, color, and/or clarity that are beyond the typical gemstone conditioning.\t",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "stoneWidth": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 10000000000000000,
+            "multipleOf": 0.01,
+            "description": "Decimal, 16 characters - The measure of the narrower dimensional side of a gemstone with the face pointing towards the observer. Example: 2.3;6",
+            "examples": [
+              "2.3",
+              "6"
+            ],
+            "comments": ""
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "mm"
+            ],
+            "description": "Closed List - The measure of the narrower dimensional side of a gemstone with the face pointing towards the observer.",
+            "examples": [
+              "2.3",
+              "6"
+            ],
+            "comments": ""
+          }
+        },
+        "required": [
+          "unit",
+          "measure"
+        ],
+        "additionalProperties": false,
+        "title": "Stone Width",
+        "description": "Decimal, 16 characters - The measure of the narrower dimensional side of a gemstone with the face pointing towards the observer. Example: 2.3;6",
+        "examples": [
+          "2.3",
+          "6"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "theme": {
+        "type": "string",
+        "title": "Theme",
+        "minLength": 1,
+        "maxLength": 800,
+        "description": "Alphanumeric, 800 characters - A dominant idea, meaning, or setting applied to an item.  Example: Beach;New York City;Religious;Retro;Love;Be Kind;WWE",
+        "examples": [
+          "Beach",
+          "New York City",
+          "Religious",
+          "Retro",
+          "Love",
+          "Be Kind",
+          "WWE"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "thirdPartyAccreditationSymbolOnProductPackageCode": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Third Party Accreditation Symbol on Product Package Code",
+        "items": {
+          "type": "string",
+          "enum": [
+            "CAC Absence of Peanut",
+            "For Life (Social Responsibility)",
+            "Certified California Sustainable Vineyard and Winery (CCSW)",
+            "CPE Vrije Uitloop Eieren",
+            "Glycaemic Index Foundation",
+            "Dermatology Review Panel (\"DRP\") independent dermatologists review",
+            "Global Gap",
+            "Blue Ribbon Kosher",
+            "Whole Grain 100 Percent Stamp",
+            "Fairtrade Sourced Ingredient Vanilla",
+            "CCOF",
+            "Sustainable In Practice (SIP)",
+            "Erkend Streek Product",
+            "Distilled in Canada to describe bottled water",
+            "Ontario approved legend - Inspected meat products, provincially licensed plants",
+            "Ches K",
+            "Green Seal",
+            "Aise",
+            "Organic Certifying Body - Centre for Systems Integration,",
+            "Label Rouge",
+            "Kosher Oregon Kosher",
+            "Kosher Kosher Madrid Spain",
+            "NF Marque",
+            "GRASP – Risk Assessment on Social Practise",
+            "Epeat Bronze",
+            "Kosher COR Fish",
+            "Eczema Society of Canada- Accepted",
+            "Schweizer Alpprodukt",
+            "Kehilla Kosher Heart K",
+            "CCF Rabbit Certification",
+            "Orthodox Rabbinical Board",
+            "Kosher Orthodox Jewish Congregation Parve",
+            "Beter Leven 1 Ster",
+            "UTZ Certified",
+            "British Retail Consortium Certification",
+            "Safe Feed Safe Food",
+            "NPA",
+            "DLG Award",
+            "Schweizer Bergprodukt",
+            "Fair trade mark",
+            "Green Restaurant Association Endorsed",
+            "Ozone Friendly General Claim",
+            "ADCCPA",
+            "Certified Naturally Grown",
+            "Naturland",
+            "AMA Organic Seal",
+            "Dansk Maelk",
+            "FairTSA",
+            "Carbon Neutral NCOS Certified",
+            "Vegan Awareness Foundation",
+            "PEFC Certified",
+            "Organic Certifying Body – Pro-Cert Organic Systems, Saskatchewan, Canada",
+            "SKG Certificate",
+            "TNO Approved",
+            "SKG 2 star",
+            "Product of the Vinho Verde Region",
+            "Bk Check Vaad Hakashrus Of Buffalo",
+            "Vegaplan",
+            "Sustainable Palm Oil RSPO Credits",
+            "Bio Fisch",
+            "CPE Scharrel Eieren",
+            "Bio Partenaire",
+            "IP Suisse",
+            "Certified Paleo Friendly",
+            "Organic Certifying Body - OTCO (OREGON TILTH CERTIFIED ORGANIC), Oregon, U.S.A.",
+            "Traditional Specialty Guaranteed",
+            "Gebana",
+            "ISO Quality",
+            "Aliments du Quebec",
+            "TCO Development",
+            "SLG Child Safety",
+            "Suisse Garantie",
+            "Bio Suisse Knospe",
+            "Bioland",
+            "Leaping Bunny",
+            "NOM",
+            "IVN Natural Leather",
+            "Real Food Seal",
+            "Direct Trade",
+            "U.S. Department of Agriculture (USDA) – Grade A e.g., eggs",
+            "Star D Kosher",
+            "Farmers & Growers (Organic Certification UK2)",
+            "100 Percent Canadian Milk",
+            "Ama Seal of Approval",
+            "Sunshine State Kosher",
+            "ICADA",
+            "Kosher Certification Service",
+            "IKB VARKEN",
+            "Pro-Terra Non-GMO Certification",
+            "Certified Angus Beef",
+            "EcoCert Certificate",
+            "CAN/ BNQ Certified",
+            "Aliments du Quebec BIO",
+            "VEILIG WONEN POLITIE KEURMERK",
+            "Pro Specie Rara",
+            "Appellation Origine Controlee",
+            "CAC Absence of Almond",
+            "CO2 Reduceret Emballage",
+            "Humane Heartland",
+            "Kosher COR Dairy Equipment",
+            "ECOCert Cosmos Natural",
+            "Marine Stewardship Council label",
+            "Freshcare",
+            "Proudly Canadian",
+            "Fairtrade Sourced Ingredient Pepper",
+            "Real California Milk",
+            "Design for the Environment (DfE)",
+            "KSA - Kosher",
+            "Roasted and blended in Canada to describe coffee",
+            "RT-QuIC",
+            "Flamme Verte",
+            "Mortadella Bologna",
+            "Recognized Canadian Dermatology Association Sun Protection",
+            "GreenChoice",
+            "Groen Label Kas",
+            "American Dental Association",
+            "Cotton made in Africa",
+            "Culinarium",
+            "CAC Absence of Egg",
+            "Vaad Hoeir Kosher",
+            "USDA",
+            "ECARF Seal",
+            "Equal Exchange Fairly Traded",
+            "Gezondere Keuze",
+            "Non-GMO By Earthkosher",
+            "Kosher Parve Natural Food Certifier",
+            "Absence of Eggs and Milk is a Certified Allergen Control (CAC)",
+            "Bio Gourmet Knospe",
+            "Absence of Peanuts & Almonds is a Certified Allergen Control (CAC)",
+            "REGIONALFENSTER",
+            "Nature Care Product",
+            "INSTITUT FRESENIUS",
+            "Global Care",
+            "Eko",
+            "Oregon Tilth",
+            "SLG Type Tested",
+            "Plastic Free Trust Mark",
+            "Organic Certifying Body –Pacific Agricultural Certification Society (PACS), British Columbia, Canada",
+            "Green Shield Certified",
+            "Carbon Neutral packaging",
+            "Fairtrade Sourced Ingredient Lime Juice",
+            "Bio-Bayern without Certificate of Provenance",
+            "Eco Label Ladybug",
+            "Fairtrade Sourced Ingredient Roses",
+            "GMO Guard from Natural Food Certifiers",
+            "Organic Certifying Body - JAS (Japanese Agricultural Standards)",
+            "PEFC Recycled",
+            "Streekproduct.be",
+            "Bios Kontrolle",
+            "Paleo By Earthkosher",
+            "Kosher Peru Certification",
+            "SOSTain",
+            "IVO Seal – International Verified Omega-3 e.g., Fish oil",
+            "Minnesota Kosher Council",
+            "Absence of Eggs, Milk and Peanuts is a Certified Allergen Control (CAC)",
+            "Cosmebio",
+            "Vignerons en Développement Durable (VDD)",
+            "Bord Bia Approved Meat",
+            "Equalitas Sustainable Wine",
+            "NAOOA Certified Quality",
+            "Bio Ring Allgaeu",
+            "The EcoLogo Certification",
+            "Bio Solidaire",
+            "Biodegradable Products Institute",
+            "ACMI",
+            "Biodynamic Certification",
+            "Paleo Approved",
+            "Nature Et Progres",
+            "NSF Certified For Sport",
+            "Kosher Check",
+            "Ontario - Localize",
+            "IKB KIP",
+            "Made Green in Italy",
+            "Agriculture Biologique",
+            "Cheese – World Champion Cheese Contest",
+            "Vegan Society Vegan Logo",
+            "Aise 2005",
+            "Best Aquaculture Practices 4 Stars",
+            "Food Federation",
+            "RHP",
+            "Made with Canadian Beef",
+            "ORBI",
+            "Aquaculture Stewardship Council",
+            "Fair for Life",
+            "KAT",
+            "Green-e Energy Certified",
+            "Certified Organic By Organic Certifiers",
+            "Kosher Supervisors of Wisconsin Certification",
+            "Kosher Inspection Service India",
+            "Fidelio",
+            "Vegan By Earthkosher",
+            "Product of Canada",
+            "Made with Canadian Mustard Seeds",
+            "Atlanta Kashrus Commission Certification",
+            "Flandria",
+            "CAC Absence of Milk",
+            "Jay Kosher Pareve",
+            "DZG Gluten Free",
+            "IHTK Seal",
+            "GCP – Global Coffee Platform",
+            "Fairtrade Sourced Ingredient Cocoa",
+            "RT-QuIC Tested",
+            "CO2 Neutral Certified",
+            "Stiftung Warentest",
+            "Consumer Choice Award",
+            "Triman",
+            "Canadian Federal Government – CFIA Grade Stamps Canada Utility e.g. poultry & eggs",
+            "Claro Fair Trade",
+            "Made with 100% Canadian Oats",
+            "Vegan - VegeCert",
+            "Tarnopol Kashrus Kosher",
+            "Bluesign Technologies AG Approved e.g., footwear insoles",
+            "Beter Leven 2 Ster",
+            "Recyclable General Claim",
+            "BSCI",
+            "Aqua GAP",
+            "Fair Flowers Fair Plants",
+            "OU Kosher Passover",
+            "ATG",
+            "Bioland Ennstal",
+            "ECOCert Cosmos Organic",
+            "Intertek Certificate",
+            "Label of the Allergy and Asthma Federation",
+            "Recognized Canadian Dermatology Association Skin Health",
+            "Best Aquaculture Practices 3 Stars",
+            "The Natural and Organic Awards",
+            "Biodegradable Ingredients",
+            "CEBEC",
+            "IFANCA Halal",
+            "Fairtrade Sourced Ingredient Tea",
+            "Kosher OK Dairy",
+            "Canadian Federal Government – CFIA Grade Stamps Canada C e.g. poultry & eggs",
+            "Eesti Parim Toiduaine",
+            "WEIDEMELK",
+            "Rabbinical Council Of British Columbia BCK",
+            "On the way to planetproof",
+            "Proven Quality Bavaria",
+            "Organic Certifying Body – Province of British Columbia Certified Organic, British Columbia Association for Regenerative Agriculture (BCARA), Canada",
+            "NDOA",
+            "Cincinnati Kosher",
+            "Fairtrade Sourced Ingredient Rice",
+            "Stop Climate Change",
+            "Glycaemic Research Institute",
+            "Approved by the Asthma and Allergy Association",
+            "Fairtrade Sourced Ingredient Dried Apricots",
+            "Soil Association Organic Symbol",
+            "OEKO Quality Guarantee Bavaria",
+            "Food Alliance Certified",
+            "NSF Gluten Free",
+            "ECOLAND",
+            "Heumilch",
+            "PCO",
+            "Caribbean Kosher",
+            "Canadian Association of Fire Chiefs Approved",
+            "IKB EIEREN",
+            "Green-e Energy",
+            "No Product Package Certifications Apply",
+            "Salmon Safe Certification",
+            "Rabbinical Council Of California",
+            "KosherMex",
+            "Certified Naturally Grown (CNG)",
+            "GIG - Gluten Free Foodservice",
+            "Canadian Agricultural Products",
+            "National Eczema Association Seal of Acceptance",
+            "Organic Certifying Body – Quality Certification Services (QCS), Florida, U.S.A.",
+            "Certified Humane",
+            "Caring Consumer PETA",
+            "Better Business Bureau Accredited",
+            "Klasa",
+            "Hochstamm Suisse",
+            "UTZ Certified Cocoa",
+            "Dallas Kosher Certification",
+            "Organic Certifying Body – Global Organic Alliance (GOA), Ohio, U.S.A.",
+            "Puhtaasti Kotimainen",
+            "Hypertension Canada Medical Device",
+            "Global Organic Latex Standard",
+            "QS",
+            "Celiac Sprue Association",
+            "Made in Canada",
+            "OK Kosher Certification",
+            "EarthKosher Kosher Certification",
+            "LGA",
+            "Certified Organic Baystate Organic Certifiers",
+            "Bord Bia Approved",
+            "IVN Natural Textiles Best",
+            "Carbon Footprint Standard",
+            "Naturland Fair Trade",
+            "International Aloe Science Council Certificate",
+            "Natura- Beef",
+            "Certified OE 100",
+            "Organic Certifying Body – EcoCert, Quebec, Canada",
+            "Quality Rhoen",
+            "Bio Knospe",
+            "Asthma and Allergy Foundation of America",
+            "Best Aquaculture Practices 2 Stars",
+            "Asmi",
+            "QAI",
+            "Kosher Kosher Greece",
+            "KOMO",
+            "Bullfrog Power",
+            "KEMA KEUR",
+            "OEKO Kreislauf",
+            "V Label Vegan",
+            "Canadian Food Inspection Agency (CFIA) as Federally Registered & Inspected Facility e.g., meat",
+            "American Heart Association Certified",
+            "USDA Organic",
+            "Forest Products - Product Lines From a Certified Forest",
+            "Cocoa Life",
+            "Aluminium Gesamtverband der Aluminiumindustrie",
+            "Krav Mark",
+            "Natrue Label",
+            "Intertek Electrical Testing Laboratories (ETL) Mark",
+            "Steel Recycling",
+            "Bio-LABEL Hessen",
+            "Kosher - Chicago Rabbinical Council (CRC) Dairy",
+            "AFIA Pet Food Facility",
+            "Ecogarantie",
+            "Donau Soya Standard",
+            "Canadian Food Inspection Agency (CFIA) as Federally Registered & Inspected Facility - Fish",
+            "Organic Certifying Body – Organisme de Certification Québec Vrai (OCQV)",
+            "Certified Paleo",
+            "Naturland Wildfish",
+            "OEKO-Tex Made in Green",
+            "Kosher Ottawa Vaad HaKashrut Canada",
+            "Fair 'n Green",
+            "Beter Leven 3 Ster",
+            "Deer Protection Program",
+            "Epeat Silver",
+            "Gepruefte Sicherheit",
+            "Shopper Army",
+            "IFOAM",
+            "Recupel",
+            "Aise 2010",
+            "SGS Organic",
+            "GMP Certified",
+            "Foundation Art",
+            "LACON",
+            "IGP",
+            "Forest Stewardship Council Mix",
+            "Lodi Rules \"Certified Green\"",
+            "Canned in Canada to describe green beans",
+            "Biogarantie",
+            "Protected Geographical Indication",
+            "Certified B Corporation",
+            "Bio-Bayern with Certificate of Provenance",
+            "Neuland",
+            "Made with Canadian (ingredient)",
+            "Fair Trade USA Ingredients",
+            "Certified Sustainable Wine of Chile",
+            "Product of the Year, Consumer Survey",
+            "Kosher KW Young Israel Of West Hempstead",
+            "Green Star Certified",
+            "Food Safety System Certification 22000",
+            "OU Kosher Meat",
+            "Oregon LIVE (Low Input Viticulture and Enology)",
+            "Biodegradable",
+            "Demeter Label",
+            "FairTrade Sugar",
+            "Epeat Gold",
+            "Federally Registered Inspected Canada",
+            "Certified Carbon Free",
+            "Certified Humane Organisation",
+            "Canada Organic Canadian Organic Logo",
+            "Organic Certifying Body – Agricultural Services Certified Organic (ASCO)",
+            "INT Protection",
+            "Food Justice Certified",
+            "Energy Star",
+            "Indeklima Maerket",
+            "Parent Tested Parent Approved (PTPA) Winner's Seal of Approval",
+            "USDA Grade - AA",
+            "Kosher Star-K-Parve",
+            "Fairtrade Sourced Ingredient Green Tea",
+            "Hazard Analysis Critical Control Point",
+            "Natureplus",
+            "Vegan Natural Food Certifiers",
+            "Global Organic Textile Standard",
+            "OU Kosher Dairy",
+            "Delinat",
+            "Best Aquaculture Practices",
+            "Erde Saat",
+            "Organic 100 Content Standard",
+            "Round Table on Responsible Soy",
+            "Fair Trade USA",
+            "Forest Stewardship Council 100 Percent",
+            "BonSucro",
+            "Three Line Kosher",
+            "ICEA",
+            "Gastec",
+            "BC SPCA",
+            "Produit en Bretagne",
+            "Oeko Tex Label",
+            "IFS HPC",
+            "AGRI Confiance",
+            "Montreal Vaad Hair Mk Pareve",
+            "BreatheWay",
+            "Friend of the Sea",
+            "Made with Ontario Pork",
+            "SKG 1 star",
+            "NMX",
+            "BDIH Logo",
+            "Freiland",
+            "Enec",
+            "Canadian Federal Government – CFIA Grade Stamps Canada A e.g. poultry & eggs",
+            "NSF Sustainability Certified",
+            "Haute Valeur Environnementale",
+            "Whole Grain Basic Stamp",
+            "Official Eco label Sun",
+            "Ocean Wise Recommended Sourced Responsibly",
+            "Mundusvini Gold",
+            "Sustainable Forestry Initiative",
+            "The Fair Rubber Association",
+            "KSA D - Kosher Dairy",
+            "Fairtrade Sourced Ingredient Cashew Nuts",
+            "Vegetarian Society - Vegetarian",
+            "Uniquely Finnish",
+            "V.I.V.A.",
+            "Halal Correct",
+            "NSF",
+            "Fair Food Program Label",
+            "Good Housekeeping",
+            "CSA International",
+            "Corrugated Recycles",
+            "KVH Kosher",
+            "London Beth Din Kosher",
+            "Biopark",
+            "GAA",
+            "Qualenvi",
+            "OEKO Control",
+            "100% Veganskt",
+            "Orthodox Union Kosher",
+            "Halal Islamic Society of North America (ISNA)",
+            "LVA",
+            "Kashruth Council of Canada Kosher Certification",
+            "Organic Certifying Body – Debio",
+            "Fairtrade Sourced Ingredient Mango Juice",
+            "Alpinavera",
+            "Sustainable Palm Oil RSPO Certified",
+            "WINERIES for Climate Protection (WfCP)",
+            "Bio Knospe Umstellung",
+            "Ama Organic Seal Black",
+            "Fairtrade Sourced Ingredient Coconut",
+            "RAL Quality Candles",
+            "Kehilla Kosher California K",
+            "Council of Orthodox Rabbis of Greater Detroit Certification",
+            "Animal Welfare Approved Grassfed",
+            "Certified Wildlife Friendly",
+            "OCIA",
+            "Organic Certifying Body - International Certification Services, Inc. (ICS), North Dakota, USA",
+            "Integrity and Sustainability Certified",
+            "MEHR WEG",
+            "Kosher Star-K -Parve and Passover",
+            "Benor",
+            "Fish Wise Certification",
+            "Eco Logo",
+            "GFCO",
+            "Cradle To Cradle",
+            "USDA Inspection",
+            "Canadian Eco Logo",
+            "Mundusvini Silver",
+            "Transport Canada National Safety Mark (NSM)",
+            "Bebat",
+            "Made in Canada (a)",
+            "GFCP",
+            "CSA/NCA - Gluten Free",
+            "Mom's Choice Award",
+            "BRC Global Standards",
+            "Protected Designation of Origin",
+            "Sustainable Palm Oil RSPO Mixed",
+            "FairTrade Cotton",
+            "Finnish Heart Symbol",
+            "Brewers Association Certified Independent Craft",
+            "Biokreis",
+            "Rabbinical Council Of New England",
+            "Belgaqua",
+            "WSDA",
+            "Midwest Kosher",
+            "Bais Din of Crown Heights Vaad HaKashrus Certification",
+            "Bio Suisse Knospe Umstellung",
+            "Society of the Plastics Industry (SPI)",
+            "Eesti Okomark",
+            "Carbon Neutral",
+            "Triangle K Certification",
+            "Safe Quality Food",
+            "Stellar Certification Services",
+            "Vaelg Fuldkorn Forst",
+            "Berchtesgadener Land",
+            "OU Kosher Fish",
+            "GoodWeave",
+            "Whole Grain Council Stamp",
+            "Prepared in Canada",
+            "VDS Certificate",
+            "VDE",
+            "Fairtrade Sourced Ingredient Quinoa",
+            "Agri Natura",
+            "Pet to Pet",
+            "GRASKEURMERK",
+            "V Label Vegetarian",
+            "True Foods Canada Trustmark",
+            "Proderm",
+            "Gaskeur",
+            "OK Compost Home",
+            "Central Rabbinical Congress Kosher",
+            "Laendle Qualitaet",
+            "Green Dot",
+            "Forest Stewardship Council Recycled",
+            "Kosher Organics",
+            "SKG 3 star",
+            "Qualitaet Tirol",
+            "TOOTHFRIENDLY",
+            "CanadaGAP program certification mark of conformity",
+            "Vaad Hakashrus of Denver Scroll K Certification",
+            "Arla Farmer Owned",
+            "Ecovin",
+            "Underwriters laboratory",
+            "Foodland Ontario",
+            "Biko Tirol",
+            "Protected Harvest Certified",
+            "Guaranteed Irish",
+            "Aliments BIO Prepares au Quebec",
+            "My Climate",
+            "KOF K Kosher",
+            "Agence Bio",
+            "Max Havelaar",
+            "Halal Certification Services, CH",
+            "Crossed Grain Symbol",
+            "Organic Certifying Body – Letis S.A.",
+            "OK Compost label by Vincotte",
+            "OK Compost Industrial",
+            "MPS A",
+            "Canadian Federal Government – Processed Egg Products",
+            "Non GMO Project",
+            "Forest Stewardship Council Label",
+            "SeaChoice",
+            "Green Seal Certified",
+            "Certified WBENC",
+            "SUS",
+            "WWF Panda Label",
+            "NSF Non GMO True North",
+            "Weight Watchers Endorsed",
+            "SLK Bio",
+            "SOIL Organic Cosmos",
+            "Gluten-free Certified: Allergen Control Group/ National Foundation for Celiac Awareness (NFCA)",
+            "Finnish Pork Meat Certification System",
+            "UNSER Land",
+            "Fairtrade Sourced Ingredient Olive Oil",
+            "Natura-Veal",
+            "Refined in Canada",
+            "GMO Marked",
+            "Processed in Canada",
+            "KIWA",
+            "Green America Certified Business",
+            "Halal Certification Services",
+            "Diamond K - Massachusetts Certification",
+            "Water Quality Association (WQA's)- Tested and Certified",
+            "Zero Waste Business Council Certified",
+            "Imported in bulk and packaged in Canada",
+            "Chicago Rabbinical Council",
+            "Underwriters' Laboratory Certified, Canada \"C\" and U.S. US",
+            "Air cleaner performance standard e.g., humidifiers",
+            "Made in Canada from Domestic and Imported Ingredients",
+            "Ethical Tea Partnership",
+            "Federal Communications Commission (U.S.)",
+            "Eco Kreis",
+            "Organic Certifying Body – Trans Canada Organic Certification Services (TCO), Saskatchewan, Canada",
+            "Real California Cheese",
+            "International Taste & Quality (iTQi) Superior Taste Award",
+            "OKOTEST",
+            "Nyckelhalet",
+            "Health Check",
+            "Dansk IP Kvalitet",
+            "SCS Sustainably Grown",
+            "Kosher Grand Rabbinate of Quebec Parve",
+            "MCIA Organic",
+            "RSB – Roundtable on Sustainable Biomaterials",
+            "Aliments Prepares au Quebec",
+            "Blue Angel",
+            "Organic Cotton",
+            "Better Cotton Initiative",
+            "Schweizer Allergie Gütesiegel",
+            "Bio-LABEL Baden-Württemberg",
+            "CCA Gluten Free",
+            "Kosher COR Dairy",
+            "ISEAL Alliance",
+            "GMP ISO 22716",
+            "Canadian Federal Government – Dairy Product Grade",
+            "Dolphin Safe",
+            "Falken",
+            "Fairtrade Sourced Ingredient Honey",
+            "Seedling",
+            "Terra Vitis",
+            "United Egg Producers Certified",
+            "PEFC",
+            "STAR K Kosher",
+            "KVBG Approved",
+            "Kosher Western Kosher (WK)",
+            "Bird Friendly Coffee Smithsonian Certification",
+            "Earthsure",
+            "Canadian Certified Compostable",
+            "Whole grains 50 percent Stamp",
+            "True Source Certified",
+            "Rainforest Alliance",
+            "Kosher Chicago Rabbinical Council (CRC) Pareve",
+            "Halal Islamic Food and Nutrition Council of Canada (IFANCC)",
+            "Halal Plus",
+            "Climate Neutral"
+          ]
+        },
+        "minItems": 1,
+        "description": "Closed List - The code representing a symbol or marking third party accreditation on the product package.",
+        "examples": "",
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "totalGemWeight": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 10000000000000000,
+            "multipleOf": 0.01,
+            "description": "Decimal, 16 characters - Total gemstone weight is the combined carat weight of all of the gemstones in a piece of jewelry. Paired earrings would be considered a single piece, therefore if each earring contained a gemstone with a carat weight of 1/2, the value entered would be 1 ct (2 x 1/2 ct).  This is a useful indication of gemstone sizes, provided the stones in question are of the same type.  Differing types have differing densities so the carat weight will not necessarily provide an accurate indication of size for comparison purposes. Example: 1.29;0.70",
+            "examples": [
+              "1.29",
+              "0.70"
+            ],
+            "comments": ""
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "ct"
+            ],
+            "description": "Closed List - Total gemstone weight is the combined carat weight of all of the gemstones in a piece of jewelry. Paired earrings would be considered a single piece, therefore if each earring contained a gemstone with a carat weight of 1/2, the value entered would be 1 ct (2 x 1/2 ct).  This is a useful indication of gemstone sizes, provided the stones in question are of the same type.  Differing types have differing densities so the carat weight will not necessarily provide an accurate indication of size for comparison purposes.",
+            "examples": [
+              "1.29",
+              "0.70"
+            ],
+            "comments": ""
+          }
+        },
+        "required": [
+          "unit",
+          "measure"
+        ],
+        "additionalProperties": false,
+        "title": "Total Gemstone Weight",
+        "description": "Decimal, 16 characters - Total gemstone weight is the combined carat weight of all of the gemstones in a piece of jewelry. Paired earrings would be considered a single piece, therefore if each earring contained a gemstone with a carat weight of 1/2, the value entered would be 1 ct (2 x 1/2 ct).  This is a useful indication of gemstone sizes, provided the stones in question are of the same type.  Differing types have differing densities so the carat weight will not necessarily provide an accurate indication of size for comparison purposes. Example: 1.29;0.70",
+        "examples": [
+          "1.29",
+          "0.70"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "totalDiamondWeight": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "number",
+            "title": "Measure",
+            "minimum": 0,
+            "maximum": 10000000000000000,
+            "multipleOf": 0.01,
+            "description": "Decimal, 16 characters - Total diamond weight is the combined carat weight of all the diamonds in a piece of jewelry.  Paired earrings would be considered a single piece, therefore if each earring contained a diamond with a carat weight of 1/2, the value entered would be 1 ct (2 x 1/2 ct).  Example: 1.29;0.70",
+            "examples": [
+              "1.29",
+              "0.70"
+            ],
+            "comments": ""
+          },
+          "unit": {
+            "type": "string",
+            "title": "Unit",
+            "enum": [
+              "ct"
+            ],
+            "description": "Closed List - Total diamond weight is the combined carat weight of all the diamonds in a piece of jewelry.  Paired earrings would be considered a single piece, therefore if each earring contained a diamond with a carat weight of 1/2, the value entered would be 1 ct (2 x 1/2 ct). ",
+            "examples": [
+              "1.29",
+              "0.70"
+            ],
+            "comments": ""
+          }
+        },
+        "required": [
+          "unit",
+          "measure"
+        ],
+        "additionalProperties": false,
+        "title": "Total Stone Weight - Carats",
+        "description": "Decimal, 16 characters - Total diamond weight is the combined carat weight of all the diamonds in a piece of jewelry.  Paired earrings would be considered a single piece, therefore if each earring contained a diamond with a carat weight of 1/2, the value entered would be 1 ct (2 x 1/2 ct).  Example: 1.29;0.70",
+        "examples": [
+          "1.29",
+          "0.70"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "warrantyText": {
+        "type": "string",
+        "title": "Warranty Text",
+        "minLength": 1,
+        "maxLength": 20000,
+        "description": "Alphanumeric, 20000 characters - Warranty Text (the full text of the warranty terms, including what is covered by the warranty and the duration of the warranty). NOTE: please remember to update the text of your warranty as your warranty changes. Example: This warranty covers any defects in materials or workmanship, including installation, with the exceptions of fading or discoloration caused by exposure to sunlight or chemicals. This warranty runs for five years from the date your carpet is installed. Counterpoint will either replace your carpet with new carpet of similar composition and price, or refund the full purchase price of your carpet, whichever you prefer. Contact Counterpoint at 800-867-5309.",
+        "examples": [
+          "This warranty covers any defects in materials or workmanship, including installation, with the exceptions of fading or discoloration caused by exposure to sunlight or chemicals. This warranty runs for five years from the date your carpet is installed. Counterpoint will either replace your carpet with new carpet of similar composition and price, or refund the full purchase price of your carpet, whichever you prefer. Contact Counterpoint at 800-867-5309."
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "warrantyURL": {
+        "type": "string",
+        "title": "Warranty URL",
+        "minLength": 1,
+        "maxLength": 2500,
+        "format": "uri",
+        "description": "URL, 2500 characters - The Warranty URL is the web location of the image, PDF, or link to the manufacturer's warranty page, showing the warranty and its terms, including the duration of the warranty. URLs must begin with http:// or https:// NOTE: Please remember to update the link and/or text of the warranty as the warranty changes. If supplying an image, provide the final destination image URL (no-redirects) that is publicly accessible (no username/password required) and ends in a proper image extension. Recommended file type: JPEG Accepted file types: JPG, PNG, GIF, BMP Maximum file size: 5 MB. Example: http://www.walmart.com/warranty_info.pdf",
+        "examples": [
+          "http://www.walmart.com/warranty_info.pdf"
+        ],
+        "comments": "@group=Recommended to improve search and browse on Walmart website"
+      },
+      "variantGroupId": {
+        "type": "string",
+        "title": "Variant Group ID",
+        "minLength": 1,
+        "maxLength": 300,
+        "description": "Alphanumeric, 300 characters - Required if item is a variant. Make up a number and/or letter code for \"Variant Group ID\" and add this to all variations of the same product. Partners must ensure uniqueness of their Variant Group IDs. Example: HANESV025",
+        "examples": [
+          "HANESV025"
+        ],
+        "comments": "@group=Recommended to create a variant experience on Walmart website"
+      },
+      "variantAttributeNames": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Variant Attribute Names",
+        "items": {
+          "type": "string",
+          "enum": [
+            "sportsLeague",
+            "multipackQuantity",
+            "gemstoneCut",
+            "jewelry_occasion",
+            "sportsTeam",
+            "numberOfPearls",
+            "shape",
+            "jewelrySetting",
+            "numberOfGemstones",
+            "earGaugeSize",
+            "jewelryStyle",
+            "countPerPack",
+            "pattern",
+            "character",
+            "stoneHeight",
+            "stoneWidth",
+            "color",
+            "theme",
+            "diamondCut",
+            "pearlBodyColor",
+            "gemstoneColor",
+            "earringFeature",
+            "stoneLength",
+            "material",
+            "diamondColor",
+            "carats",
+            "earringStyle",
+            "diamondClarity",
+            "sizePerPearl",
+            "condition",
+            "metalPurity",
+            "count",
+            "gender",
+            "metal",
+            "gemstone",
+            "birthstone"
+          ]
+        },
+        "minItems": 1,
+        "description": "Closed List - The designated attribute by which an item is varying.",
+        "examples": "",
+        "comments": "@group=Recommended to create a variant experience on Walmart website"
+      },
+      "isPrimaryVariant": {
+        "type": "string",
+        "title": "Is Primary Variant",
+        "enum": [
+          "Yes",
+          "No"
+        ],
+        "description": "Closed List - Note whether item is intended as the main variant in a variant grouping. The primary variant will appear as the image when customers search and the first image displayed on the item page. This should be set as \"Yes\" for only one item in a group of variants.",
+        "examples": "",
+        "comments": "@group=Recommended to create a variant experience on Walmart website"
+      },
+      "swatchImages": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "array",
+        "title": "Swatch Images",
+        "items": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "swatchImageUrl": {
+              "type": "string",
+              "title": "Swatch Image URL",
+              "minLength": 1,
+              "maxLength": 2500,
+              "format": "uri",
+              "description": "URL, 2500 characters - URL of the color or pattern swatch image. This is required for products with visual variations and will be shown as a small circle on the item page. File Format: JPEG (.jpg). Recommended Pixel Dimensions: 100px x 100px. Resolution: 300 ppi. Maximum file size: 5MB. Recommended File Naming: GTIN-14 digit. Provide the final destination image URL (no-redirects) that is publicly accessible (no username/password required.) Example: http://www.walmart.com/somepath/some-image.jpg",
+              "examples": [
+                "http://www.walmart.com/somepath/some-image.jpg"
+              ],
+              "comments": ""
+            },
+            "swatchVariantAttribute": {
+              "type": "string",
+              "title": "Swatch Variant Attribute",
+              "enum": [
+                "sportsLeague",
+                "multipackQuantity",
+                "gemstoneCut",
+                "jewelry_occasion",
+                "sportsTeam",
+                "numberOfPearls",
+                "shape",
+                "jewelrySetting",
+                "numberOfGemstones",
+                "earGaugeSize",
+                "jewelryStyle",
+                "countPerPack",
+                "pattern",
+                "character",
+                "stoneHeight",
+                "stoneWidth",
+                "color",
+                "theme",
+                "diamondCut",
+                "pearlBodyColor",
+                "gemstoneColor",
+                "earringFeature",
+                "stoneLength",
+                "material",
+                "diamondColor",
+                "carats",
+                "earringStyle",
+                "diamondClarity",
+                "sizePerPearl",
+                "condition",
+                "metalPurity",
+                "count",
+                "gender",
+                "metal",
+                "gemstone",
+                "birthstone"
+              ],
+              "description": "Closed List - Attribute name corresponding to the swatch.",
+              "examples": "",
+              "comments": ""
+            }
+          },
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "description": "Enter the swatch image location in \"Swatch Image URL\" and its corresponding variant attribute name in \"Swatch Variant Attribute\". Required for products with visual variations, like color or pattern. List the swatches in the order you recommend they appear on the site.",
+        "examples": "",
+        "comments": "@group=Recommended to create a variant experience on Walmart website"
+      }
+    },
+    "required": [
+      "colorCategory",
+      "color",
+      "backFinding",
+      "has_written_warranty",
+      "shortDescription",
+      "mainImageUrl",
+      "countPerPack",
+      "smallPartsWarnings",
+      "brand",
+      "material",
+      "productName",
+      "earringStyle",
+      "multipackQuantity",
+      "keyFeatures",
+      "condition",
+      "jewelryStyle",
+      "count",
+      "isProp65WarningRequired",
+      "gemstone",
+      "metal",
+      "ageGroup",
+      "gender",
+      "netContent"
+    ],
+    "allOf": [
+      {
+        "then": {
+          "required": [
+            "warrantyText"
+          ]
+        },
+        "if": {
+          "properties": {
+            "has_written_warranty": {
+              "type": "string",
+              "enum": [
+                "Yes - Warranty Text"
+              ]
+            }
+          },
+          "required": [
+            "has_written_warranty"
+          ]
+        }
+      },
+      {
+        "then": {
+          "required": [
+            "warrantyURL"
+          ]
+        },
+        "if": {
+          "properties": {
+            "has_written_warranty": {
+              "type": "string",
+              "enum": [
+                "Yes - Warranty URL"
+              ]
+            }
+          },
+          "required": [
+            "has_written_warranty"
+          ]
+        }
+      },
+      {
+        "then": {
+          "required": [
+            "prop65WarningText"
+          ]
+        },
+        "if": {
+          "properties": {
+            "isProp65WarningRequired": {
+              "type": "string",
+              "enum": [
+                "Yes"
+              ]
+            }
+          },
+          "required": [
+            "isProp65WarningRequired"
+          ]
+        }
+      }
+    ],
+    "additionalProperties": false
+  }
+}

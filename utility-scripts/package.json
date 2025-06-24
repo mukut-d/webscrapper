@@ -1,0 +1,17 @@
+{
+  "name": "utility-scripts",
+  "version": "1.0.0",
+  "main": "background-image-process.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "sharp": "^0.33.5"
+  }
+}

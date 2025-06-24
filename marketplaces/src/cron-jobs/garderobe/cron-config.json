@@ -1,0 +1,15 @@
+[
+    {
+        "1e057142-21fa-468c-b4ac-6065ba906c5d": {
+            "garderobe-dubai": {
+                "Country": "AE",
+                "Currency": "USD",
+                "Location": "Al Daghaya St - Dubai",
+                "Site": "US",
+                "priceFormula": "price / 3.67 * 1.165 + 25",
+                "ConditionId": "3000",
+                "ebaySite": "EBAY_US"
+            }
+        }
+    }
+]

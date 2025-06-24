@@ -1,0 +1,1115 @@
+{
+    "request_info": {
+        "success": true,
+        "topup_credits_remaining": 7432,
+        "credits_used_this_request": 1
+    },
+    "request_parameters": {
+        "amazon_domain": "amazon.in",
+        "asin": "B09RG9WPTC",
+        "type": "product"
+    },
+    "request_metadata": {
+        "created_at": "2023-11-08T13:22:21.246Z",
+        "processed_at": "2023-11-08T13:22:35.309Z",
+        "total_time_taken": 14.06,
+        "amazon_url": "https://www.amazon.in/dp/B09RG9WPTC?th=1&psc=1"
+    },
+    "product": {
+        "title": "Puma Men's Dazzler Sneakers 9 UK Black- Silver",
+        "search_alias": {
+            "title": "Shoes & Handbags",
+            "value": "shoes"
+        },
+        "title_excluding_variant_name": "Puma Men's Dazzler Sneakers",
+        "keywords": "Puma,Men's,Dazzler,Sneakers",
+        "keywords_list": [
+            "Puma",
+            "Men's",
+            "Dazzler",
+            "Sneakers"
+        ],
+        "asin": "B09RG9WPTC",
+        "parent_asin": "B0BG3LDDSY",
+        "link": "https://www.amazon.in/dp/B09RG9WPTC??th=1&psc=1",
+        "brand": "Puma",
+        "variants": [
+            {
+                "asin": "B09XXL73XY",
+                "title": "11 UK Peacoat-High Risk Red-White",
+                "is_current_product": false,
+                "link": "https://www.amazon.in/dp/B09XXL73XY?th=1&psc=1",
+                "dimensions": [
+                    {
+                        "name": "Size",
+                        "value": "11 UK"
+                    },
+                    {
+                        "name": "Colour",
+                        "value": "Peacoat-High Risk Red-White"
+                    }
+                ]
+            },
+            {
+                "asin": "B09XXLBNYL",
+                "title": "6 UK Peacoat-High Risk Red-White",
+                "is_current_product": false,
+                "link": "https://www.amazon.in/dp/B09XXLBNYL?th=1&psc=1",
+                "dimensions": [
+                    {
+                        "name": "Size",
+                        "value": "6 UK"
+                    },
+                    {
+                        "name": "Colour",
+                        "value": "Peacoat-High Risk Red-White"
+                    }
+                ]
+            },
+            {
+                "asin": "B09XXN666Q",
+                "title": "7 UK Peacoat-High Risk Red-White",
+                "is_current_product": false,
+                "link": "https://www.amazon.in/dp/B09XXN666Q?th=1&psc=1",
+                "dimensions": [
+                    {
+                        "name": "Size",
+                        "value": "7 UK"
+                    },
+                    {
+                        "name": "Colour",
+                        "value": "Peacoat-High Risk Red-White"
+                    }
+                ],
+                "main_image": "https://m.media-amazon.com/images/I/71ISCu2m-lL._SL1500_.jpg",
+                "images": [
+                    {
+                        "variant": "MAIN",
+                        "link": "https://m.media-amazon.com/images/I/71ISCu2m-lL._SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT01",
+                        "link": "https://m.media-amazon.com/images/I/81nhBjgRRSL._SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT02",
+                        "link": "https://m.media-amazon.com/images/I/71Weryn25GL._SL1487_.jpg"
+                    },
+                    {
+                        "variant": "PT03",
+                        "link": "https://m.media-amazon.com/images/I/81W6coOU4OL._SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT04",
+                        "link": "https://m.media-amazon.com/images/I/71aFUpPeCwL._SL1500_.jpg"
+                    },
+                    {
+                        "variant": "PT11",
+                        "link": "https://m.media-amazon.com/images/I/812Lpp-k4-L._SL1500_.jpg"
+                    }
+                ]
+            },
+            {
+                "asin": "B09XXL95J8",
+                "title": "10 UK Peacoat-High Risk Red-White",
+                "is_current_product": false,
+                "link": "https://www.amazon.in/dp/B09XXL95J8?th=1&psc=1",
+                "dimensions": [
+                    {
+                        "name": "Size",
+                        "value": "10 UK"
+                    },
+                    {
+                        "name": "Colour",
+                        "value": "Peacoat-High Risk Red-White"
+                    }
+                ]
+            },
+            {
+                "asin": "B09RGBXYSN",
+                "title": "10 UK Black- Silver",
+                "is_current_product": false,
+                "link": "https://www.amazon.in/dp/B09RGBXYSN?th=1&psc=1",
+                "dimensions": [
+                    {
+                        "name": "Size",
+                        "value": "10 UK"
+                    },
+                    {
+                        "name": "Colour",
+                        "value": "Black- Silver"
+                    }
+                ]
+            },
+            {
+                "asin": "B09RGDYH8G",
+                "title": "11 UK Black- Silver",
+                "is_current_product": false,
+                "link": "https://www.amazon.in/dp/B09RGDYH8G?th=1&psc=1",
+                "dimensions": [
+                    {
+                        "name": "Size",
+                        "value": "11 UK"
+                    },
+                    {
+                        "name": "Colour",
+                        "value": "Black- Silver"
+                    }
+                ],
+                "main_image": "https://m.media-amazon.com/images/I/713UmakQhoL.SL1500.jpg",
+                "images": [
+                    {
+                        "variant": "MAIN",
+                        "link": "https://m.media-amazon.com/images/I/713UmakQhoL.SL1500.jpg"
+                    },
+                    {
+                        "variant": "PT01",
+                        "link": "https://m.media-amazon.com/images/I/81zvjTVzREL.SL1500.jpg"
+                    },
+                    {
+                        "variant": "PT02",
+                        "link": "https://m.media-amazon.com/images/I/7148wh24dRL.SL1500.jpg"
+                    },
+                    {
+                        "variant": "PT03",
+                        "link": "https://m.media-amazon.com/images/I/71+kVbD8yPL.SL1500.jpg"
+                    },
+                    {
+                        "variant": "PT04",
+                        "link": "https://m.media-amazon.com/images/I/91a8P0kkrdL.SL1500.jpg"
+                    },
+                    {
+                        "variant": "PT11",
+                        "link": "https://m.media-amazon.com/images/I/81BkeBFzU2L.SL1500.jpg"
+                    }
+                ]
+            },
+            {
+                "asin": "B09XXLMJS5",
+                "title": "9 UK Peacoat-High Risk Red-White",
+                "is_current_product": false,
+                "link": "https://www.amazon.in/dp/B09XXLMJS5?th=1&psc=1",
+                "dimensions": [
+                    {
+                        "name": "Size",
+                        "value": "9 UK"
+                    },
+                    {
+                        "name": "Colour",
+                        "value": "Peacoat-High Risk Red-White"
+                    }
+                ]
+            },
+            {
+                "asin": "B09RFJXBQY",
+                "title": "6 UK Black- Silver",
+                "is_current_product": false,
+                "link": "https://www.amazon.in/dp/B09RFJXBQY?th=1&psc=1",
+                "dimensions": [
+                    {
+                        "name": "Size",
+                        "value": "6 UK"
+                    },
+                    {
+                        "name": "Colour",
+                        "value": "Black- Silver"
+                    }
+                ]
+            },
+            {
+                "asin": "B09RG9WPTC",
+                "title": "9 UK Black- Silver",
+                "is_current_product": true,
+                "link": "https://www.amazon.in/dp/B09RG9WPTC?th=1&psc=1",
+                "dimensions": [
+                    {
+                        "name": "Size",
+                        "value": "9 UK"
+                    },
+                    {
+                        "name": "Colour",
+                        "value": "Black- Silver"
+                    }
+                ]
+            },
+            {
+                "asin": "B09RFYKC8D",
+                "title": "7 UK Black- Silver",
+                "is_current_product": false,
+                "link": "https://www.amazon.in/dp/B09RFYKC8D?th=1&psc=1",
+                "dimensions": [
+                    {
+                        "name": "Size",
+                        "value": "7 UK"
+                    },
+                    {
+                        "name": "Colour",
+                        "value": "Black- Silver"
+                    }
+                ]
+            },
+            {
+                "asin": "B09RGJCVW6",
+                "title": "8 UK Black-Silver",
+                "is_current_product": false,
+                "link": "https://www.amazon.in/dp/B09RGJCVW6?th=1&psc=1",
+                "dimensions": [
+                    {
+                        "name": "Size",
+                        "value": "8 UK"
+                    },
+                    {
+                        "name": "Colour",
+                        "value": "Black-Silver"
+                    }
+                ],
+                "main_image": "https://m.media-amazon.com/images/I/713UmakQhoL.SL1500.jpg",
+                "images": [
+                    {
+                        "variant": "MAIN",
+                        "link": "https://m.media-amazon.com/images/I/713UmakQhoL.SL1500.jpg"
+                    },
+                    {
+                        "variant": "PT01",
+                        "link": "https://m.media-amazon.com/images/I/81zvjTVzREL.SL1500.jpg"
+                    },
+                    {
+                        "variant": "PT02",
+                        "link": "https://m.media-amazon.com/images/I/7148wh24dRL.SL1500.jpg"
+                    },
+                    {
+                        "variant": "PT03",
+                        "link": "https://m.media-amazon.com/images/I/71+kVbD8yPL.SL1500.jpg"
+                    },
+                    {
+                        "variant": "PT04",
+                        "link": "https://m.media-amazon.com/images/I/91a8P0kkrdL.SL1500.jpg"
+                    },
+                    {
+                        "variant": "PT11",
+                        "link": "https://m.media-amazon.com/images/I/81BkeBFzU2L.SL1500.jpg"
+                    }
+                ]
+            },
+            {
+                "asin": "B09XXL9D7K",
+                "title": "8 UK Peacoat-High Risk Red-White",
+                "is_current_product": false,
+                "link": "https://www.amazon.in/dp/B09XXL9D7K?th=1&psc=1",
+                "dimensions": [
+                    {
+                        "name": "Size",
+                        "value": "8 UK"
+                    },
+                    {
+                        "name": "Colour",
+                        "value": "Peacoat-High Risk Red-White"
+                    }
+                ]
+            }
+        ],
+        "variant_asins_flat": "B09XXL73XY,B09XXLBNYL,B09XXN666Q,B09XXL95J8,B09RGBXYSN,B09RGDYH8G,B09XXLMJS5,B09RFJXBQY,B09RG9WPTC,B09RFYKC8D,B09RGJCVW6,B09XXL9D7K",
+        "has_size_guide": true,
+        "size_guide_html": "<span class=\"a-size-base a-text-bold a-text-caps\">IN Regular</span><div class=\"a-section a-spacing-base a-spacing-top-base\"><div class=\"a-scroller\"><table id=\"fit-sizechartv2-0-table-0\" class=\"a-bordered a-size-base\"><tbody><tr><th>Brand Size</th><th>UK/India</th><th>EU</th><th>USA</th><th>Heel to toe (in)</th></tr><tr><td>3</td><td class=\"a-nowrap\">3</td><td class=\"a-nowrap\">35.5</td><td class=\"a-nowrap\">4</td><td class=\"a-nowrap\">8.7</td></tr><tr><td>4</td><td class=\"a-nowrap\">4</td><td class=\"a-nowrap\">37</td><td class=\"a-nowrap\">5</td><td class=\"a-nowrap\">9.1</td></tr><tr><td>5</td><td class=\"a-nowrap\">5</td><td class=\"a-nowrap\">38</td><td class=\"a-nowrap\">6</td><td class=\"a-nowrap\">9.4</td></tr><tr><td>6</td><td class=\"a-nowrap\">6</td><td class=\"a-nowrap\">39</td><td class=\"a-nowrap\">7</td><td class=\"a-nowrap\">9.8</td></tr><tr><td>7</td><td class=\"a-nowrap\">7</td><td class=\"a-nowrap\">40.5</td><td class=\"a-nowrap\">8</td><td class=\"a-nowrap\">10.2</td></tr><tr><td>8</td><td class=\"a-nowrap\">8</td><td class=\"a-nowrap\">42</td><td class=\"a-nowrap\">9</td><td class=\"a-nowrap\">10.6</td></tr><tr><td>9</td><td class=\"a-nowrap\">9</td><td class=\"a-nowrap\">43</td><td class=\"a-nowrap\">10</td><td class=\"a-nowrap\">11</td></tr><tr><td>10</td><td class=\"a-nowrap\">10</td><td class=\"a-nowrap\">44.5</td><td class=\"a-nowrap\">11</td><td class=\"a-nowrap\">11.4</td></tr><tr><td>11</td><td class=\"a-nowrap\">11</td><td class=\"a-nowrap\">46</td><td class=\"a-nowrap\">12</td><td class=\"a-nowrap\">11.8</td></tr><tr><td>12</td><td class=\"a-nowrap\">12</td><td class=\"a-nowrap\">47</td><td class=\"a-nowrap\">13</td><td class=\"a-nowrap\">12.2</td></tr><tr><td>13</td><td class=\"a-nowrap\">13</td><td class=\"a-nowrap\">48</td><td class=\"a-nowrap\">14</td><td class=\"a-nowrap\">12.6</td></tr></tbody></table></div></div>",
+        "energy_efficiency": {},
+        "categories": [
+            {
+                "name": "Shoes & Handbags",
+                "link": "https://www.amazon.in/Shoes/b/ref=dp_bc_aui_C_1?ie=UTF8&node=1571283031",
+                "category_id": "1571283031"
+            },
+            {
+                "name": "Shoes",
+                "link": "https://www.amazon.in/Shoes/b/ref=dp_bc_aui_C_2?ie=UTF8&node=1983396031",
+                "category_id": "1983396031"
+            },
+            {
+                "name": "Men's Shoes",
+                "link": "https://www.amazon.in/Men-Shoes/b/ref=dp_bc_aui_C_3?ie=UTF8&node=1983518031",
+                "category_id": "1983518031"
+            },
+            {
+                "name": "Sports & Outdoor Shoes",
+                "link": "https://www.amazon.in/mens-sports-shoes/b/ref=dp_bc_aui_C_4?ie=UTF8&node=1983519031",
+                "category_id": "1983519031"
+            },
+            {
+                "name": "Running Shoes",
+                "link": "https://www.amazon.in/Mens-Running-Shoes/b/ref=dp_bc_aui_C_5?ie=UTF8&node=1983550031",
+                "category_id": "1983550031"
+            }
+        ],
+        "categories_flat": "Shoes & Handbags > Shoes > Men's Shoes > Sports & Outdoor Shoes > Running Shoes",
+        "description": "Crafted with fine technology and futuristic design, PUMA shoe is surely here to uplift your style and track games. Kick off on street and field in this shoe from the world’s leading and much loved sports brand, PUMA.",
+        "a_plus_content": {
+            "has_a_plus_content": true,
+            "has_brand_story": false,
+            "third_party": true,
+            "company_logo": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0cb44e64-ca0f-44c9-8e6c-fa8cb1012fdc._CR0,0,600,180_PT0_SX600_V1__.png"
+        },
+        "sub_title": {
+            "text": "Brand: Puma",
+            "link": "https://www.amazon.in/Puma/b/ref=bl_sl_s_sh_web_84106725031?ie=UTF8&node=84106725031&field-lbr_brands_browse-bin=Puma"
+        },
+        "rating": 4,
+        "rating_breakdown": {
+            "five_star": {
+                "percentage": 52,
+                "count": 2288
+            },
+            "four_star": {
+                "percentage": 23,
+                "count": 1012
+            },
+            "three_star": {
+                "percentage": 9,
+                "count": 396
+            },
+            "two_star": {
+                "percentage": 4,
+                "count": 176
+            },
+            "one_star": {
+                "percentage": 12,
+                "count": 528
+            }
+        },
+        "ratings_total": 4400,
+        "main_image": {
+            "link": "https://m.media-amazon.com/images/I/713UmakQhoL.jpg"
+        },
+        "images": [
+            {
+                "link": "https://m.media-amazon.com/images/I/713UmakQhoL.SL1500.jpg",
+                "variant": "MAIN"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/81zvjTVzREL.SL1500.jpg",
+                "variant": "PT01"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/7148wh24dRL.SL1500.jpg",
+                "variant": "PT02"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/71+kVbD8yPL.SL1500.jpg",
+                "variant": "PT03"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/91a8P0kkrdL.SL1500.jpg",
+                "variant": "PT04"
+            },
+            {
+                "link": "https://m.media-amazon.com/images/I/81BkeBFzU2L.SL1500.jpg",
+                "variant": "PT11"
+            }
+        ],
+        "images_count": 6,
+        "images_flat": "https://m.media-amazon.com/images/I/713UmakQhoL.SL1500.jpg,https://m.media-amazon.com/images/I/81zvjTVzREL.SL1500.jpg,https://m.media-amazon.com/images/I/7148wh24dRL.SL1500.jpg,https://m.media-amazon.com/images/I/71+kVbD8yPL.SL1500.jpg,https://m.media-amazon.com/images/I/91a8P0kkrdL.SL1500.jpg,https://m.media-amazon.com/images/I/81BkeBFzU2L.SL1500.jpg",
+        "videos": [
+            {
+                "duration_seconds": 51,
+                "width": 854,
+                "height": 480,
+                "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/26e34748-bcbd-49ea-8dc0-25f202169ad9/default.jobtemplate.mp4.480.mp4",
+                "thumbnail": "https://m.media-amazon.com/images/I/41p+Xx+2Q+L.SX522_.jpg",
+                "is_hero_video": false,
+                "variant": "MAIN",
+                "group_id": "IB_G1",
+                "group_type": "videos_for_this_product",
+                "title": "Puma Men's Dazzler Sneakers"
+            }
+        ],
+        "videos_count": 1,
+        "videos_flat": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/26e34748-bcbd-49ea-8dc0-25f202169ad9/default.jobtemplate.mp4.480.mp4",
+        "is_bundle": false,
+        "top_reviews": [
+            {
+                "id": "R3RI32WQCGFZXX",
+                "title": "Good shoes",
+                "body": "Comfort and light weightRead more",
+                "asin": "B09RG9WPTC",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>Comfort and light weight</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "link": "https://www.amazon.in/gp/customer-reviews/R3RI32WQCGFZXX/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09RG9WPTC",
+                "rating": 4,
+                "date": {
+                    "raw": "Reviewed in India on 31 October 2023",
+                    "utc": "2023-10-31T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "baljinder Singh",
+                    "link": "https://www.amazon.in/gp/profile/amzn1.account.AGLKBTQXSEC5ZP3SO25FGZCAKFFQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AGLKBTQXSEC5ZP3SO25FGZCAKFFQ"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "review_country": "in",
+                "is_global_review": false
+            },
+            {
+                "id": "RVNTAJS4L139M",
+                "title": "Comfortable Shoes",
+                "body": "Read more",
+                "asin": "B09RG9WPTC",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\"></div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "link": "https://www.amazon.in/gp/customer-reviews/RVNTAJS4L139M/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09RG9WPTC",
+                "rating": 4,
+                "date": {
+                    "raw": "Reviewed in India on 1 November 2023",
+                    "utc": "2023-11-01T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Bhajan Singh",
+                    "link": "https://www.amazon.in/gp/profile/amzn1.account.AGVLSKAGXHUAVZFUXKTWO6YVLRKQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AGVLSKAGXHUAVZFUXKTWO6YVLRKQ",
+                    "image": "https://images-eu.ssl-images-amazon.com/images/S/amazon-avatars-global/e9ff38d7-1db9-48f4-b3ae-a13806111f97.CR0,0,399,399_SX48.jpg"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "images": [
+                    {
+                        "link": "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
+                    }
+                ],
+                "review_country": "in",
+                "is_global_review": false
+            },
+            {
+                "id": "R3Q8XQWNL58WT",
+                "title": "NICE PRODUCT AND QUIK DELIVERY",
+                "body": "OKRead more",
+                "asin": "B09RG9WPTC",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>OK</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "link": "https://www.amazon.in/gp/customer-reviews/R3Q8XQWNL58WT/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09RG9WPTC",
+                "rating": 4,
+                "date": {
+                    "raw": "Reviewed in India on 28 October 2023",
+                    "utc": "2023-10-28T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Mrityunjay",
+                    "link": "https://www.amazon.in/gp/profile/amzn1.account.AECE76JM4YUKWADV53PTOUJP6KVQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AECE76JM4YUKWADV53PTOUJP6KVQ"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "review_country": "in",
+                "is_global_review": false
+            },
+            {
+                "id": "R2VU93W8P1TTMA",
+                "title": "Avenge",
+                "body": "AvengeRead more",
+                "asin": "B09RG9WPTC",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>Avenge</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "link": "https://www.amazon.in/gp/customer-reviews/R2VU93W8P1TTMA/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09RG9WPTC",
+                "rating": 4,
+                "date": {
+                    "raw": "Reviewed in India on 26 October 2023",
+                    "utc": "2023-10-26T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Not good . Replace item",
+                    "link": "https://www.amazon.in/gp/profile/amzn1.account.AH43IJ6RFQHF7HCW6C7PQTI5DBZQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AH43IJ6RFQHF7HCW6C7PQTI5DBZQ"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "review_country": "in",
+                "is_global_review": false
+            },
+            {
+                "id": "R2KUURQ5DPDU0L",
+                "title": "Worth the money",
+                "body": "Grip is good and Light weightRead more",
+                "asin": "B09RG9WPTC",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>Grip is good and Light weight</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "link": "https://www.amazon.in/gp/customer-reviews/R2KUURQ5DPDU0L/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09RG9WPTC",
+                "rating": 4,
+                "date": {
+                    "raw": "Reviewed in India on 24 October 2023",
+                    "utc": "2023-10-24T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Nirvan",
+                    "link": "https://www.amazon.in/gp/profile/amzn1.account.AGTCH4P3MVJYXHAMUNE4CY7CT5OQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AGTCH4P3MVJYXHAMUNE4CY7CT5OQ"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "review_country": "in",
+                "is_global_review": false
+            },
+            {
+                "id": "R1Y01P9BGWALGJ",
+                "title": "👟",
+                "body": "Light weight shoe👍💯Read more",
+                "asin": "B09RG9WPTC",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>Light weight shoe👍💯</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "link": "https://www.amazon.in/gp/customer-reviews/R1Y01P9BGWALGJ/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09RG9WPTC",
+                "rating": 4,
+                "date": {
+                    "raw": "Reviewed in India on 19 October 2023",
+                    "utc": "2023-10-19T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Dhananjay",
+                    "link": "https://www.amazon.in/gp/profile/amzn1.account.AFR2FSAJTKQXQVXCQ33YPEFNPW4A/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AFR2FSAJTKQXQVXCQ33YPEFNPW4A"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "review_country": "in",
+                "is_global_review": false
+            },
+            {
+                "id": "RKNA0YTRIPU8K",
+                "title": "Worth for money",
+                "body": "Good Quality and Nice colourRead more",
+                "asin": "B09RG9WPTC",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>Good Quality and Nice colour</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "link": "https://www.amazon.in/gp/customer-reviews/RKNA0YTRIPU8K/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09RG9WPTC",
+                "rating": 4,
+                "date": {
+                    "raw": "Reviewed in India on 19 October 2023",
+                    "utc": "2023-10-19T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "Doss",
+                    "link": "https://www.amazon.in/gp/profile/amzn1.account.AFBPTM4ZLALJ3ADKSFU6OQ653QNQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AFBPTM4ZLALJ3ADKSFU6OQ653QNQ"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "review_country": "in",
+                "is_global_review": false
+            },
+            {
+                "id": "R91E9RAOIKR4E",
+                "title": "Value for money",
+                "body": "Good oneRead more",
+                "asin": "B09RG9WPTC",
+                "body_html": "<div data-a-expander-name=\"review_text_read_more\" data-a-expander-collapsed-height=\"300\" class=\"a-expander-collapsed-height a-row a-expander-container a-expander-partial-collapse-container\" style=\"max-height:300px\"><div data-hook=\"review-collapsed\" aria-expanded=\"false\" class=\"a-expander-content reviewText review-text-content a-expander-partial-collapse-content\">             <span>Good one</span>   </div><div class=\"a-expander-header a-expander-partial-collapse-header\"><div class=\"a-expander-content-fade\"></div><a href=\"javascript:void(0)\" data-csa-c-func-deps=\"aui-da-a-expander-toggle\" data-csa-c-type=\"widget\" data-csa-interaction-events=\"click\" data-hook=\"expand-collapse-read-more-less\" aria-label=\"Toggle full review text\" aria-expanded=\"false\" role=\"button\" data-action=\"a-expander-toggle\" class=\"a-declarative\" data-a-expander-toggle=\"{&quot;allowLinkDefault&quot;:true, &quot;expand_prompt&quot;:&quot;Read more&quot;, &quot;collapse_prompt&quot;:&quot;Read less&quot;}\"><i class=\"a-icon a-icon-extender-expand\"></i><span class=\"a-expander-prompt\">Read more</span></a></div></div>",
+                "link": "https://www.amazon.in/gp/customer-reviews/R91E9RAOIKR4E/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09RG9WPTC",
+                "rating": 4,
+                "date": {
+                    "raw": "Reviewed in India on 17 October 2023",
+                    "utc": "2023-10-17T00:00:00.000Z"
+                },
+                "profile": {
+                    "name": "SIVAPRAKASAMS",
+                    "link": "https://www.amazon.in/gp/profile/amzn1.account.AGP3BEU4RRMVAVFQY4FM7L3M467Q/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+                    "id": "AGP3BEU4RRMVAVFQY4FM7L3M467Q"
+                },
+                "vine_program": false,
+                "verified_purchase": true,
+                "review_country": "in",
+                "is_global_review": false
+            }
+        ],
+        "buybox_winner": {
+            "maximum_order_quantity": {
+                "value": 5,
+                "hard_maximum": true
+            },
+            "is_prime": false,
+            "is_prime_exclusive_deal": false,
+            "is_amazon_fresh": false,
+            "condition": {
+                "is_new": true
+            },
+            "availability": {
+                "type": "in_stock",
+                "raw": "In stock",
+                "dispatch_days": 1
+            },
+            "fulfillment": {
+                "type": "2p",
+                "standard_delivery": {
+                    "date": "Sunday, 12 November",
+                    "name": "FREE"
+                },
+                "fastest_delivery": {
+                    "date": "Saturday, 11 November",
+                    "name": "Or fastest delivery Saturday, 11 November. Order within 20 hrs 37 mins. Details"
+                },
+                "is_sold_by_amazon": false,
+                "is_fulfilled_by_amazon": true,
+                "is_fulfilled_by_third_party": false,
+                "is_sold_by_third_party": true,
+                "third_party_seller": {
+                    "name": "Cocoblu Retail",
+                    "link": "https://www.amazon.in/sp?marketplaceID=A21TJRUUN4KGV&seller=A1WYWER0W24N8S&isAmazonFulfilled=1&ref_=dp_merchant_link&asin=B09RG9WPTC",
+                    "id": "A1WYWER0W24N8S"
+                }
+            },
+            "price": {
+                "symbol": "₹",
+                "value": 1483,
+                "currency": "INR",
+                "raw": "₹1,483.00"
+            },
+            "rrp": {
+                "symbol": "₹",
+                "value": 3999,
+                "currency": "INR",
+                "raw": "₹3,999"
+            },
+            "shipping": {
+                "raw": "FREE"
+            }
+        },
+        "specifications": [
+            {
+                "name": "Product Dimensions",
+                "value": "25.5 x 19.5 x 10 cm; 600 Grams"
+            },
+            {
+                "name": "Date First Available",
+                "value": "28 January 2022"
+            },
+            {
+                "name": "Manufacturer",
+                "value": "Puma"
+            },
+            {
+                "name": "ASIN",
+                "value": "B09RG9WPTC"
+            },
+            {
+                "name": "Item model number",
+                "value": "39178201"
+            },
+            {
+                "name": "Country of Origin",
+                "value": "India"
+            },
+            {
+                "name": "Department",
+                "value": "Mens"
+            },
+            {
+                "name": "Manufacturer",
+                "value": "Puma, MOCHIKO SHOES KHASRA NO 3914, MOUZA MAZRI GRANT, LAL TAPPER INDUSTRIAL AREA, NH-72, 248140 DEHRADUN"
+            },
+            {
+                "name": "Packer",
+                "value": "PUMA SPORTS INDIA PVT LTD"
+            },
+            {
+                "name": "Importer",
+                "value": "PUMA SPORTS INDIA PVT LTD"
+            },
+            {
+                "name": "Item Weight",
+                "value": "600 g"
+            },
+            {
+                "name": "Item Dimensions LxWxH",
+                "value": "25.5 x 19.5 x 10 Centimeters"
+            },
+            {
+                "name": "Net Quantity",
+                "value": "1 Count"
+            },
+            {
+                "name": "Generic Name",
+                "value": "Running Shoe"
+            },
+            {
+                "name": "Best Sellers Rank",
+                "value": "See Top 100 in Shoes & Handbags"
+            },
+            {
+                "name": "Closure Type",
+                "value": "Lace-Up"
+            },
+            {
+                "name": "Heel Type",
+                "value": "Flat"
+            },
+            {
+                "name": "Water Resistance Level",
+                "value": "Not Water Resistant"
+            },
+            {
+                "name": "Sole Material",
+                "value": "Rubber"
+            },
+            {
+                "name": "Style",
+                "value": "Sneaker"
+            },
+            {
+                "name": "Outer Material",
+                "value": "Cotton"
+            }
+        ],
+        "specifications_flat": "Outer Material: Cotton. Style: Sneaker. Sole Material: Rubber. Water Resistance Level: Not Water Resistant. Heel Type: Flat. Closure Type: Lace-Up. Best Sellers Rank: See Top 100 in Shoes & Handbags. Generic Name: Running Shoe. Net Quantity: 1 Count. Item Dimensions LxWxH: 25.5 x 19.5 x 10 Centimeters. Item Weight: 600 g. Importer: PUMA SPORTS INDIA PVT LTD. Packer: PUMA SPORTS INDIA PVT LTD. Manufacturer: Puma, MOCHIKO SHOES KHASRA NO 3914, MOUZA MAZRI GRANT, LAL TAPPER INDUSTRIAL AREA, NH-72, 248140 DEHRADUN. Department: Mens. Country of Origin: India. Item model number: 39178201. ASIN: B09RG9WPTC. Manufacturer: Puma. Date First Available: 28 January 2022. Product Dimensions: 25.5 x 19.5 x 10 cm; 600 Grams.",
+        "bestsellers_rank": [
+            {
+                "category": "Shoes & Handbags",
+                "rank": 89,
+                "link": "https://www.amazon.in/gp/bestsellers/shoes/ref=pd_zg_ts_shoes"
+            },
+            {
+                "category": "Men's Running Shoes",
+                "rank": 22,
+                "link": "https://www.amazon.in/gp/bestsellers/shoes/1983550031/ref=pd_zg_hrsr_shoes"
+            }
+        ],
+        "material": "Cotton",
+        "manufacturer": "Puma, MOCHIKO SHOES KHASRA NO 3914, MOUZA MAZRI GRANT, LAL TAPPER INDUSTRIAL AREA, NH-72, 248140 DEHRADUN",
+        "weight": "600 g",
+        "first_available": {
+            "raw": "28 January 2022",
+            "utc": "2022-01-28T00:00:00.000Z"
+        },
+        "dimensions": "25.5 x 19.5 x 10 cm; 600 Grams",
+        "model_number": "39178201",
+        "bestsellers_rank_flat": "Category: Shoes & Handbags | Rank: 89, Category: Men's Running Shoes | Rank: 22"
+    },
+    "frequently_bought_together": {
+        "total_price": {
+            "symbol": "₹",
+            "value": 1938,
+            "currency": "INR",
+            "raw": "₹1,938.00"
+        },
+        "products": [
+            {
+                "asin": "B09RG9WPTC",
+                "title": "Puma Men's Dazzler Sneakers",
+                "link": "https://www.amazon.in/dp/B09RG9WPTC",
+                "image": "https://images-eu.ssl-images-amazon.com/images/I/713UmakQhoL.AC_UL116_SR116,116.jpg",
+                "price": {
+                    "symbol": "₹",
+                    "value": 1483,
+                    "currency": "INR",
+                    "raw": "₹1,483.00"
+                }
+            },
+            {
+                "asin": "B00TX50F76",
+                "title": "Amulya Dairy Whitener, 1kg",
+                "link": "https://www.amazon.in/dp/B00TX50F76",
+                "image": "https://images-eu.ssl-images-amazon.com/images/I/41cwLo4HE1L.AC_UL116_SR116,116.jpg",
+                "price": {
+                    "symbol": "₹",
+                    "value": 455,
+                    "currency": "INR",
+                    "raw": "₹455.00"
+                }
+            }
+        ]
+    },
+    "similar_to_consider": {
+        "asin": "B09RFYKC8D",
+        "link": "https://www.amazon.in/dp/B09RFYKC8D/ref=vp_d_vp_d_fuw_pd_pd?_encoding=UTF8&pf_rd_p=bcf20f13-abc4-420b-9218-966d3362b2c9&pf_rd_r=30JN6578MY1ZK0VTXKBG&pd_rd_wg=kpuYF&pd_rd_i=B09RFYKC8D&pd_rd_w=XHQNV&content-id=amzn1.sym.bcf20f13-abc4-420b-9218-966d3362b2c9&pd_rd_r=05da3ca1-e60c-4cdb-b078-0f0521984fae",
+        "title": "Puma Men's Dazzler Sneakers",
+        "rating": 4,
+        "ratings_total": 4400,
+        "image": "https://m.media-amazon.com/images/I/713UmakQhoL.SS100.jpg",
+        "price": {
+            "value": 1483,
+            "currency": "INR",
+            "symbol": "₹",
+            "raw": "1,483.00"
+        },
+        "is_prime": true
+    },
+    "sponsored_products": [
+        {
+            "title": "PLAYTOES Men's Black Sport Shoe 07(UK/India)",
+            "asin": "B0CL9SRDLW",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3MzQyMTc4MzM0Nzc0Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsOjMwMDA3NzA5NDU2NzIzMjo6Ojo&url=%2Fdp%2FB0CL9SRDLW%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0CL9SRDLW%26pd_rd_w%3D32pRI%26content-id%3Damzn1.sym.2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_p%3D2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/31F7-1s7jWL.AC_SR160,160.jpg",
+            "price": {
+                "symbol": "₹",
+                "value": 989,
+                "currency": "INR",
+                "raw": "₹989.00"
+            }
+        },
+        {
+            "title": "Sparx Men's Black Red Running Shoes-6 UK (SX0349G)",
+            "asin": "B078J78ZT9",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3MzQyMTc4MzM0Nzc0Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsOjMwMDA3MTMxOTY2ODUzMjo6Ojo&url=%2Fdp%2FB078J78ZT9%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB078J78ZT9%26pd_rd_w%3D32pRI%26content-id%3Damzn1.sym.2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_p%3D2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/41BCGtWgSCL.AC_SR160,160.jpg",
+            "rating": 4,
+            "ratings_total": 1494,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 1102.13,
+                "currency": "INR",
+                "raw": "₹1,102.13"
+            }
+        },
+        {
+            "title": "Campus Men's Camp Torque BLU Sneakers 9-UK/India",
+            "asin": "B0BVQRDPT2",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3MzQyMTc4MzM0Nzc0Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsOjIwMTQzMjYzNTExODk4Ojo6Og&url=%2Fdp%2FB0BVQRDPT2%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0BVQRDPT2%26pd_rd_w%3D32pRI%26content-id%3Damzn1.sym.2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_p%3D2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/410Lm239hiL.AC_SR160,160.jpg",
+            "rating": 4,
+            "ratings_total": 25,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 1499,
+                "currency": "INR",
+                "raw": "₹1,499.00"
+            }
+        },
+        {
+            "title": "PARAGON Men's Black Running Shoes - 8 UK (42 EU) (9 US) (A1FB9764GPBLK00008G359)",
+            "asin": "B07N7ZXXXC",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3MzQyMTc4MzM0Nzc0Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsOjMwMDA2NTMxOTA5NTQzMjo6Ojo&url=%2Fdp%2FB07N7ZXXXC%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB07N7ZXXXC%26pd_rd_w%3D32pRI%26content-id%3Damzn1.sym.2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_p%3D2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/31sCrSIppRL.AC_SR160,160.jpg",
+            "rating": 3.5,
+            "ratings_total": 30,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 474,
+                "currency": "INR",
+                "raw": "₹474.00"
+            }
+        },
+        {
+            "title": "Amazon Brand - Symbol Men's Vanguard Black Sneaker_10 UK (AW20-SY-1)",
+            "asin": "B08G5QPLS2",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3MzQyMTc4MzM0Nzc0Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsOjMwMDA2NzAxNDI4MDIzMjo6Ojo&url=%2Fdp%2FB08G5QPLS2%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB08G5QPLS2%26pd_rd_w%3D32pRI%26content-id%3Damzn1.sym.2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_p%3D2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/31D3-ab1QwL.AC_SR160,160.jpg",
+            "rating": 3.5,
+            "ratings_total": 484,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 699,
+                "currency": "INR",
+                "raw": "₹699.00"
+            }
+        },
+        {
+            "title": "Campus Men's North Plus Full Black Running Shoes (9 UK), Full blk",
+            "asin": "B08PSHLJGL",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3MzQyMTc4MzM0Nzc0Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsOjMwMDA2NzU1NzQ0MDEzMjo6Ojo&url=%2Fdp%2FB08PSHLJGL%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB08PSHLJGL%26pd_rd_w%3D32pRI%26content-id%3Damzn1.sym.2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_p%3D2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/312j2zHqmoL.AC_SR160,160.jpg",
+            "rating": 4,
+            "ratings_total": 8952,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 1119,
+                "currency": "INR",
+                "raw": "₹1,119.00"
+            }
+        },
+        {
+            "title": "Bacca Bucci Men's BOB Running & Lifestyle Sports Sneakers with Speed Dummy Laces & Rebounce Air Outsole- Black, Size UK8",
+            "asin": "B0B999BD19",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3MzQyMTc4MzM0Nzc0Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsOjMwMDA2NzMzNjQ3OTczMjo6Ojo&url=%2Fdp%2FB0B999BD19%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0B999BD19%26pd_rd_w%3D32pRI%26content-id%3Damzn1.sym.2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_p%3D2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/41kQHeHl94L.AC_SR160,160.jpg",
+            "rating": 4,
+            "ratings_total": 48,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 1699,
+                "currency": "INR",
+                "raw": "₹1,699.00"
+            }
+        },
+        {
+            "title": "new balance Mens M480nb6 Black/Silver Running Shoe - 10 UK (M480NB6)",
+            "asin": "B09NN3R944",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3MzQyMTc4MzM0Nzc0Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsOjMwMDAzNzM5MzAwOTAzMjo6Ojo&url=%2Fdp%2FB09NN3R944%2Fref%3Dsspa_dk_detail_7%3Fpsc%3D1%26pd_rd_i%3DB09NN3R944%26pd_rd_w%3D32pRI%26content-id%3Damzn1.sym.2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_p%3D2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/41JA-7XdlwL.AC_SR160,160.jpg",
+            "rating": 1,
+            "ratings_total": 1,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 3249,
+                "currency": "INR",
+                "raw": "₹3,249.00"
+            }
+        },
+        {
+            "title": "ASICS Gel-Rocket 9 Black Men Sports Shoes - (UK) 6, Black/Directoire Blue",
+            "asin": "B081S2TY33",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3MzQyMTc4MzM0Nzc0Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsOjMwMDA2NjkwODA0MDUzMjo6Ojo&url=%2Fdp%2FB081S2TY33%2Fref%3Dsspa_dk_detail_8%3Fpsc%3D1%26pd_rd_i%3DB081S2TY33%26pd_rd_w%3D32pRI%26content-id%3Damzn1.sym.2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_p%3D2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/41KEkyVqieS.AC_SR160,160.jpg",
+            "rating": 4.5,
+            "ratings_total": 141,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 4499,
+                "currency": "INR",
+                "raw": "₹4,499.00"
+            }
+        },
+        {
+            "title": "new balance Men 420 Black Running Shoes : Size -11 UK (11.5 US)",
+            "asin": "B0CHJ789PB",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3MzQyMTc4MzM0Nzc0Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsOjMwMDA2ODA1NTczOTczMjo6Ojo&url=%2Fdp%2FB0CHJ789PB%2Fref%3Dsspa_dk_detail_9%3Fpsc%3D1%26pd_rd_i%3DB0CHJ789PB%26pd_rd_w%3D32pRI%26content-id%3Damzn1.sym.2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_p%3D2575ab02-73ff-40ca-8d3a-4fbe87c5a28d%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWw",
+            "image": "https://m.media-amazon.com/images/I/41P8Au1h27L.AC_SR160,160.jpg",
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 3599,
+                "currency": "INR",
+                "raw": "₹3,599.00"
+            }
+        },
+        {
+            "title": "Adidas Men's Synthetic Courun Avant M Running Shoe, Black, 8",
+            "asin": "B0C4DQC1NB",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1NzM3Mzk1MTgwNTY3Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsMjozMDAwNjgwODI4NjIyMzI6Ojo6&url=%2Fdp%2FB0C4DQC1NB%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0C4DQC1NB%26pd_rd_w%3DwJDwx%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/41pQSEScF4L.AC_SR160,160.jpg",
+            "rating": 4,
+            "ratings_total": 208,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 2928,
+                "currency": "INR",
+                "raw": "₹2,928.00"
+            }
+        },
+        {
+            "title": "Adidas Men Mesh/Synthetic MILYNL Indoor Indoor Shoes BLIBLU/DKGREY/CBLACK/Gum UK-7",
+            "asin": "B09N3P1XYB",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1NzM3Mzk1MTgwNTY3Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsMjozMDAwNjgxMDU1MDY3MzI6Ojo6&url=%2Fdp%2FB09N3P1XYB%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB09N3P1XYB%26pd_rd_w%3DwJDwx%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/5167A-qhItL.AC_SR160,160.jpg",
+            "rating": 4,
+            "ratings_total": 10,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 3311,
+                "currency": "INR",
+                "raw": "₹3,311.00"
+            }
+        },
+        {
+            "title": "Xiaomi Mens Advanced Tech Grey Running Shoe - 7 UK (35892)",
+            "asin": "B0C1C3YJMT",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1NzM3Mzk1MTgwNTY3Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsMjoyMDE2NTY0MDM0NDE5ODo6Ojo&url=%2Fdp%2FB0C1C3YJMT%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0C1C3YJMT%26pd_rd_w%3DwJDwx%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/41WKajhte0L.AC_SR160,160.jpg",
+            "rating": 3.5,
+            "ratings_total": 74,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 2099,
+                "currency": "INR",
+                "raw": "₹2,099.00"
+            }
+        },
+        {
+            "title": "Adidas Mens Drogo M CGRANI/GRESIX Running Shoe - 10 UK (CL7631)",
+            "asin": "B07LH36C4Z",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1NzM3Mzk1MTgwNTY3Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsMjozMDAwNjgxMDE1NDEyMzI6Ojo6&url=%2Fdp%2FB07LH36C4Z%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB07LH36C4Z%26pd_rd_w%3DwJDwx%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/411TdM7PhSL.AC_SR160,160.jpg",
+            "rating": 4,
+            "ratings_total": 12255,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 1649,
+                "currency": "INR",
+                "raw": "₹1,649.00"
+            }
+        },
+        {
+            "title": "PLAYTOES Men's Black Sport Shoe 07(UK/India)",
+            "asin": "B0CL9SRDLW",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1NzM3Mzk1MTgwNTY3Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsMjozMDAwNzcwOTQ1NjcyMzI6Ojo6&url=%2Fdp%2FB0CL9SRDLW%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0CL9SRDLW%26pd_rd_w%3DwJDwx%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/31F7-1s7jWL.AC_SR160,160.jpg",
+            "price": {
+                "symbol": "₹",
+                "value": 989,
+                "currency": "INR",
+                "raw": "₹989.00"
+            }
+        },
+        {
+            "title": "ShoeRise Nexus Men's Sports Running Walking & Gym Shoes Workout Shoes with Casual Sneaker Lightweight Lace-Up Shoes for Men & Boys Black",
+            "asin": "B0CK7RK64S",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1NzM3Mzk1MTgwNTY3Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsMjozMDAwNjg0MzIzMDYwMzI6Ojo6&url=%2Fdp%2FB0CK7RK64S%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0CK7RK64S%26pd_rd_w%3DwJDwx%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/31tTZCPX0ZL.AC_SR160,160.jpg",
+            "rating": 4,
+            "ratings_total": 1,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 719,
+                "currency": "INR",
+                "raw": "₹719.00"
+            }
+        },
+        {
+            "title": "Adidas mens Clinch-X M CBLACK/FTWWHT Sneaker - 9 UK (EW2465)",
+            "asin": "B08FZS992L",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1NzM3Mzk1MTgwNTY3Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsMjozMDAwNjgwODI4NTYwMzI6Ojo6&url=%2Fdp%2FB08FZS992L%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB08FZS992L%26pd_rd_w%3DwJDwx%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/41wWvZxkW8L.AC_SR160,160.jpg",
+            "rating": 4,
+            "ratings_total": 4574,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 1269,
+                "currency": "INR",
+                "raw": "₹1,269.00"
+            }
+        },
+        {
+            "title": "AVANT Mens Ultra Light Grey Running Shoe - 10 UK (AVMSH007-CL02-10)",
+            "asin": "B07Q6BGSGN",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1NzM3Mzk1MTgwNTY3Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsMjoyMDEwNDIzMTgxODQ5ODo6Ojo&url=%2Fdp%2FB07Q6BGSGN%2Fref%3Dsspa_dk_detail_7%3Fpsc%3D1%26pd_rd_i%3DB07Q6BGSGN%26pd_rd_w%3DwJDwx%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/51HR8lTnE5L.AC_SR160,160.jpg",
+            "rating": 3.5,
+            "ratings_total": 4223,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 599,
+                "currency": "INR",
+                "raw": "₹599.00"
+            }
+        },
+        {
+            "title": "FURO Lace Up Hiking & Trekking Comfortable Stylish Bri.Green/Beech Men Sports Shoes H20001 788",
+            "asin": "B0BY9BFDTL",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1NzM3Mzk1MTgwNTY3Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsMjozMDAwNjUwNzk5OTA1MzI6Ojo6&url=%2Fdp%2FB0BY9BFDTL%2Fref%3Dsspa_dk_detail_8%3Fpsc%3D1%26pd_rd_i%3DB0BY9BFDTL%26pd_rd_w%3DwJDwx%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/51I79bZtAwL.AC_SR160,160.jpg",
+            "rating": 4.5,
+            "ratings_total": 7,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 1229,
+                "currency": "INR",
+                "raw": "₹1,229.00"
+            }
+        },
+        {
+            "title": "Adidas Men Textile Glarus M Running Shoe CBLACK/FTWWHT (UK-7)",
+            "asin": "B082Q9HT73",
+            "link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1NzM3Mzk1MTgwNTY3Njc2OjE2OTk0NDk3NTA6c3BfZGV0YWlsMjozMDAwNjgwODI4NjEyMzI6Ojo6&url=%2Fdp%2FB082Q9HT73%2Fref%3Dsspa_dk_detail_9%3Fpsc%3D1%26pd_rd_i%3DB082Q9HT73%26pd_rd_w%3DwJDwx%26content-id%3Damzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_p%3D0fcdb56a-738b-4621-9da7-d47193883987%26pf_rd_r%3D30JN6578MY1ZK0VTXKBG%26pd_rd_wg%3DWws1Y%26pd_rd_r%3D12976336-5f01-45c5-92dc-fe840284f694%26s%3Dshoes%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+            "image": "https://m.media-amazon.com/images/I/41LI3jNqy+L.AC_SR160,160.jpg",
+            "rating": 4,
+            "ratings_total": 3052,
+            "is_prime": true,
+            "price": {
+                "symbol": "₹",
+                "value": 2176,
+                "currency": "INR",
+                "raw": "₹2,176.00"
+            }
+        }
+    ]
+}
